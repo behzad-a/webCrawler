@@ -1,0 +1,2750 @@
+6)Vulnerability in HTML Help Could Allow Code Execution (890175)
+https://technet.microsoft.com/en-us/library/security/ms05-001.aspx
+count = 4, 
+
+
+7)Trusting Domains Do Not Verify Domain Membership of SIDs in Authorization Data
+https://technet.microsoft.com/en-us/library/security/ms02-001.aspx
+count = 2, 
+
+
+8)Vulnerabilities in Microsoft Outlook Could Allow Remote Code Execution (925938)
+https://technet.microsoft.com/en-us/library/security/ms07-003.aspx
+count = 5, 
+
+
+9)Vulnerabilities in Windows TCP/IP Could Allow Remote Code Execution (941644)
+https://technet.microsoft.com/en-us/library/security/ms08-001.aspx
+count = 7, 
+
+
+10)Vulnerability in Vector Markup Language Could Allow Remote Code Execution (929969)
+https://technet.microsoft.com/en-us/library/security/ms07-004.aspx
+count = 4, 
+
+
+11)Vulnerabilities in Microsoft Exchange Could Allow Remote Code Execution (959239)
+https://technet.microsoft.com/en-us/library/security/ms09-003.aspx
+count = 16, 
+
+
+12)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (927198)
+https://technet.microsoft.com/en-us/library/security/ms07-002.aspx
+count = 6, 
+
+
+13)Vulnerability in Graphics Rendering Engine Could Allow Remote Code Execution (912919)
+https://technet.microsoft.com/en-us/library/security/ms06-001.aspx
+count = 6, 
+
+
+14)Vulnerability in Embedded Web Fonts Could Allow Remote Code Execution (908519)
+https://technet.microsoft.com/en-us/library/security/ms06-002.aspx
+count = 2, 
+
+
+15)Vulnerability in Windows Media Player Could Allow Remote Code Execution (911565)
+https://technet.microsoft.com/en-us/library/security/ms06-005.aspx
+count = 1, 
+
+
+16)Vulnerability in Web Client Service Could Allow Remote Code Execution (911927)
+https://technet.microsoft.com/en-us/library/security/ms06-008.aspx
+count = 2, 
+
+
+17)Vulnerability in Windows Media Player Plug-in with Non-Microsoft Internet Browsers Could Allow Remote Code Execution (911564)
+https://technet.microsoft.com/en-us/library/security/ms06-006.aspx
+count = 1, 
+
+
+18)Cumulative Security Update for Internet Explorer (910620)
+https://technet.microsoft.com/en-us/library/security/ms06-004.aspx
+count = 8, 
+
+
+19)Vulnerability in the Korean Input Method Editor Could Allow Elevation of Privilege (901190)
+https://technet.microsoft.com/en-us/library/security/ms06-009.aspx
+count = 1, 
+
+
+20)Permissive Windows Services DACLs Could Allow Elevation of Privilege (914798)
+https://technet.microsoft.com/en-us/library/security/ms06-011.aspx
+count = 1, 
+
+
+21)Vulnerability in the Microsoft Data Access Components (MDAC) Function Could Allow Code Execution (911562)
+https://technet.microsoft.com/en-us/library/security/ms06-014.aspx
+count = 2, 
+
+
+22)Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (905413)
+https://technet.microsoft.com/en-us/library/security/ms06-012.aspx
+count = 6, 
+
+
+23)Vulnerability in Windows Explorer Could Allow Remote Code Execution (908531)
+https://technet.microsoft.com/en-us/library/security/ms06-015.aspx
+count = 1, 
+
+
+24)Cumulative Security Update for Outlook Express (911567)
+https://technet.microsoft.com/en-us/library/security/ms06-016.aspx
+count = 2, 
+
+
+25)Cumulative Security Update for Internet Explorer (912812)
+https://technet.microsoft.com/en-us/library/security/ms06-013.aspx
+count = 10, 
+
+
+26)Vulnerability in Microsoft Distributed Transaction Coordinator Could Allow Denial of Service (913580)
+https://technet.microsoft.com/en-us/library/security/ms06-018.aspx
+count = 5, 
+
+
+27)Vulnerabilities in Macromedia Flash Player from Adobe Could Allow Remote Code Execution (913433)
+https://technet.microsoft.com/en-us/library/security/ms06-020.aspx
+count = 11, 
+
+
+28)Vulnerability in Graphics Rendering Engine Could Allow Remote Code Execution (918547)
+https://technet.microsoft.com/en-us/library/security/ms06-026.aspx
+count = 3, 
+
+
+29)Vulnerability in ART Image Rendering Could Allow Remote Code Execution (918439)
+https://technet.microsoft.com/en-us/library/security/ms06-022.aspx
+count = 4, 
+
+
+30)Vulnerability in Microsoft JScript Could Allow Remote Code Execution (917344)
+https://technet.microsoft.com/en-us/library/security/ms06-023.aspx
+count = 4, 
+
+
+31)Vulnerability in Windows Media Player Could Allow Remote Code Execution (917734)
+https://technet.microsoft.com/en-us/library/security/ms06-024.aspx
+count = 1, 
+
+
+32)Cumulative Security Update for Internet Explorer (916281)
+https://technet.microsoft.com/en-us/library/security/ms06-021.aspx
+count = 7, 
+
+
+33)Vulnerability in Routing and Remote Access Could Allow Remote Code Execution (911280)
+https://technet.microsoft.com/en-us/library/security/ms06-025.aspx
+count = 7, 
+
+
+34)Vulnerability in RPC Mutual Authentication Could Allow Spoofing (917736)
+https://technet.microsoft.com/en-us/library/security/ms06-031.aspx
+count = 1, 
+
+
+35)Vulnerability in ASP.NET Could Allow Information Disclosure (917283)
+https://technet.microsoft.com/en-us/library/security/ms06-033.aspx
+count = 1, 
+
+
+36)Vulnerability in Server Message Block Could Allow Elevation of Privilege (914389)
+https://technet.microsoft.com/en-us/library/security/ms06-030.aspx
+count = 6, 
+
+
+37)Vulnerability in Microsoft Internet Information Services using Active Server Pages Could Allow Remote Code Execution (917537)
+https://technet.microsoft.com/en-us/library/security/ms06-034.aspx
+count = 1, 
+
+
+38)Vulnerability in TCP/IP Could Allow Remote Code Execution (917953)
+https://technet.microsoft.com/en-us/library/security/ms06-032.aspx
+count = 1, 
+
+
+39)Vulnerability in Server Service Could Allow Remote Code Execution (917159)
+https://technet.microsoft.com/en-us/library/security/ms06-035.aspx
+count = 5, 
+
+
+40)Vulnerability in DHCP Client Service Could Allow Remote Code Execution (914388)
+https://technet.microsoft.com/en-us/library/security/ms06-036.aspx
+count = 3, 
+
+
+41)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (917285)
+https://technet.microsoft.com/en-us/library/security/ms06-037.aspx
+count = 5, 
+
+
+42)Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (917284)
+https://technet.microsoft.com/en-us/library/security/ms06-038.aspx
+count = 3, 
+
+
+43)Vulnerability in Server Service Could Allow Remote Code Execution (921883)
+https://technet.microsoft.com/en-us/library/security/ms06-040.aspx
+count = 5, 
+
+
+44)Vulnerabilities in DNS Resolution Could Allow Remote Code Execution (920683)
+https://technet.microsoft.com/en-us/library/security/ms06-041.aspx
+count = 8, 
+
+
+45)Vulnerabilities in Microsoft Office Filters Could Allow Remote Code Execution (915384)
+https://technet.microsoft.com/en-us/library/security/ms06-039.aspx
+count = 3, 
+
+
+46)Vulnerability in Microsoft Windows Could Allow Remote Code Execution (920214)
+https://technet.microsoft.com/en-us/library/security/ms06-043.aspx
+count = 2, 
+
+
+47)Vulnerability in Windows Explorer Could Allow Remote Code Execution (921398)
+https://technet.microsoft.com/en-us/library/security/ms06-045.aspx
+count = 3, 
+
+
+48)Vulnerability in Microsoft Management Console Could Allow Remote Code Execution (917008)
+https://technet.microsoft.com/en-us/library/security/ms06-044.aspx
+count = 1, 
+
+
+49)Vulnerability in Windows Kernel Could Result in Elevation of Privilege (920958)
+https://technet.microsoft.com/en-us/library/security/ms06-049.aspx
+count = 2, 
+
+
+50)Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (922968)
+https://technet.microsoft.com/en-us/library/security/ms06-048.aspx
+count = 3, 
+
+
+51)Cumulative Security Update for Internet Explorer (918899)
+https://technet.microsoft.com/en-us/library/security/ms06-042.aspx
+count = 6, 
+
+
+52)Vulnerability in HTML Help Could Allow Remote Code Execution (922616)
+https://technet.microsoft.com/en-us/library/security/ms06-046.aspx
+count = 2, 
+
+
+53)Vulnerability in Windows Kernel Could Result in Remote Code Execution (917422)
+https://technet.microsoft.com/en-us/library/security/ms06-051.aspx
+count = 7, 
+
+
+54)Vulnerabilities in Microsoft Windows Hyperlink Object Library Could Allow Remote Code Execution (920670)
+https://technet.microsoft.com/en-us/library/security/ms06-050.aspx
+count = 6, 
+
+
+55)Vulnerability in ASP.NET 2.0 Could Allow Information Disclosure (922770)
+https://technet.microsoft.com/en-us/library/security/ms06-056.aspx
+count = 1, 
+
+
+56)Vulnerability in Indexing Service Could Allow Cross-Site Scripting (920685)
+https://technet.microsoft.com/en-us/library/security/ms06-053.aspx
+count = 2, 
+
+
+57)Vulnerability in Pragmatic General Multicast (PGM) Could Allow Remote Code Execution (919007)
+https://technet.microsoft.com/en-us/library/security/ms06-052.aspx
+count = 2, 
+
+
+58)Vulnerability in Vector Markup Language Could Allow Remote Code Execution (925486)
+https://technet.microsoft.com/en-us/library/security/ms06-055.aspx
+count = 2, 
+
+
+59)Vulnerability in Windows Explorer Could Allow Remote Execution (923191)
+https://technet.microsoft.com/en-us/library/security/ms06-057.aspx
+count = 2, 
+
+
+60)Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution (924191)
+https://technet.microsoft.com/en-us/library/security/ms06-061.aspx
+count = 7, 
+
+
+61)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (924164)
+https://technet.microsoft.com/en-us/library/security/ms06-059.aspx
+count = 6, 
+
+
+62)Vulnerabilities in Microsoft PowerPoint Could Allow Remote Code Execution (924163)
+https://technet.microsoft.com/en-us/library/security/ms06-058.aspx
+count = 6, 
+
+
+63)Vulnerability in Server Service Could Allow Denial of Service and Remote Code Execution (923414)
+https://technet.microsoft.com/en-us/library/security/ms06-063.aspx
+count = 16, 
+
+
+64)Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (922581)
+https://technet.microsoft.com/en-us/library/security/ms06-062.aspx
+count = 7, 
+
+
+65)Vulnerabilities in TCP/IP IPv6 Could Allow Denial of Service (922819)
+https://technet.microsoft.com/en-us/library/security/ms06-064.aspx
+count = 7, 
+
+
+66)Vulnerabilities in Microsoft Word Could Allow Remote Code Execution (924554)
+https://technet.microsoft.com/en-us/library/security/ms06-060.aspx
+count = 6, 
+
+
+67)Vulnerability in Windows Object Packager Could Allow Remote Execution (924496)
+https://technet.microsoft.com/en-us/library/security/ms06-065.aspx
+count = 3, 
+
+
+68)Vulnerabilities in Client Service for NetWare Could Allow Remote Code Execution (923980)
+https://technet.microsoft.com/en-us/library/security/ms06-066.aspx
+count = 14, 
+
+
+69)Vulnerabilities in Macromedia Flash Player from Adobe Could Allow Remote Code Execution (923789)
+https://technet.microsoft.com/en-us/library/security/ms06-069.aspx
+count = 37, 
+
+
+70)Vulnerability in Workstation Service Could Allow Remote Code Execution (924270)
+https://technet.microsoft.com/en-us/library/security/ms06-070.aspx
+count = 3, 
+
+
+71)Vulnerability in Microsoft Agent Could Allow Remote Code Execution (920213)
+https://technet.microsoft.com/en-us/library/security/ms06-068.aspx
+count = 3, 
+
+
+72)Vulnerability in Microsoft XML Core Services Could Allow Remote Code Execution (928088)
+https://technet.microsoft.com/en-us/library/security/ms06-071.aspx
+count = 4, 
+
+
+73)Cumulative Security Update for Internet Explorer (922760)
+https://technet.microsoft.com/en-us/library/security/ms06-067.aspx
+count = 35, 
+
+
+74)Cumulative Security Update for Internet Explorer (925454)
+https://technet.microsoft.com/en-us/library/security/ms06-072.aspx
+count = 26, 
+
+
+75)Vulnerability in Remote Installation Service Could Allow Remote Code Execution (926121)
+https://technet.microsoft.com/en-us/library/security/ms06-077.aspx
+count = 3, 
+
+
+76)Vulnerability in SNMP Could Allow Remote Code Execution (926247)
+https://technet.microsoft.com/en-us/library/security/ms06-074.aspx
+count = 3, 
+
+
+77)Vulnerability in Windows Could Allow Elevation of Privilege (926255)
+https://technet.microsoft.com/en-us/library/security/ms06-075.aspx
+count = 3, 
+
+
+78)Cumulative Security Update for Outlook Express (923694)
+https://technet.microsoft.com/en-us/library/security/ms06-076.aspx
+count = 3, 
+
+
+79)Vulnerability in Windows Media Format Could Allow Remote Code Execution (923689)
+https://technet.microsoft.com/en-us/library/security/ms06-078.aspx
+count = 11, 
+
+
+80)Cumulative Security Update for Internet Explorer (961260)
+https://technet.microsoft.com/en-us/library/security/ms09-002.aspx
+count = 9, 
+
+
+81)Vulnerability in Microsoft SQL Server Could Allow Remote Code Execution (959420)
+https://technet.microsoft.com/en-us/library/security/ms09-004.aspx
+count = 2, 
+
+
+82)Vulnerabilities in SMB Could Allow Remote Code Execution (958687)
+https://technet.microsoft.com/en-us/library/security/ms09-001.aspx
+count = 15, 
+
+
+83)Vulnerability in SChannel Could Allow Spoofing (960225)
+https://technet.microsoft.com/en-us/library/security/ms09-007.aspx
+count = 2, 
+
+
+84)Vulnerabilities in DNS and WINS Server Could Allow Spoofing (962238)
+https://technet.microsoft.com/en-us/library/security/ms09-008.aspx
+count = 15, 
+
+
+85)Vulnerabilities in Windows Kernel Could Allow Remote Code Execution (958690)
+https://technet.microsoft.com/en-us/library/security/ms09-006.aspx
+count = 11, 
+
+
+86)Vulnerabilities in Microsoft Office Visio Could Allow Remote Code Execution (957634)
+https://technet.microsoft.com/en-us/library/security/ms09-005.aspx
+count = 9, 
+
+
+87)Vulnerabilities in Microsoft Office Excel Could Cause Remote Code Execution (968557)
+https://technet.microsoft.com/en-us/library/security/ms09-009.aspx
+count = 10, 
+
+
+88)Vulnerability in Microsoft DirectShow Could Allow Remote Code Execution (961373)
+https://technet.microsoft.com/en-us/library/security/ms09-011.aspx
+count = 2, 
+
+
+89)Vulnerabilities in WordPad and Office Text Converters Could Allow Remote Code Execution (960477)
+https://technet.microsoft.com/en-us/library/security/ms09-010.aspx
+count = 18, 
+
+
+90)Vulnerabilities in Windows Could Allow Elevation of Privilege (959454)
+https://technet.microsoft.com/en-us/library/security/ms09-012.aspx
+count = 15, 
+
+
+91)Vulnerabilities in Microsoft ISA Server and Forefront Threat Management Gateway (Medium Business Edition) Could Cause Denial of Service (961759)
+https://technet.microsoft.com/en-us/library/security/ms09-016.aspx
+count = 9, 
+
+
+92)Blended Threat Vulnerability in SearchPath Could Allow Elevation of Privilege (959426)
+https://technet.microsoft.com/en-us/library/security/ms09-015.aspx
+count = 2, 
+
+
+93)Cumulative Security Update for Internet Explorer (963027)
+https://technet.microsoft.com/en-us/library/security/ms09-014.aspx
+count = 17, 
+
+
+94)Vulnerabilities in Windows HTTP Services Could Allow Remote Code Execution (960803)
+https://technet.microsoft.com/en-us/library/security/ms09-013.aspx
+count = 11, 
+
+
+95)Vulnerabilities in Microsoft Office PowerPoint Could Allow Remote Code Execution (967340)
+https://technet.microsoft.com/en-us/library/security/ms09-017.aspx
+count = 27, 
+
+
+96)Vulnerabilities in Active Directory Could Allow Remote Code Execution (971055)
+https://technet.microsoft.com/en-us/library/security/ms09-018.aspx
+count = 7, 
+
+
+97)Vulnerability in Windows Search Could Allow Information Disclosure (963093)
+https://technet.microsoft.com/en-us/library/security/ms09-023.aspx
+count = 2, 
+
+
+98)Vulnerabilities in Internet Information Services (IIS) Could Allow Elevation of Privilege (970483)
+https://technet.microsoft.com/en-us/library/security/ms09-020.aspx
+count = 11, 
+
+
+99)Cumulative Security Update for Internet Explorer (969897)
+https://technet.microsoft.com/en-us/library/security/ms09-019.aspx
+count = 15, 
+
+
+100)Vulnerabilities in Windows Print Spooler Could Allow Remote Code Execution (961501)
+https://technet.microsoft.com/en-us/library/security/ms09-022.aspx
+count = 10, 
+
+
+101)Vulnerability in Microsoft Works Converters Could Allow Remote Code Execution (957632)
+https://technet.microsoft.com/en-us/library/security/ms09-024.aspx
+count = 4, 
+
+
+102)Vulnerabilities in Microsoft Office Excel Could Allow Remote Code Execution (969462)
+https://technet.microsoft.com/en-us/library/security/ms09-021.aspx
+count = 17, 
+
+
+103)Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (968537)
+https://technet.microsoft.com/en-us/library/security/ms09-025.aspx
+count = 14, 
+
+
+104)Vulnerability in RPC Could Allow Elevation of Privilege (970238)
+https://technet.microsoft.com/en-us/library/security/ms09-026.aspx
+count = 2, 
+
+
+105)Vulnerabilities in Microsoft Office Word Could Allow Remote Code Execution (969514)
+https://technet.microsoft.com/en-us/library/security/ms09-027.aspx
+count = 10, 
+
+
+106)Vulnerability in Microsoft ISA Server 2006 Could Cause Elevation of Privilege (970953)
+https://technet.microsoft.com/en-us/library/security/ms09-031.aspx
+count = 2, 
+
+
+107)Vulnerabilities in the Embedded OpenType Font Engine Could Allow Remote Code Execution (961371)
+https://technet.microsoft.com/en-us/library/security/ms09-029.aspx
+count = 12, 
+
+
+108)Vulnerability in Microsoft Office Publisher Could Allow Remote Code Execution (969516)
+https://technet.microsoft.com/en-us/library/security/ms09-030.aspx
+count = 2, 
+
+
+109)Vulnerabilities in Microsoft DirectShow Could Allow Remote Code Execution (971633)
+https://technet.microsoft.com/en-us/library/security/ms09-028.aspx
+count = 12, 
+
+
+110)Vulnerability in Virtual PC and Virtual Server Could Allow Elevation of Privilege (969856)
+https://technet.microsoft.com/en-us/library/security/ms09-033.aspx
+count = 2, 
+
+
+111)Cumulative Security Update of ActiveX Kill Bits (973346)
+https://technet.microsoft.com/en-us/library/security/ms09-032.aspx
+count = 2, 
+
+
+112)Vulnerabilities in Visual Studio Active Template Library Could Allow Remote Code Execution (969706)
+https://technet.microsoft.com/en-us/library/security/ms09-035.aspx
+count = 31, 
+
+
+113)Vulnerability in ASP.NET in Microsoft Windows Could Allow Denial of Service (970957)
+https://technet.microsoft.com/en-us/library/security/ms09-036.aspx
+count = 2, 
+
+
+114)Cumulative Security Update for Internet Explorer (972260)
+https://technet.microsoft.com/en-us/library/security/ms09-034.aspx
+count = 23, 
+
+
+115)Vulnerabilities in WINS Could Allow Remote Code Execution (969883)
+https://technet.microsoft.com/en-us/library/security/ms09-039.aspx
+count = 9, 
+
+
+116)Vulnerability in Message Queuing Could Allow Elevation of Privilege (971032)
+https://technet.microsoft.com/en-us/library/security/ms09-040.aspx
+count = 2, 
+
+
+117)Vulnerabilities in Microsoft Active Template Library (ATL) Could Allow Remote Code Execution (973908)
+https://technet.microsoft.com/en-us/library/security/ms09-037.aspx
+count = 26, 
+
+
+118)Vulnerabilities in Windows Media File Processing Could Allow Remote Code Execution (971557)
+https://technet.microsoft.com/en-us/library/security/ms09-038.aspx
+count = 9, 
+
+
+119)Vulnerability in Workstation Service Could Allow Elevation of Privilege (971657)
+https://technet.microsoft.com/en-us/library/security/ms09-041.aspx
+count = 2, 
+
+
+120)Vulnerability in Telnet Could Allow Remote Code Execution (960859)
+https://technet.microsoft.com/en-us/library/security/ms09-042.aspx
+count = 2, 
+
+
+121)Vulnerability in DHTML Editing Component ActiveX Control Could Allow Remote Code Execution (956844)
+https://technet.microsoft.com/en-us/library/security/ms09-046.aspx
+count = 4, 
+
+
+122)Vulnerability in JScript Scripting Engine Could Allow Remote Code Execution (971961)
+https://technet.microsoft.com/en-us/library/security/ms09-045.aspx
+count = 3, 
+
+
+123)Vulnerabilities in Microsoft Office Web Components Could Allow Remote Code Execution (957638)
+https://technet.microsoft.com/en-us/library/security/ms09-043.aspx
+count = 17, 
+
+
+124)Vulnerabilities in Remote Desktop Connection Could Allow Remote Code Execution (970927)
+https://technet.microsoft.com/en-us/library/security/ms09-044.aspx
+count = 11, 
+
+
+125)Vulnerability in Wireless LAN AutoConfig Service Could Allow Remote Code Execution (970710)
+https://technet.microsoft.com/en-us/library/security/ms09-049.aspx
+count = 2, 
+
+
+126)Vulnerabilities in Windows TCP/IP Could Allow Remote Code Execution (967723)
+https://technet.microsoft.com/en-us/library/security/ms09-048.aspx
+count = 16, 
+
+
+127)Vulnerabilities in Windows Media Format Could Allow Remote Code Execution (973812)
+https://technet.microsoft.com/en-us/library/security/ms09-047.aspx
+count = 9, 
+
+
+128)Vulnerabilities in SMBv2 Could Allow Remote Code Execution (975517)
+https://technet.microsoft.com/en-us/library/security/ms09-050.aspx
+count = 11, 
+
+
+129)Vulnerabilities in Windows Media Runtime Could Allow Remote Code Execution (975682)
+https://technet.microsoft.com/en-us/library/security/ms09-051.aspx
+count = 12, 
+
+
+130)Vulnerability in Indexing Service Could Allow Remote Code Execution (969059)
+https://technet.microsoft.com/en-us/library/security/ms09-057.aspx
+count = 2, 
+
+
+131)Vulnerability in Windows Media Player Could Allow Remote Code Execution (974112)
+https://technet.microsoft.com/en-us/library/security/ms09-052.aspx
+count = 2, 
+
+
+132)Cumulative Security Update of ActiveX Kill Bits (973525)
+https://technet.microsoft.com/en-us/library/security/ms09-055.aspx
+count = 13, 
+
+
+133)Vulnerabilities in FTP Service for Internet Information Services Could Allow Remote Code Execution (975254)
+https://technet.microsoft.com/en-us/library/security/ms09-053.aspx
+count = 12, 
+
+
+134)Cumulative Security Update for Internet Explorer (974455)
+https://technet.microsoft.com/en-us/library/security/ms09-054.aspx
+count = 11, 
+
+
+135)Vulnerabilities in Windows CryptoAPI Could Allow Spoofing (974571)
+https://technet.microsoft.com/en-us/library/security/ms09-056.aspx
+count = 10, 
+
+
+136)Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (971486)
+https://technet.microsoft.com/en-us/library/security/ms09-058.aspx
+count = 13, 
+
+
+137)Vulnerability in Local Security Authority Subsystem Service Could Allow Denial of Service (975467)
+https://technet.microsoft.com/en-us/library/security/ms09-059.aspx
+count = 2, 
+
+
+138)Vulnerabilities in Microsoft Active Template Library (ATL) ActiveX Controls for Microsoft Office Could Allow Remote Code Execution (973965)
+https://technet.microsoft.com/en-us/library/security/ms09-060.aspx
+count = 20, 
+
+
+139)Vulnerability in Web Services on Devices API Could Allow Remote Code Execution (973565)
+https://technet.microsoft.com/en-us/library/security/ms09-063.aspx
+count = 2, 
+
+
+140)Vulnerability in License Logging Server Could Allow Remote Code Execution (974783)
+https://technet.microsoft.com/en-us/library/security/ms09-064.aspx
+count = 3, 
+
+
+141)Vulnerability in Active Directory Could Allow Denial of Service (973309)
+https://technet.microsoft.com/en-us/library/security/ms09-066.aspx
+count = 2, 
+
+
+142)Vulnerabilities in Windows Kernel-Mode Drivers Could Allow Remote Code Execution (969947)
+https://technet.microsoft.com/en-us/library/security/ms09-065.aspx
+count = 11, 
+
+
+143)Vulnerabilities in the Microsoft .NET Common Language Runtime Could Allow Remote Code Execution (974378)
+https://technet.microsoft.com/en-us/library/security/ms09-061.aspx
+count = 16, 
+
+
+144)Vulnerability in Microsoft Office Word Could Allow Remote Code Execution (976307)
+https://technet.microsoft.com/en-us/library/security/ms09-068.aspx
+count = 4, 
+
+
+145)Vulnerabilities in Microsoft Office Excel Could Allow Remote Code Execution (972652)
+https://technet.microsoft.com/en-us/library/security/ms09-067.aspx
+count = 20, 
+
+
+146)Vulnerability in Local Security Authority Subsystem Service Could Allow Denial of Service (974392)
+https://technet.microsoft.com/en-us/library/security/ms09-069.aspx
+count = 2, 
+
+
+147)Vulnerabilities in GDI+ Could Allow Remote Code Execution (957488)
+https://technet.microsoft.com/en-us/library/security/ms09-062.aspx
+count = 26, 
+
+
+148)Vulnerabilities in Internet Authentication Service Could Allow Remote Code Execution (974318)
+https://technet.microsoft.com/en-us/library/security/ms09-071.aspx
+count = 13, 
+
+
+149)Vulnerabilities in Active Directory Federation Services Could Allow Remote Code Execution (971726)
+https://technet.microsoft.com/en-us/library/security/ms09-070.aspx
+count = 13, 
+
+
+150)Vulnerability in WordPad and Office Text Converters Could Allow Remote Code Execution (975539)
+https://technet.microsoft.com/en-us/library/security/ms09-073.aspx
+count = 2, 
+
+
+151)Cumulative Security Update for Internet Explorer (976325)
+https://technet.microsoft.com/en-us/library/security/ms09-072.aspx
+count = 17, 
+
+
+152)Vulnerability in Microsoft Office Project Could Allow Remote Code Execution (967183)
+https://technet.microsoft.com/en-us/library/security/ms09-074.aspx
+count = 2, 
+
+
+153)Vulnerability in Windows Image Acquisition Service Could Allow Elevation of Privilege (927802)
+https://technet.microsoft.com/en-us/library/security/ms07-007.aspx
+count = 3, 
+
+
+154)Vulnerability in Microsoft OLE Dialog Could Allow Remote Code Execution (926436)
+https://technet.microsoft.com/en-us/library/security/ms07-011.aspx
+count = 6, 
+
+
+155)Vulnerability in Windows Shell Could Allow Elevation of Privilege (928255)
+https://technet.microsoft.com/en-us/library/security/ms07-006.aspx
+count = 5, 
+
+
+156)Vulnerability in HTML Help ActiveX Control Could Allow Remote Code Execution (928843)
+https://technet.microsoft.com/en-us/library/security/ms07-008.aspx
+count = 4, 
+
+
+157)Vulnerability in Microsoft Data Access Components Could Allow Remote Code Execution (927779)
+https://technet.microsoft.com/en-us/library/security/ms07-009.aspx
+count = 3, 
+
+
+158)Vulnerabilities in Microsoft Word Could Allow Remote Code Execution (929434)
+https://technet.microsoft.com/en-us/library/security/ms07-014.aspx
+count = 5, 
+
+
+159)Vulnerability in Microsoft RichEdit Could Allow Remote Code Execution (918118)
+https://technet.microsoft.com/en-us/library/security/ms07-013.aspx
+count = 6, 
+
+
+160)Vulnerability in Microsoft MFC Could Allow Remote Code Execution (924667)
+https://technet.microsoft.com/en-us/library/security/ms07-012.aspx
+count = 6, 
+
+
+161)Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (932554)
+https://technet.microsoft.com/en-us/library/security/ms07-015.aspx
+count = 3, 
+
+
+162)Vulnerabilities in Microsoft Content Management Server Could Allow Remote Code Execution (925939)
+https://technet.microsoft.com/en-us/library/security/ms07-018.aspx
+count = 3, 
+
+
+163)Vulnerability in Universal Plug and Play Could Allow Remote Code Execution (931261)
+https://technet.microsoft.com/en-us/library/security/ms07-019.aspx
+count = 1, 
+
+
+164)Vulnerabilities in GDI Could Allow Remote Code Execution (925902)
+https://technet.microsoft.com/en-us/library/security/ms07-017.aspx
+count = 8, 
+
+
+165)Cumulative Security Update for Internet Explorer (928090)
+https://technet.microsoft.com/en-us/library/security/ms07-016.aspx
+count = 10, 
+
+
+166)Vulnerability in Windows Kernel Could Allow Elevation of Privilege (931784)
+https://technet.microsoft.com/en-us/library/security/ms07-022.aspx
+count = 2, 
+
+
+167)Vulnerability in Microsoft Agent Could Allow Remote Code Execution (932168)
+https://technet.microsoft.com/en-us/library/security/ms07-020.aspx
+count = 1, 
+
+
+168)Vulnerabilities in CSRSS Could Allow Remote Code Execution (930178)
+https://technet.microsoft.com/en-us/library/security/ms07-021.aspx
+count = 7, 
+
+
+169)Vulnerabilities in Microsoft Word Could Allow Remote Code Execution (934232)
+https://technet.microsoft.com/en-us/library/security/ms07-024.aspx
+count = 5, 
+
+
+170)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (934233)
+https://technet.microsoft.com/en-us/library/security/ms07-023.aspx
+count = 5, 
+
+
+171)Vulnerabilities in Microsoft Exchange Could Allow Remote Code Execution (931832)
+https://technet.microsoft.com/en-us/library/security/ms07-026.aspx
+count = 5, 
+
+
+172)Vulnerability in Windows DNS RPC Interface Could Allow Remote Code Execution (935966)
+https://technet.microsoft.com/en-us/library/security/ms07-029.aspx
+count = 1, 
+
+
+173)Vulnerabilities in Microsoft Visio Could Allow Remote Code Execution (927051)
+https://technet.microsoft.com/en-us/library/security/ms07-030.aspx
+count = 11, 
+
+
+174)Vulnerability in the Windows Schannel Security Package Could Allow Remote Code Execution (935840)
+https://technet.microsoft.com/en-us/library/security/ms07-031.aspx
+count = 3, 
+
+
+175)Vulnerability in Windows Vista Could Allow Information Disclosure (931213)
+https://technet.microsoft.com/en-us/library/security/ms07-032.aspx
+count = 2, 
+
+
+176)Vulnerability in Win 32 API Could Allow Remote Code Execution (935839)
+https://technet.microsoft.com/en-us/library/security/ms07-035.aspx
+count = 2, 
+
+
+177)Cumulative Security Update for Internet Explorer (931768)
+https://technet.microsoft.com/en-us/library/security/ms07-027.aspx
+count = 40, 
+
+
+178)Vulnerability in Microsoft Office Publisher 2007 Could Allow Remote Code Execution (936548)
+https://technet.microsoft.com/en-us/library/security/ms07-037.aspx
+count = 3, 
+
+
+179)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (936542)
+https://technet.microsoft.com/en-us/library/security/ms07-036.aspx
+count = 12, 
+
+
+180)Cumulative Security Update for Outlook Express and Windows Mail (929123)
+https://technet.microsoft.com/en-us/library/security/ms07-034.aspx
+count = 15, 
+
+
+181)Vulnerability in Windows Vista Firewall Could Allow Information Disclosure (935807)
+https://technet.microsoft.com/en-us/library/security/ms07-038.aspx
+count = 2, 
+
+
+182)Vulnerability in Windows Active Directory Could Allow Remote Code Execution (926122)
+https://technet.microsoft.com/en-us/library/security/ms07-039.aspx
+count = 4, 
+
+
+183)Cumulative Security Update for Internet Explorer (933566)
+https://technet.microsoft.com/en-us/library/security/ms07-033.aspx
+count = 22, 
+
+
+184)Vulnerability in Microsoft Internet Information Services Could Allow Remote Code Execution (939373)
+https://technet.microsoft.com/en-us/library/security/ms07-041.aspx
+count = 2, 
+
+
+185)Vulnerability in Microsoft Excel Could Allow Remote Code Execution (940965)
+https://technet.microsoft.com/en-us/library/security/ms07-044.aspx
+count = 8, 
+
+
+186)Vulnerabilities in .NET Framework Could Allow Remote Code Execution (931212)
+https://technet.microsoft.com/en-us/library/security/ms07-040.aspx
+count = 13, 
+
+
+187)Vulnerability in Microsoft XML Core Services Could Allow Remote Code Execution (936227)
+https://technet.microsoft.com/en-us/library/security/ms07-042.aspx
+count = 3, 
+
+
+188)Vulnerability in OLE Automation Could Allow Remote Code Execution (921503)
+https://technet.microsoft.com/en-us/library/security/ms07-043.aspx
+count = 2, 
+
+
+189)Vulnerability in GDI Could Allow Remote Code Execution (938829)
+https://technet.microsoft.com/en-us/library/security/ms07-046.aspx
+count = 2, 
+
+
+190)Vulnerability in Microsoft Agent Could Allow Remote Code Execution (938827)
+https://technet.microsoft.com/en-us/library/security/ms07-051.aspx
+count = 2, 
+
+
+191)Vulnerabilities in Windows Media Player Could Allow Remote Code Execution (936782)
+https://technet.microsoft.com/en-us/library/security/ms07-047.aspx
+count = 7, 
+
+
+192)Vulnerabilities in Windows Gadgets Could Allow Remote Code Execution (938123)
+https://technet.microsoft.com/en-us/library/security/ms07-048.aspx
+count = 9, 
+
+
+193)Vulnerability in Vector Markup Language Could Allow Remote Code Execution (938127)
+https://technet.microsoft.com/en-us/library/security/ms07-050.aspx
+count = 2, 
+
+
+194)Vulnerability in Crystal Reports for Visual Studio Could Allow Remote Code Execution (941522)
+https://technet.microsoft.com/en-us/library/security/ms07-052.aspx
+count = 2, 
+
+
+195)Vulnerability in Virtual PC and Virtual Server Could Allow Elevation of Privilege (937986)
+https://technet.microsoft.com/en-us/library/security/ms07-049.aspx
+count = 3, 
+
+
+196)Vulnerability in Windows Services for UNIX Could Allow Elevation of Privilege (939778)
+https://technet.microsoft.com/en-us/library/security/ms07-053.aspx
+count = 3, 
+
+
+197)Cumulative Security Update for Internet Explorer (937143)
+https://technet.microsoft.com/en-us/library/security/ms07-045.aspx
+count = 10, 
+
+
+198)Vulnerability in MSN Messenger and Windows Live Messenger Could Allow Remote Code Execution (942099)
+https://technet.microsoft.com/en-us/library/security/ms07-054.aspx
+count = 1, 
+
+
+199)Vulnerability in Kodak Image Viewer Could Allow Remote Code Execution (923810)
+https://technet.microsoft.com/en-us/library/security/ms07-055.aspx
+count = 3, 
+
+
+200)Cumulative Security Update for Internet Explorer (939653)
+https://technet.microsoft.com/en-us/library/security/ms07-057.aspx
+count = 28, 
+
+
+201)Security Update for Outlook Express and Windows Mail (941202)
+https://technet.microsoft.com/en-us/library/security/ms07-056.aspx
+count = 5, 
+
+
+202)Vulnerability in Microsoft Word Could Allow Remote Code Execution (942695)
+https://technet.microsoft.com/en-us/library/security/ms07-060.aspx
+count = 3, 
+
+
+203)Vulnerability in RPC Could Allow Denial of Service (933729)
+https://technet.microsoft.com/en-us/library/security/ms07-058.aspx
+count = 1, 
+
+
+204)Vulnerability in DNS Could Allow Spoofing (941672)
+https://technet.microsoft.com/en-us/library/security/ms07-062.aspx
+count = 2, 
+
+
+205)Vulnerability in Windows SharePoint Services 3.0 and Office SharePoint Server 2007 Could Result in Elevation of Privilege Within the SharePoint Site (942017)
+https://technet.microsoft.com/en-us/library/security/ms07-059.aspx
+count = 2, 
+
+
+206)Vulnerability in Windows URI Handling Could Allow Remote Code Execution (943460)
+https://technet.microsoft.com/en-us/library/security/ms07-061.aspx
+count = 2, 
+
+
+207)Vulnerability in SMBv2 Could Allow Remote Code Execution (942624)
+https://technet.microsoft.com/en-us/library/security/ms07-063.aspx
+count = 2, 
+
+
+208)Vulnerability in Message Queuing Could Allow Remote Code Execution (937894)
+https://technet.microsoft.com/en-us/library/security/ms07-065.aspx
+count = 3, 
+
+
+209)Vulnerabilities in DirectX Could Allow Remote Code Execution (941568)
+https://technet.microsoft.com/en-us/library/security/ms07-064.aspx
+count = 9, 
+
+
+210)Vulnerability in Macrovision Driver Could Allow Local Elevation of Privilege (944653)
+https://technet.microsoft.com/en-us/library/security/ms07-067.aspx
+count = 2, 
+
+
+211)Vulnerability in Windows Kernel Could Allow Elevation of Privilege (943078)
+https://technet.microsoft.com/en-us/library/security/ms07-066.aspx
+count = 3, 
+
+
+212)Vulnerability in LSASS Could Allow Local Elevation of Privilege (943485)
+https://technet.microsoft.com/en-us/library/security/ms08-002.aspx
+count = 2, 
+
+
+213)Vulnerability in Active Directory Could Allow Denial of Service (946538)
+https://technet.microsoft.com/en-us/library/security/ms08-003.aspx
+count = 2, 
+
+
+214)Vulnerability in Windows Media File Format Could Allow Remote Code Execution (941569 and 944275)
+https://technet.microsoft.com/en-us/library/security/ms07-068.aspx
+count = 3, 
+
+
+215)Vulnerability in Windows TCP/IP Could Allow Denial of Service (946456)
+https://technet.microsoft.com/en-us/library/security/ms08-004.aspx
+count = 2, 
+
+
+216)Cumulative Security Update for Internet Explorer (942615)
+https://technet.microsoft.com/en-us/library/security/ms07-069.aspx
+count = 22, 
+
+
+217)Vulnerability in WebDAV Mini-Redirector Could Allow Remote Code Execution (946026)
+https://technet.microsoft.com/en-us/library/security/ms08-007.aspx
+count = 2, 
+
+
+218)Vulnerability in Internet Information Services Could Allow Elevation of Privilege (942831)
+https://technet.microsoft.com/en-us/library/security/ms08-005.aspx
+count = 2, 
+
+
+219)Vulnerability in Internet Information Services Could Allow Remote Code Execution (942830)
+https://technet.microsoft.com/en-us/library/security/ms08-006.aspx
+count = 3, 
+
+
+220)Vulnerability in Microsoft Word Could Allow Remote Code Execution (947077)
+https://technet.microsoft.com/en-us/library/security/ms08-009.aspx
+count = 4, 
+
+
+221)Vulnerability in OLE Automation Could Allow Remote Code Execution (947890)
+https://technet.microsoft.com/en-us/library/security/ms08-008.aspx
+count = 2, 
+
+
+222)Cumulative Security Update for Internet Explorer (944533)
+https://technet.microsoft.com/en-us/library/security/ms08-010.aspx
+count = 11, 
+
+
+223)Vulnerabilities in Microsoft Office Publisher Could Allow Remote Code Execution (947085)
+https://technet.microsoft.com/en-us/library/security/ms08-012.aspx
+count = 9, 
+
+
+224)Vulnerabilities in Microsoft Works File Converter Could Allow Remote Code Execution (947081)
+https://technet.microsoft.com/en-us/library/security/ms08-011.aspx
+count = 12, 
+
+
+225)Vulnerability in Microsoft Office Could Allow Remote Code Execution (947108)
+https://technet.microsoft.com/en-us/library/security/ms08-013.aspx
+count = 3, 
+
+
+226)Vulnerability in Microsoft Outlook Could Allow Remote Code Execution (949031)
+https://technet.microsoft.com/en-us/library/security/ms08-015.aspx
+count = 4, 
+
+
+227)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (949029)
+https://technet.microsoft.com/en-us/library/security/ms08-014.aspx
+count = 15, 
+
+
+228)Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (949030)
+https://technet.microsoft.com/en-us/library/security/ms08-016.aspx
+count = 7, 
+
+
+229)Vulnerabilities in Microsoft Visio Could Allow Remote Code Execution (949032)
+https://technet.microsoft.com/en-us/library/security/ms08-019.aspx
+count = 6, 
+
+
+230)Vulnerabilities in Microsoft Office Web Components Could Allow Remote Code Execution (933103)
+https://technet.microsoft.com/en-us/library/security/ms08-017.aspx
+count = 12, 
+
+
+231)Vulnerability in Microsoft Project Could Allow Remote Code Execution (950183)
+https://technet.microsoft.com/en-us/library/security/ms08-018.aspx
+count = 3, 
+
+
+232)Vulnerability in DNS Client Could Allow Spoofing (945553)
+https://technet.microsoft.com/en-us/library/security/ms08-020.aspx
+count = 2, 
+
+
+233)Vulnerabilities in GDI Could Allow Remote Code Execution (948590)
+https://technet.microsoft.com/en-us/library/security/ms08-021.aspx
+count = 8, 
+
+
+234)Vulnerability in VBScript and JScript Scripting Engines Could Allow Remote Code Execution (944338)
+https://technet.microsoft.com/en-us/library/security/ms08-022.aspx
+count = 3, 
+
+
+235)Security Update of ActiveX Kill Bits (948881)
+https://technet.microsoft.com/en-us/library/security/ms08-023.aspx
+count = 2, 
+
+
+236)Cumulative Security Update for Internet Explorer (947864)
+https://technet.microsoft.com/en-us/library/security/ms08-024.aspx
+count = 6, 
+
+
+237)Vulnerability in Windows Kernel Could Allow Elevation of Privilege (941693)
+https://technet.microsoft.com/en-us/library/security/ms08-025.aspx
+count = 2, 
+
+
+238)Vulnerabilities in Microsoft Word Could Allow Remote Code Execution (951207)
+https://technet.microsoft.com/en-us/library/security/ms08-026.aspx
+count = 13, 
+
+
+239)Vulnerability in Microsoft Jet Database Engine Could Allow Remote Code Execution (950749)
+https://technet.microsoft.com/en-us/library/security/ms08-028.aspx
+count = 6, 
+
+
+240)Vulnerability in Bluetooth Stack Could Allow Remote Code Execution (951376)
+https://technet.microsoft.com/en-us/library/security/ms08-030.aspx
+count = 2, 
+
+
+241)Vulnerabilities in Microsoft Malware Protection Engine Could Allow Denial of Service (952044)
+https://technet.microsoft.com/en-us/library/security/ms08-029.aspx
+count = 6, 
+
+
+242)Cumulative Security Update of ActiveX Kill Bits (950760)
+https://technet.microsoft.com/en-us/library/security/ms08-032.aspx
+count = 6, 
+
+
+243)Vulnerability in WINS Could Allow Elevation of Privilege (948745)
+https://technet.microsoft.com/en-us/library/security/ms08-034.aspx
+count = 2, 
+
+
+244)Vulnerabilities in DirectX Could Allow Remote Code Execution (951698)
+https://technet.microsoft.com/en-us/library/security/ms08-033.aspx
+count = 10, 
+
+
+245)Cumulative Security Update for Internet Explorer (950759)
+https://technet.microsoft.com/en-us/library/security/ms08-031.aspx
+count = 5, 
+
+
+246)Vulnerability in Active Directory Could Allow Denial of Service (953235)
+https://technet.microsoft.com/en-us/library/security/ms08-035.aspx
+count = 2, 
+
+
+247)Vulnerabilities in Pragmatic General Multicast (PGM) Could Allow Denial of Service (950762)
+https://technet.microsoft.com/en-us/library/security/ms08-036.aspx
+count = 8, 
+
+
+248)Vulnerability in Microsoft Publisher Could Allow Remote Code Execution (951208)
+https://technet.microsoft.com/en-us/library/security/ms08-027.aspx
+count = 2, 
+
+
+249)Vulnerabilities in DNS Could Allow Spoofing (953230)
+https://technet.microsoft.com/en-us/library/security/ms08-037.aspx
+count = 7, 
+
+
+250)Vulnerability in Windows Explorer Could Allow Remote Code Execution (950582)
+https://technet.microsoft.com/en-us/library/security/ms08-038.aspx
+count = 3, 
+
+
+251)Vulnerabilities in Outlook Web Access for Exchange Server Could Allow Elevation of Privilege (953747)
+https://technet.microsoft.com/en-us/library/security/ms08-039.aspx
+count = 13, 
+
+
+252)Vulnerabilities in Microsoft SQL Server Could Allow Elevation of Privilege (941203)
+https://technet.microsoft.com/en-us/library/security/ms08-040.aspx
+count = 10, 
+
+
+253)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (954066)
+https://technet.microsoft.com/en-us/library/security/ms08-043.aspx
+count = 12, 
+
+
+254)Vulnerability in the ActiveX Control for the Snapshot Viewer for Microsoft Access Could Allow Remote Code Execution (955617)
+https://technet.microsoft.com/en-us/library/security/ms08-041.aspx
+count = 2, 
+
+
+255)Vulnerability in Microsoft Windows Image Color Management System Could Allow Remote Code Execution (952954)
+https://technet.microsoft.com/en-us/library/security/ms08-046.aspx
+count = 2, 
+
+
+256)Vulnerabilities in Microsoft Office Filters Could Allow Remote Code Execution (924090)
+https://technet.microsoft.com/en-us/library/security/ms08-044.aspx
+count = 15, 
+
+
+257)Vulnerability in IPsec Policy Processing Could Allow Information Disclosure (953733)
+https://technet.microsoft.com/en-us/library/security/ms08-047.aspx
+count = 2, 
+
+
+258)Security Update for Outlook Express and Windows Mail (951066)
+https://technet.microsoft.com/en-us/library/security/ms08-048.aspx
+count = 2, 
+
+
+259)Vulnerabilities in Event System Could Allow Remote Code Execution (950974)
+https://technet.microsoft.com/en-us/library/security/ms08-049.aspx
+count = 8, 
+
+
+260)Vulnerabilities in Microsoft PowerPoint Could Allow Remote Code Execution (949785)
+https://technet.microsoft.com/en-us/library/security/ms08-051.aspx
+count = 12, 
+
+
+261)Vulnerability in Microsoft Word Could Allow Remote Code Execution (955048)
+https://technet.microsoft.com/en-us/library/security/ms08-042.aspx
+count = 2, 
+
+
+262)Vulnerability in Windows Media Player Could Allow Remote Code Execution (954154)
+https://technet.microsoft.com/en-us/library/security/ms08-054.aspx
+count = 2, 
+
+
+263)Vulnerability in Windows Media Encoder 9 Could Allow Remote Code Execution (954156)
+https://technet.microsoft.com/en-us/library/security/ms08-053.aspx
+count = 2, 
+
+
+264)Cumulative Security Update for Internet Explorer (953838)
+https://technet.microsoft.com/en-us/library/security/ms08-045.aspx
+count = 10, 
+
+
+265)Vulnerability in Microsoft Office Could Allow Remote Code Execution (955047)
+https://technet.microsoft.com/en-us/library/security/ms08-055.aspx
+count = 4, 
+
+
+266)Vulnerability in Windows Messenger Could Allow Information Disclosure (955702)
+https://technet.microsoft.com/en-us/library/security/ms08-050.aspx
+count = 1, 
+
+
+267)Vulnerabilities in Microsoft Excel Could Allow Remote Code Execution (956416)
+https://technet.microsoft.com/en-us/library/security/ms08-057.aspx
+count = 11, 
+
+
+268)Vulnerability in Microsoft Office Could Allow Information Disclosure (957699)
+https://technet.microsoft.com/en-us/library/security/ms08-056.aspx
+count = 3, 
+
+
+269)Vulnerabilities in GDI+ Could Allow Remote Code Execution (954593)
+https://technet.microsoft.com/en-us/library/security/ms08-052.aspx
+count = 24, 
+
+
+270)Vulnerability in Active Directory Could Allow Remote Code Execution (957280)
+https://technet.microsoft.com/en-us/library/security/ms08-060.aspx
+count = 2, 
+
+
+271)Vulnerability in Host Integration Server RPC Service Could Allow Remote Code Execution (956695)
+https://technet.microsoft.com/en-us/library/security/ms08-059.aspx
+count = 2, 
+
+
+272)Cumulative Security Update for Internet Explorer (956390)
+https://technet.microsoft.com/en-us/library/security/ms08-058.aspx
+count = 13, 
+
+
+273)Vulnerability in Windows Internet Printing Service Could Allow Remote Code Execution (953155)
+https://technet.microsoft.com/en-us/library/security/ms08-062.aspx
+count = 2, 
+
+
+274)Vulnerability in Message Queuing Could Allow Remote Code Execution (951071)
+https://technet.microsoft.com/en-us/library/security/ms08-065.aspx
+count = 2, 
+
+
+275)Vulnerability in Virtual Address Descriptor Manipulation Could Allow Elevation of Privilege (956841)
+https://technet.microsoft.com/en-us/library/security/ms08-064.aspx
+count = 2, 
+
+
+276)Vulnerability in SMB Could Allow Remote Code Execution (957095)
+https://technet.microsoft.com/en-us/library/security/ms08-063.aspx
+count = 2, 
+
+
+277)Vulnerability in the Microsoft Ancillary Function Driver Could Allow Elevation of Privilege (956803)
+https://technet.microsoft.com/en-us/library/security/ms08-066.aspx
+count = 2, 
+
+
+278)Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (954211)
+https://technet.microsoft.com/en-us/library/security/ms08-061.aspx
+count = 12, 
+
+
+279)Vulnerability in Server Service Could Allow Remote Code Execution (958644)
+https://technet.microsoft.com/en-us/library/security/ms08-067.aspx
+count = 2, 
+
+
+280)Vulnerability in SMB Could Allow Remote Code Execution (957097)
+https://technet.microsoft.com/en-us/library/security/ms08-068.aspx
+count = 2, 
+
+
+281)Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution (955218)
+https://technet.microsoft.com/en-us/library/security/ms08-069.aspx
+count = 12, 
+
+
+282)Vulnerabilities in GDI Could Allow Remote Code Execution (956802)
+https://technet.microsoft.com/en-us/library/security/ms08-071.aspx
+count = 11, 
+
+
+283)Vulnerabilities in Visual Basic 6.0 Runtime Extended Files (ActiveX Controls) Could Allow Remote Code Execution (932349)
+https://technet.microsoft.com/en-us/library/security/ms08-070.aspx
+count = 14, 
+
+
+284)Cumulative Security Update for Internet Explorer (958215)
+https://technet.microsoft.com/en-us/library/security/ms08-073.aspx
+count = 11, 
+
+
+285)Vulnerabilities in Microsoft Office Word Could Allow Remote Code Execution (957173)
+https://technet.microsoft.com/en-us/library/security/ms08-072.aspx
+count = 17, 
+
+
+286)Vulnerabilities in Microsoft Office Excel Could Allow Remote Code Execution (959070)
+https://technet.microsoft.com/en-us/library/security/ms08-074.aspx
+count = 14, 
+
+
+287)Vulnerabilities in Windows Search Could Allow Remote Code Execution (959349)
+https://technet.microsoft.com/en-us/library/security/ms08-075.aspx
+count = 14, 
+
+
+288)Vulnerabilities in Windows Media Components Could Allow Remote Code Execution (959807)
+https://technet.microsoft.com/en-us/library/security/ms08-076.aspx
+count = 8, 
+
+
+289)Security Update for Internet Explorer (960714)
+https://technet.microsoft.com/en-us/library/security/ms08-078.aspx
+count = 4, 
+
+
+290)Vulnerability in Microsoft Office SharePoint Server Could Cause Elevation of Privilege (957175)
+https://technet.microsoft.com/en-us/library/security/ms08-077.aspx
+count = 2, 
+
+
+291)Patch Available for "Malformed Hit-Highlighting Argument" Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-006.aspx
+count = 2, 
+
+
+292)Patch Available for "Undelimited .HTR Request" and "File Fragment Reading via .HTR" Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-031.aspx
+count = 7, 
+
+
+293)Patch Available for 'ResetBrowser Frame' and 'HostAnnouncement Frame' Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-036.aspx
+count = 14, 
+
+
+294)Patch Available for "Frame Domain Verification", "Unauthorized Cookie Access", and "Malformed Component Attribute" Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-033.aspx
+count = 6, 
+
+
+295)Patch Available for 'SSL Certificate Validation' Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-039.aspx
+count = 17, 
+
+
+296)Patch Available for 'Active Setup Download' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-042.aspx
+count = 1, 
+
+
+297)Patch Available for 'Absent Directory Browser Argument' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-044.aspx
+count = 7, 
+
+
+298)Patch Available for 'Malformed E-mail Header' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-043.aspx
+count = 3, 
+
+
+299)Patch Available for 'Cache Bypass' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-046.aspx
+count = 2, 
+
+
+300)Patch Available for 'Persistent Mail-Browser Link' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-045.aspx
+count = 3, 
+
+
+301)Patches Available for 'Office HTML Script' and 'IE Script' Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-049.aspx
+count = 8, 
+
+
+302)Patch Available for 'Scriptlet Rendering' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-055.aspx
+count = 18, 
+
+
+303)Patch Available for 'Java VM Applet' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-059.aspx
+count = 1, 
+
+
+304)Patch Available for 'IIS Cross-Site Scripting' Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-060.aspx
+count = 8, 
+
+
+305)Patch Available for 'Local Security Policy Corruption' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-062.aspx
+count = 1, 
+
+
+306)Patch Available for Multiple LPC and LPC Ports Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-070.aspx
+count = 17, 
+
+
+307)Patch Available for 'Web Server Folder Traversal' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-078.aspx
+count = 4, 
+
+
+308)Patch Available for 'HyperTerminal Buffer Overflow' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-079.aspx
+count = 4, 
+
+
+309)Patch Available for 'Malformed MIME Header' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-082.aspx
+count = 5, 
+
+
+310)Patch Available for New Variant of 'VM File Reading' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-081.aspx
+count = 2, 
+
+
+311)Patch Available for 'ActiveX Parameter Validation' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-085.aspx
+count = 3, 
+
+
+312)Patch Available for 'Web Server File Request Parsing' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-086.aspx
+count = 3, 
+
+
+313)Patch Available for 'Indexing Services Cross Site Scripting'
+https://technet.microsoft.com/en-us/library/security/ms00-084.aspx
+count = 3, 
+
+
+314)Patch Available for 'Terminal Server Login Buffer Overflow' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-087.aspx
+count = 1, 
+
+
+315)Patch Available for 'Exchange User Account' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-088.aspx
+count = 1, 
+
+
+316)Patch Available for 'RDISK Registry Enumeration File' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-090.aspx
+count = 14, 
+
+
+317)Patch Available for 'Browser Print Template' and 'File Upload via Form' Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms00-093.aspx
+count = 14, 
+
+
+318)Tool Available for 'Registry Permissions' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-095.aspx
+count = 4, 
+
+
+319)Tool Available for 'SNMP Parameters' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms00-096.aspx
+count = 3, 
+
+
+320)Weak Permissions on Winsock Mutex Can Allow Service Failure
+https://technet.microsoft.com/en-us/library/security/ms01-003.aspx
+count = 2, 
+
+
+321)Malformed .HTR Request Allows Reading of File Fragments
+https://technet.microsoft.com/en-us/library/security/ms01-004.aspx
+count = 2, 
+
+
+322)Packaging Anomaly Could Cause Hotfixes to be Removed
+https://technet.microsoft.com/en-us/library/security/ms01-005.aspx
+count = 1, 
+
+
+323)Malformed NTLMSSP Request Can Enable Code to Run with System Privileges
+https://technet.microsoft.com/en-us/library/security/ms01-008.aspx
+count = 2, 
+
+
+324)Outlook, Outlook Express VCard Handler Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-012.aspx
+count = 1, 
+
+
+325)PowerPoint File Parser Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-002.aspx
+count = 2, 
+
+
+326)IE can Divulge Location of Cached Content
+https://technet.microsoft.com/en-us/library/security/ms01-015.aspx
+count = 13, 
+
+
+327)Windows 2000 Event Viewer Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-013.aspx
+count = 1, 
+
+
+328)Passwords for Compressed Folders are Recoverable
+https://technet.microsoft.com/en-us/library/security/ms01-019.aspx
+count = 1, 
+
+
+329)Visual Studio VB T-SQL Object Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-018.aspx
+count = 2, 
+
+
+330)Unchecked Buffer in ISAPI Extension Could Enable Compromise of IIS 5.0 Server
+https://technet.microsoft.com/en-us/library/security/ms01-023.aspx
+count = 2, 
+
+
+331)Index Server Search Function Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-025.aspx
+count = 7, 
+
+
+332)Flaws in Web Server Certificate Validation Could Enable Spoofing
+https://technet.microsoft.com/en-us/library/security/ms01-027.aspx
+count = 14, 
+
+
+333)14 May 2001 Cumulative Patch for IIS
+https://technet.microsoft.com/en-us/library/security/ms01-026.aspx
+count = 19, 
+
+
+334)Windows Media Player .ASX Processor Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-029.aspx
+count = 7, 
+
+
+335)Predictable Name Pipes Could Enable Privilege Elevation via Telnet
+https://technet.microsoft.com/en-us/library/security/ms01-031.aspx
+count = 52, 
+
+
+336)FrontPage Server Extension Sub-Component Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-035.aspx
+count = 2, 
+
+
+337)Malformed Word Document Could Enable Macro to Run Automatically
+https://technet.microsoft.com/en-us/library/security/ms01-034.aspx
+count = 2, 
+
+
+338)Unchecked Buffer in Index Server ISAPI Extension Could Enable Web Server Compromise
+https://technet.microsoft.com/en-us/library/security/ms01-033.aspx
+count = 3, 
+
+
+339)Function Exposed via LDAP over SSL Could Enable Passwords to be Changed
+https://technet.microsoft.com/en-us/library/security/ms01-036.aspx
+count = 2, 
+
+
+340)Authentication Error in SMTP Service Could Allow Mail Relaying
+https://technet.microsoft.com/en-us/library/security/ms01-037.aspx
+count = 2, 
+
+
+341)Services for Unix 2.0 Telnet and NFS Services Contain Memory Leaks
+https://technet.microsoft.com/en-us/library/security/ms01-039.aspx
+count = 7, 
+
+
+342)Invalid RDP Data Can Cause Memory Leak in Terminal Services
+https://technet.microsoft.com/en-us/library/security/ms01-040.aspx
+count = 2, 
+
+
+343)NNTP Service Contains Memory Leak
+https://technet.microsoft.com/en-us/library/security/ms01-043.aspx
+count = 2, 
+
+
+344)ISA Server H.323 Gatekeeper Service Contains Memory Leak
+https://technet.microsoft.com/en-us/library/security/ms01-045.aspx
+count = 8, 
+
+
+345)Malformed RPC Request Can Cause Service Failure
+https://technet.microsoft.com/en-us/library/security/ms01-041.aspx
+count = 5, 
+
+
+346)Access Violation in Windows 2000 IrDA Driver Can Cause System to Restart
+https://technet.microsoft.com/en-us/library/security/ms01-046.aspx
+count = 2, 
+
+
+347)OWA Function Allows Unauthenticated User to Enumerate Global Address List
+https://technet.microsoft.com/en-us/library/security/ms01-047.aspx
+count = 3, 
+
+
+348)Deeply-nested OWA Request Can Consume Server CPU Availability
+https://technet.microsoft.com/en-us/library/security/ms01-049.aspx
+count = 2, 
+
+
+349)15 August 2001 Cumulative Patch for IIS
+https://technet.microsoft.com/en-us/library/security/ms01-044.aspx
+count = 19, 
+
+
+350)Malformed Request to RPC Endpoint Mapper can Cause RPC Service to Fail
+https://technet.microsoft.com/en-us/library/security/ms01-048.aspx
+count = 2, 
+
+
+351)Malformed Excel or PowerPoint Document Can Bypass Macro Security
+https://technet.microsoft.com/en-us/library/security/ms01-050.aspx
+count = 2, 
+
+
+352)Malformed Dotless IP Address Can Cause Web Page to be Handled in Intranet Zone
+https://technet.microsoft.com/en-us/library/security/ms01-051.aspx
+count = 7, 
+
+
+353)Invalid RDP Data can Cause Terminal Service Failure
+https://technet.microsoft.com/en-us/library/security/ms01-052.aspx
+count = 2, 
+
+
+354)Invalid Universal Plug and Play Request can Disrupt System Operation
+https://technet.microsoft.com/en-us/library/security/ms01-054.aspx
+count = 2, 
+
+
+355)13 November 2001 Cumulative Patch for IE
+https://technet.microsoft.com/en-us/library/security/ms01-055.aspx
+count = 22, 
+
+
+356)Specially Formed Script in HTML Mail can Execute in Exchange 5.5 OWA
+https://technet.microsoft.com/en-us/library/security/ms01-057.aspx
+count = 2, 
+
+
+357)13 December 2001 Cumulative Patch for IE
+https://technet.microsoft.com/en-us/library/security/ms01-058.aspx
+count = 7, 
+
+
+358)Windows Media Player .ASF Processor Contains Unchecked Buffer
+https://technet.microsoft.com/en-us/library/security/ms01-056.aspx
+count = 25, 
+
+
+359)Unchecked Buffer in Universal Plug and Play can Lead to System Compromise
+https://technet.microsoft.com/en-us/library/security/ms01-059.aspx
+count = 9, 
+
+
+360)SQL Server Text Formatting Functions Contain Unchecked Buffers
+https://technet.microsoft.com/en-us/library/security/ms01-060.aspx
+count = 10, 
+
+
+361)BackOffice Server 4.0 Does Not Delete Installation Setup File
+https://technet.microsoft.com/en-us/library/security/ms99-005.aspx
+count = 1, 
+
+
+362)Patch Available for Excel 97 Virus Warning Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms99-014.aspx
+count = 6, 
+
+
+363)MSHTML Update Available for Internet Explorer
+https://technet.microsoft.com/en-us/library/security/ms99-012.aspx
+count = 4, 
+
+
+364)Patch Available for "Malformed Favorites Icon" Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms99-018.aspx
+count = 6, 
+
+
+365)Patch Available for "Malformed HTR Request" Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms99-019.aspx
+count = 1, 
+
+
+366)Updated Patch Available for Office "ODBC Vulnerabilities"
+https://technet.microsoft.com/en-us/library/security/ms99-030.aspx
+count = 10, 
+
+
+367)Patch Available for "scriptlet.typelib/Eyedog" Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms99-032.aspx
+count = 2, 
+
+
+368)Patch Available for "Domain Resolution" and "FTP Download" Vulnerabilities
+https://technet.microsoft.com/en-us/library/security/ms99-039.aspx
+count = 5, 
+
+
+369)Patch Available for "Excel SYLK" Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms99-044.aspx
+count = 1, 
+
+
+370)Exchange 2000 System Attendant Incorrectly Sets Remote Registry Permissions
+https://technet.microsoft.com/en-us/library/security/ms02-003.aspx
+count = 2, 
+
+
+371)11 February 2002 Cumulative Patch for Internet Explorer
+https://technet.microsoft.com/en-us/library/security/ms02-005.aspx
+count = 11, 
+
+
+372)XMLHTTP Control Can Allow Access to Local Files
+https://technet.microsoft.com/en-us/library/security/ms02-008.aspx
+count = 1, 
+
+
+373)Unchecked Buffer in SNMP Service Could Enable Arbitrary Code to be Run
+https://technet.microsoft.com/en-us/library/security/ms02-006.aspx
+count = 1, 
+
+
+374)Incorrect VBScript Handling in IE can Allow Web Pages to Read Local Files
+https://technet.microsoft.com/en-us/library/security/ms02-009.aspx
+count = 1, 
+
+
+375)SQL Server Remote Data Source Function Contain Unchecked Buffers
+https://technet.microsoft.com/en-us/library/security/ms02-007.aspx
+count = 2, 
+
+
+376)Unchecked Buffer in ISAPI Filter Could Allow Commerce Server Compromise
+https://technet.microsoft.com/en-us/library/security/ms02-010.aspx
+count = 1, 
+
+
+377)Authentication Flaw Could Allow Unauthorized Users To Authenticate To SMTP Service
+https://technet.microsoft.com/en-us/library/security/ms02-011.aspx
+count = 2, 
+
+
+378)Malformed Data Transfer Request can Cause Windows SMTP Service to Fail
+https://technet.microsoft.com/en-us/library/security/ms02-012.aspx
+count = 2, 
+
+
+379)04 March 2002 Cumulative VM Update
+https://technet.microsoft.com/en-us/library/security/ms02-013.aspx
+count = 7, 
+
+
+380)Opening Group Policy Files for Exclusive Read Blocks Policy Application (Q318593)
+https://technet.microsoft.com/en-us/library/security/ms02-016.aspx
+count = 1, 
+
+
+381)Unchecked Buffer in Windows Shell Could Lead to Code Execution
+https://technet.microsoft.com/en-us/library/security/ms02-014.aspx
+count = 2, 
+
+
+382)28 March 2002 Cumulative Patch for Internet Explorer
+https://technet.microsoft.com/en-us/library/security/ms02-015.aspx
+count = 8, 
+
+
+383)Unchecked buffer in the Multiple UNC Provider Could Enable Code Execution (Q311967)
+https://technet.microsoft.com/en-us/library/security/ms02-017.aspx
+count = 1, 
+
+
+384)Unchecked Buffer in Internet Explorer and Office for Mac Can Cause Code to Execute (Q321309)
+https://technet.microsoft.com/en-us/library/security/ms02-019.aspx
+count = 7, 
+
+
+385)Cumulative Patch for Internet Information Services (Q319733)
+https://technet.microsoft.com/en-us/library/security/ms02-018.aspx
+count = 32, 
+
+
+386)Unchecked Buffer in MSN Chat Control Can Lead to Code Execution (Q321661)
+https://technet.microsoft.com/en-us/library/security/ms02-022.aspx
+count = 1, 
+
+
+387)SQL Extended Procedure Functions Contain Unchecked Buffers (Q319507)
+https://technet.microsoft.com/en-us/library/security/ms02-020.aspx
+count = 2, 
+
+
+388)E-mail Editor Flaw Could Lead to Script Execution on Reply or Forward (Q321804)
+https://technet.microsoft.com/en-us/library/security/ms02-021.aspx
+count = 1, 
+
+
+389)Authentication Flaw in Windows Debugger can Lead to Elevated Privileges (Q320206)
+https://technet.microsoft.com/en-us/library/security/ms02-024.aspx
+count = 2, 
+
+
+390)15 May 2002 Cumulative Patch for Internet Explorer (Q321232)
+https://technet.microsoft.com/en-us/library/security/ms02-023.aspx
+count = 13, 
+
+
+391)Malformed Mail Attribute can Cause Exchange 2000 to Exhaust CPU Resources (Q320436)
+https://technet.microsoft.com/en-us/library/security/ms02-025.aspx
+count = 2, 
+
+
+392)Unchecked Buffer in Gopher Protocol Handler Can Run Code of Attacker's Choice (Q323889)
+https://technet.microsoft.com/en-us/library/security/ms02-027.aspx
+count = 4, 
+
+
+393)Heap Overrun in HTR Chunked Encoding Could Enable Web Server Compromise (Q321599)
+https://technet.microsoft.com/en-us/library/security/ms02-028.aspx
+count = 7, 
+
+
+394)Cumulative Patches for Excel and Word for Windows (Q324458)
+https://technet.microsoft.com/en-us/library/security/ms02-031.aspx
+count = 9, 
+
+
+395)Unchecked Buffer in Remote Access Service Phonebook Could Lead to Code Execution (Q318138)
+https://technet.microsoft.com/en-us/library/security/ms02-029.aspx
+count = 1, 
+
+
+396)Unchecked Buffer in SQLXML Could Lead to Code Execution (Q321911)
+https://technet.microsoft.com/en-us/library/security/ms02-030.aspx
+count = 7, 
+
+
+397)26 June 2002 Cumulative Patch for Windows Media Player (Q320920)
+https://technet.microsoft.com/en-us/library/security/ms02-032.aspx
+count = 12, 
+
+
+398)SQL Server Installation Process May Leave Passwords on System (Q263968)
+https://technet.microsoft.com/en-us/library/security/ms02-035.aspx
+count = 2, 
+
+
+399)Cumulative Patch for SQL Server (Q316333)
+https://technet.microsoft.com/en-us/library/security/ms02-034.aspx
+count = 8, 
+
+
+400)Unchecked Buffer in Profile Service Could Allow Code Execution in Commerce Server (Q322273)
+https://technet.microsoft.com/en-us/library/security/ms02-033.aspx
+count = 9, 
+
+
+401)Authentication Flaw in Microsoft Metadirectory Services Could Allow Privilege Elevation (Q317138)
+https://technet.microsoft.com/en-us/library/security/ms02-036.aspx
+count = 1, 
+
+
+402)Unchecked Buffer in SQL Server 2000 Utilities Could Allow Code Execution (Q316333)
+https://technet.microsoft.com/en-us/library/security/ms02-038.aspx
+count = 16, 
+
+
+403)Server Response To SMTP Client EHLO Command Results In Buffer Overrun (Q326322)
+https://technet.microsoft.com/en-us/library/security/ms02-037.aspx
+count = 2, 
+
+
+404)Buffer Overruns in SQL Server 2000 Resolution Service Could Enable Code Execution (Q323875)
+https://technet.microsoft.com/en-us/library/security/ms02-039.aspx
+count = 18, 
+
+
+405)Unchecked Buffer in MDAC Function Could Enable System Compromise (Q326573)
+https://technet.microsoft.com/en-us/library/security/ms02-040.aspx
+count = 2, 
+
+
+406)Unchecked Buffer in Content Management Server Could Enable Server Compromise (Q326075)
+https://technet.microsoft.com/en-us/library/security/ms02-041.aspx
+count = 8, 
+
+
+407)Cumulative Patch for SQL Server (Q316333)
+https://technet.microsoft.com/en-us/library/security/ms02-043.aspx
+count = 3, 
+
+
+408)Flaw in Network Connection Manager Could Enable Privilege Elevation (Q326886)
+https://technet.microsoft.com/en-us/library/security/ms02-042.aspx
+count = 2, 
+
+
+409)Unsafe Functions in Office Web Components (Q328130)
+https://technet.microsoft.com/en-us/library/security/ms02-044.aspx
+count = 21, 
+
+
+410)Cumulative Patch for Internet Explorer (Q323759)
+https://technet.microsoft.com/en-us/library/security/ms02-047.aspx
+count = 7, 
+
+
+411)Buffer Overrun in TSAC ActiveX Control Could Allow Code Execution (Q327521)
+https://technet.microsoft.com/en-us/library/security/ms02-046.aspx
+count = 1, 
+
+
+412)Flaw Could Enable Web Page to Launch Visual FoxPro 6.0 Application Without Warning (Q326568)
+https://technet.microsoft.com/en-us/library/security/ms02-049.aspx
+count = 2, 
+
+
+413)Flaw in Certificate Enrollment Control Could Allow Deletion of Digital Certificates (Q323172)
+https://technet.microsoft.com/en-us/library/security/ms02-048.aspx
+count = 2, 
+
+
+414)Unchecked Buffer in Network Share Provider Can Lead to Denial of Service (Q326830)
+https://technet.microsoft.com/en-us/library/security/ms02-045.aspx
+count = 2, 
+
+
+415)Cryptographic Flaw in RDP Protocol can Lead to Information Disclosure (Q324380)
+https://technet.microsoft.com/en-us/library/security/ms02-051.aspx
+count = 7, 
+
+
+416)Flaw in Microsoft VM JDBC Classes Could Allow Code Execution (Q329077)
+https://technet.microsoft.com/en-us/library/security/ms02-052.aspx
+count = 12, 
+
+
+417)Buffer Overrun in SmartHTML Interpreter Could Allow Code Execution (Q324096)
+https://technet.microsoft.com/en-us/library/security/ms02-053.aspx
+count = 2, 
+
+
+418)Unchecked Buffer in File Decompression Functions Could Lead to Code Execution (Q329048)
+https://technet.microsoft.com/en-us/library/security/ms02-054.aspx
+count = 7, 
+
+
+419)Unchecked Buffer in Windows Help Facility Could Enable Code Execution (Q323255)
+https://technet.microsoft.com/en-us/library/security/ms02-055.aspx
+count = 7, 
+
+
+420)Cumulative Patch for SQL Server (Q316333)
+https://technet.microsoft.com/en-us/library/security/ms02-056.aspx
+count = 14, 
+
+
+421)Flaw in Services for Unix 3.0 Interix SDK Could Allow Code Execution (Q329209)
+https://technet.microsoft.com/en-us/library/security/ms02-057.aspx
+count = 9, 
+
+
+422)Flaw in Word Fields and Excel External Updates Could Lead to Information Disclosure (Q330008)
+https://technet.microsoft.com/en-us/library/security/ms02-059.aspx
+count = 2, 
+
+
+423)Unchecked Buffer in Outlook Express S/MIME Parsing Could Enable System Compromise (Q328676)
+https://technet.microsoft.com/en-us/library/security/ms02-058.aspx
+count = 2, 
+
+
+424)Flaw in Windows XP Help and Support Center Could Enable File Deletion (Q328940)
+https://technet.microsoft.com/en-us/library/security/ms02-060.aspx
+count = 1, 
+
+
+425)Elevation of Privilege in SQL Server Web Tasks (Q316333)
+https://technet.microsoft.com/en-us/library/security/ms02-061.aspx
+count = 4, 
+
+
+426)Unchecked Buffer in PPTP Implementation Could Enable Denial of Service Attacks (Q329834)
+https://technet.microsoft.com/en-us/library/security/ms02-063.aspx
+count = 2, 
+
+
+427)Cumulative Patch for Internet Information Service (Q327696)
+https://technet.microsoft.com/en-us/library/security/ms02-062.aspx
+count = 27, 
+
+
+428)Buffer Overrun in Microsoft Data Access Components Could Lead to Code Execution (Q329414)
+https://technet.microsoft.com/en-us/library/security/ms02-065.aspx
+count = 4, 
+
+
+429)Cumulative Patch for Internet Explorer (Q328970)
+https://technet.microsoft.com/en-us/library/security/ms02-066.aspx
+count = 27, 
+
+
+430)Cumulative Patch for Internet Explorer (324929)
+https://technet.microsoft.com/en-us/library/security/ms02-068.aspx
+count = 5, 
+
+
+431)E-mail Header Processing Flaw Could Cause Outlook 2002 to Fail (331866)
+https://technet.microsoft.com/en-us/library/security/ms02-067.aspx
+count = 3, 
+
+
+432)Flaw in Windows WM_TIMER Message Handling Could Enable Privilege Elevation (328310)
+https://technet.microsoft.com/en-us/library/security/ms02-071.aspx
+count = 2, 
+
+
+433)Flaw in Microsoft VM Could Enable System Compromise (810030)
+https://technet.microsoft.com/en-us/library/security/ms02-069.aspx
+count = 27, 
+
+
+434)Flaw in how Outlook 2002 handles V1 Exchange Server Security Certificates could lead to Information Disclosure (812262)
+https://technet.microsoft.com/en-us/library/security/ms03-003.aspx
+count = 2, 
+
+
+435)Cumulative Patch for Microsoft Content Management Server (810487)
+https://technet.microsoft.com/en-us/library/security/ms03-002.aspx
+count = 2, 
+
+
+436)Cumulative Patch for Internet Explorer (810847)
+https://technet.microsoft.com/en-us/library/security/ms03-004.aspx
+count = 7, 
+
+
+437)Unchecked buffer in Windows redirector may permit privilege elevation (810577)
+https://technet.microsoft.com/en-us/library/security/ms03-005.aspx
+count = 1, 
+
+
+438)Flaw in Windows Me Help and Support Center Could Enable Code Execution (812709)
+https://technet.microsoft.com/en-us/library/security/ms03-006.aspx
+count = 1, 
+
+
+439)Flaw in RPC Endpoint Mapper Could Allow Denial of Service Attacks (331953)
+https://technet.microsoft.com/en-us/library/security/ms03-010.aspx
+count = 2, 
+
+
+440)Flaw in Windows Script Engine Could Allow Code Execution (814078)
+https://technet.microsoft.com/en-us/library/security/ms03-008.aspx
+count = 2, 
+
+
+441)Flaw in Microsoft VM Could Enable System Compromise (816093)
+https://technet.microsoft.com/en-us/library/security/ms03-011.aspx
+count = 4, 
+
+
+442)Flaw In Winsock Proxy Service And ISA Firewall Service Can Cause Denial Of Service (331066)
+https://technet.microsoft.com/en-us/library/security/ms03-012.aspx
+count = 1, 
+
+
+443)Unchecked Buffer In Windows Component Could Cause Server Compromise   (815021)
+https://technet.microsoft.com/en-us/library/security/ms03-007.aspx
+count = 1, 
+
+
+444)Buffer Overrun in Windows Kernel Message Handling could Lead to Elevated Privileges (811493)
+https://technet.microsoft.com/en-us/library/security/ms03-013.aspx
+count = 2, 
+
+
+445)Cumulative Patch for Internet Explorer (813489)
+https://technet.microsoft.com/en-us/library/security/ms03-015.aspx
+count = 13, 
+
+
+446)Flaw in Windows Media Player Skins Downloading could allow Code   Execution (817787)
+https://technet.microsoft.com/en-us/library/security/ms03-017.aspx
+count = 2, 
+
+
+447)Flaw in ISAPI Extension for Windows Media Services Could Cause Code Execution (817772)
+https://technet.microsoft.com/en-us/library/security/ms03-019.aspx
+count = 2, 
+
+
+448)Cumulative Patch for Internet Information Service (811114)
+https://technet.microsoft.com/en-us/library/security/ms03-018.aspx
+count = 9, 
+
+
+449)Cumulative Patch for BizTalk Server (815206)
+https://technet.microsoft.com/en-us/library/security/ms03-016.aspx
+count = 3, 
+
+
+450)Flaw In Windows Media Player May Allow Media Library Access (819639)
+https://technet.microsoft.com/en-us/library/security/ms03-021.aspx
+count = 2, 
+
+
+451)Cumulative Patch for Internet Explorer (818529)
+https://technet.microsoft.com/en-us/library/security/ms03-020.aspx
+count = 13, 
+
+
+452)Vulnerability in ISAPI Extension for Windows Media Services Could Cause Code Execution   (822343)
+https://technet.microsoft.com/en-us/library/security/ms03-022.aspx
+count = 2, 
+
+
+453)Buffer Overrun In HTML Converter Could Allow Code Execution (823559)
+https://technet.microsoft.com/en-us/library/security/ms03-023.aspx
+count = 1, 
+
+
+454)Buffer Overrun in Windows Could Lead to Data Corruption (817606)
+https://technet.microsoft.com/en-us/library/security/ms03-024.aspx
+count = 1, 
+
+
+455)Flaw in Windows Function Could Allow Denial of Service (823803)
+https://technet.microsoft.com/en-us/library/security/ms03-029.aspx
+count = 2, 
+
+
+456)Flaw in ISA Server Error Pages Could Allow Cross-Site Scripting Attack (816456)
+https://technet.microsoft.com/en-us/library/security/ms03-028.aspx
+count = 1, 
+
+
+457)Buffer Overrun In RPC Interface Could Allow Code Execution (823980)
+https://technet.microsoft.com/en-us/library/security/ms03-026.aspx
+count = 1, 
+
+
+458)Flaw in Windows Message Handling through Utility Manager Could Enable Privilege Elevation (822679)
+https://technet.microsoft.com/en-us/library/security/ms03-025.aspx
+count = 2, 
+
+
+459)Unchecked Buffer in DirectX Could Enable System Compromise (819696)
+https://technet.microsoft.com/en-us/library/security/ms03-030.aspx
+count = 2, 
+
+
+460)Cumulative Patch for Microsoft SQL Server (815495)
+https://technet.microsoft.com/en-us/library/security/ms03-031.aspx
+count = 8, 
+
+
+461)Cumulative Patch for Internet Explorer (822925)
+https://technet.microsoft.com/en-us/library/security/ms03-032.aspx
+count = 12, 
+
+
+462)Unchecked Buffer in MDAC Function Could Enable System Compromise (823718)
+https://technet.microsoft.com/en-us/library/security/ms03-033.aspx
+count = 1, 
+
+
+463)Flaw in Visual Basic for Applications Could Allow Arbitrary Code Execution (822715)
+https://technet.microsoft.com/en-us/library/security/ms03-037.aspx
+count = 1, 
+
+
+464)Flaw in NetBIOS Could Lead to Information Disclosure (824105)
+https://technet.microsoft.com/en-us/library/security/ms03-034.aspx
+count = 2, 
+
+
+465)Buffer Overrun In RPCSS Service Could Allow Code Execution (824146)
+https://technet.microsoft.com/en-us/library/security/ms03-039.aspx
+count = 27, 
+
+
+466)Cumulative Patch for Internet Explorer (828750)
+https://technet.microsoft.com/en-us/library/security/ms03-040.aspx
+count = 11, 
+
+
+467)Buffer Overrun in Windows Help and Support Center Could Lead to System Compromise (825119)
+https://technet.microsoft.com/en-us/library/security/ms03-044.aspx
+count = 1, 
+
+
+468)Vulnerability in Authenticode Verification Could Allow Remote Code Execution (823182)
+https://technet.microsoft.com/en-us/library/security/ms03-041.aspx
+count = 1, 
+
+
+469)Vulnerability in Exchange Server Could Allow Arbitrary Code Execution (829436)
+https://technet.microsoft.com/en-us/library/security/ms03-046.aspx
+count = 4, 
+
+
+470)Vulnerability in Exchange Server 5.5 Outlook Web Access Could Allow Cross-Site Scripting Attack (828489)
+https://technet.microsoft.com/en-us/library/security/ms03-047.aspx
+count = 1, 
+
+
+471)Cumulative Security Update for Internet Explorer (824145)
+https://technet.microsoft.com/en-us/library/security/ms03-048.aspx
+count = 42, 
+
+
+472)Buffer Overrun in Microsoft FrontPage Server Extensions Could Allow Code Execution (813360)
+https://technet.microsoft.com/en-us/library/security/ms03-051.aspx
+count = 4, 
+
+
+473)Updates Available for the "The Error Message Vulnerability" Against Secured Internet Servers
+https://technet.microsoft.com/en-us/library/security/ms98-002.aspx
+count = 1, 
+
+
+474)Vulnerability in Microsoft Word and Microsoft Excel Could Allow Arbitrary Code to Run   (831527)
+https://technet.microsoft.com/en-us/library/security/ms03-050.aspx
+count = 6, 
+
+
+475)Potential SMTP and NNTP Denial-of-Service Vulnerabilities in Microsoft Exchange Server
+https://technet.microsoft.com/en-us/library/security/ms98-007.aspx
+count = 2, 
+
+
+477)Information on the "Back Orifice" Program
+https://technet.microsoft.com/en-us/library/security/ms98-010.aspx
+count = 2, 
+
+
+478)Updates available for Security Vulnerabilities in Microsoft PPTP
+https://technet.microsoft.com/en-us/library/security/ms98-012.aspx
+count = 3, 
+
+
+479)Patch Available for 'Frame Spoof' Vulnerability
+https://technet.microsoft.com/en-us/library/security/ms98-020.aspx
+count = 2, 
+
+
+480)Cumulative Security Update for Internet Explorer (832894)
+https://technet.microsoft.com/en-us/library/security/ms04-004.aspx
+count = 21, 
+
+
+481)Security Update for Microsoft Windows (835732)
+https://technet.microsoft.com/en-us/library/security/ms04-011.aspx
+count = 11, 
+
+
+482)Vulnerability in DirectPlay Could Allow Denial of Service (839643)
+https://technet.microsoft.com/en-us/library/security/ms04-016.aspx
+count = 2, 
+
+
+483)Vulnerability in Help and Support Center Could Allow Remote Code Execution (840374)
+https://technet.microsoft.com/en-us/library/security/ms04-015.aspx
+count = 3, 
+
+
+484)Cumulative Update for Microsoft RPC/DCOM (828741)
+https://technet.microsoft.com/en-us/library/security/ms04-012.aspx
+count = 5, 
+
+
+485)Cumulative Security Update for Outlook Express (823353)
+https://technet.microsoft.com/en-us/library/security/ms04-018.aspx
+count = 4, 
+
+
+486)Security Update for IIS 4.0 (841373)
+https://technet.microsoft.com/en-us/library/security/ms04-021.aspx
+count = 2, 
+
+
+487)Vulnerability in POSIX Could Allow Code Execution (841872)
+https://technet.microsoft.com/en-us/library/security/ms04-020.aspx
+count = 2, 
+
+
+488)Vulnerability in Task Scheduler Could Allow Code Execution (841873)
+https://technet.microsoft.com/en-us/library/security/ms04-022.aspx
+count = 4, 
+
+
+489)Vulnerability in Utility Manager Could Allow Code Execution (842526)
+https://technet.microsoft.com/en-us/library/security/ms04-019.aspx
+count = 4, 
+
+
+490)Vulnerability in HTML Help Could Allow Code Execution (840315)
+https://technet.microsoft.com/en-us/library/security/ms04-023.aspx
+count = 9, 
+
+
+491)Vulnerability in Windows Shell Could Allow Remote Code Execution (839645)
+https://technet.microsoft.com/en-us/library/security/ms04-024.aspx
+count = 6, 
+
+
+492)Vulnerability in RPC Runtime Library Could Allow Information Disclosure and Denial of Service (873350)
+https://technet.microsoft.com/en-us/library/security/ms04-029.aspx
+count = 4, 
+
+
+493)Cumulative Security Update for Internet Explorer (867801)
+https://technet.microsoft.com/en-us/library/security/ms04-025.aspx
+count = 14, 
+
+
+494)Vulnerability in WebDAV XML Message Handler Could Lead to a Denial of Service (824151)
+https://technet.microsoft.com/en-us/library/security/ms04-030.aspx
+count = 3, 
+
+
+495)Vulnerability in NetDDE Could Allow Remote Code Execution (841533)
+https://technet.microsoft.com/en-us/library/security/ms04-031.aspx
+count = 3, 
+
+
+496)Security Update for Microsoft Windows (840987)
+https://technet.microsoft.com/en-us/library/security/ms04-032.aspx
+count = 15, 
+
+
+497)Buffer Overrun in JPEG Processing (GDI+) Could Allow Code Execution (833987)
+https://technet.microsoft.com/en-us/library/security/ms04-028.aspx
+count = 2, 
+
+
+498)Vulnerability in Compressed (zipped) Folders Could Allow Remote Code Execution (873376)
+https://technet.microsoft.com/en-us/library/security/ms04-034.aspx
+count = 2, 
+
+
+499)Vulnerability in NNTP Could Allow Remote Code Execution (883935)
+https://technet.microsoft.com/en-us/library/security/ms04-036.aspx
+count = 1, 
+
+
+500)Vulnerability in Windows Shell Could Allow Remote Code Execution (841356)
+https://technet.microsoft.com/en-us/library/security/ms04-037.aspx
+count = 11, 
+
+
+501)Cumulative Security Update for Internet Explorer (889293)
+https://technet.microsoft.com/en-us/library/security/ms04-040.aspx
+count = 3, 
+
+
+502)Vulnerability in WordPad Could Allow Code Execution (885836)
+https://technet.microsoft.com/en-us/library/security/ms04-041.aspx
+count = 9, 
+
+
+503)Vulnerability in DHCP Could Allow Remote Code Execution and Denial of Service (885249)
+https://technet.microsoft.com/en-us/library/security/ms04-042.aspx
+count = 6, 
+
+
+504)Vulnerability in HyperTerminal Could Allow Code Execution (873339)
+https://technet.microsoft.com/en-us/library/security/ms04-043.aspx
+count = 2, 
+
+
+505)Vulnerabilities in Windows Kernel and LSASS Could Allow Elevation of Privilege (885835)
+https://technet.microsoft.com/en-us/library/security/ms04-044.aspx
+count = 8, 
+
+
+506)Vulnerability in WINS Could Allow Remote Code Execution (870763)
+https://technet.microsoft.com/en-us/library/security/ms04-045.aspx
+count = 10, 
+
+
+507)Vulnerability in Cursor and Icon Format Handling Could Allow Remote Code Execution (891711)
+https://technet.microsoft.com/en-us/library/security/ms05-002.aspx
+count = 8, 
+
+
+508)Vulnerability in the Indexing Service Could Allow Remote Code Execution (871250)
+https://technet.microsoft.com/en-us/library/security/ms05-003.aspx
+count = 2, 
+
+
+509)Vulnerability in Windows Could Allow Information Disclosure (888302)
+https://technet.microsoft.com/en-us/library/security/ms05-007.aspx
+count = 1, 
+
+
+510)Vulnerability in Windows Shell Could Allow Remote Code Execution (890047)
+https://technet.microsoft.com/en-us/library/security/ms05-008.aspx
+count = 4, 
+
+
+511)Cumulative Security Update for Internet Explorer (834707)
+https://technet.microsoft.com/en-us/library/security/ms04-038.aspx
+count = 23, 
+
+
+512)Vulnerability in Server Message Block Could Allow Remote Code Execution (885250)
+https://technet.microsoft.com/en-us/library/security/ms05-011.aspx
+count = 2, 
+
+
+513)Vulnerability in Hyperlink Object Library Could Allow Remote Code Execution (888113)
+https://technet.microsoft.com/en-us/library/security/ms05-015.aspx
+count = 2, 
+
+
+514)Vulnerability in the License Logging Service Could Allow Code Execution (885834)
+https://technet.microsoft.com/en-us/library/security/ms05-010.aspx
+count = 3, 
+
+
+515)Vulnerability in Windows Shell that Could Allow Remote Code Execution (893086)
+https://technet.microsoft.com/en-us/library/security/ms05-016.aspx
+count = 3, 
+
+
+516)Vulnerability in OLE and COM Could Allow Remote Code Execution (873333)
+https://technet.microsoft.com/en-us/library/security/ms05-012.aspx
+count = 9, 
+
+
+517)Vulnerability in PNG Processing Could Allow Remote Code Execution (890261)
+https://technet.microsoft.com/en-us/library/security/ms05-009.aspx
+count = 7, 
+
+
+518)Vulnerability in the DHTML Editing Component ActiveX Control Could Allow Remote Code Execution (891781)
+https://technet.microsoft.com/en-us/library/security/ms05-013.aspx
+count = 5, 
+
+
+519)Cumulative Security Update for Internet Explorer (867282)
+https://technet.microsoft.com/en-us/library/security/ms05-014.aspx
+count = 13, 
+
+
+520)Vulnerability in Message Queuing Could Allow Code Execution (892944)
+https://technet.microsoft.com/en-us/library/security/ms05-017.aspx
+count = 3, 
+
+
+521)Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege and Denial of Service (890859)
+https://technet.microsoft.com/en-us/library/security/ms05-018.aspx
+count = 10, 
+
+
+522)Cumulative Security Update for Internet Explorer (890923)
+https://technet.microsoft.com/en-us/library/security/ms05-020.aspx
+count = 11, 
+
+
+523)Vulnerability in MSN Messenger Could Lead to Remote Code Execution (896597)
+https://technet.microsoft.com/en-us/library/security/ms05-022.aspx
+count = 2, 
+
+
+524)Vulnerabilities in TCP/IP Could Allow Remote Code Execution and Denial of Service (893066)
+https://technet.microsoft.com/en-us/library/security/ms05-019.aspx
+count = 13, 
+
+
+525)Vulnerabilities in Microsoft Word May Lead to Remote Code Execution (890169)
+https://technet.microsoft.com/en-us/library/security/ms05-023.aspx
+count = 6, 
+
+
+526)Vulnerability in Server Message Block Could Allow Remote Code Execution (896422)
+https://technet.microsoft.com/en-us/library/security/ms05-027.aspx
+count = 3, 
+
+
+527)Vulnerability in Web View Could Allow Remote Code Execution (894320)
+https://technet.microsoft.com/en-us/library/security/ms05-024.aspx
+count = 2, 
+
+
+528)Vulnerability in HTML Help Could Allow Remote Code Execution (896358)
+https://technet.microsoft.com/en-us/library/security/ms05-026.aspx
+count = 3, 
+
+
+529)Cumulative Security Update for Internet Explorer (883939)
+https://technet.microsoft.com/en-us/library/security/ms05-025.aspx
+count = 11, 
+
+
+530)Vulnerability in Outlook Web Access for Exchange Server 5.5 Could Allow Cross-Site Scripting Attacks (895179)
+https://technet.microsoft.com/en-us/library/security/ms05-029.aspx
+count = 2, 
+
+
+531)Vulnerability in Step-by-Step Interactive Training Could Allow Remote Code Execution (898458)
+https://technet.microsoft.com/en-us/library/security/ms05-031.aspx
+count = 2, 
+
+
+532)Vulnerability in Outlook Express Could Allow Remote Code Execution (897715)
+https://technet.microsoft.com/en-us/library/security/ms05-030.aspx
+count = 5, 
+
+
+533)Cumulative Security Update for ISA Server 2000 (899753)
+https://technet.microsoft.com/en-us/library/security/ms05-034.aspx
+count = 4, 
+
+
+534)Vulnerability in Telnet Client Could Allow Information Disclosure (896428)
+https://technet.microsoft.com/en-us/library/security/ms05-033.aspx
+count = 1, 
+
+
+535)Vulnerability in Microsoft Agent Could Allow Spoofing (890046)
+https://technet.microsoft.com/en-us/library/security/ms05-032.aspx
+count = 4, 
+
+
+536)Vulnerability in Microsoft Color Management Module Could Allow Remote Code Execution (901214)
+https://technet.microsoft.com/en-us/library/security/ms05-036.aspx
+count = 4, 
+
+
+537)Vulnerability in Microsoft Word Could Allow Remote Code Execution (903672)
+https://technet.microsoft.com/en-us/library/security/ms05-035.aspx
+count = 1, 
+
+
+538)Vulnerability in JView Profiler Could Allow Remote Code Execution (903235)
+https://technet.microsoft.com/en-us/library/security/ms05-037.aspx
+count = 5, 
+
+
+539)Cumulative Security Update for Internet Explorer (896727)
+https://technet.microsoft.com/en-us/library/security/ms05-038.aspx
+count = 9, 
+
+
+540)Vulnerability in Remote Desktop Protocol Could Allow Denial of Service (899591)
+https://technet.microsoft.com/en-us/library/security/ms05-041.aspx
+count = 3, 
+
+
+541)Vulnerability in Telephony Service Could Allow Remote Code Execution (893756)
+https://technet.microsoft.com/en-us/library/security/ms05-040.aspx
+count = 3, 
+
+
+542)Vulnerability in the Windows FTP Client Could Allow File Transfer Location Tampering (905495)
+https://technet.microsoft.com/en-us/library/security/ms05-044.aspx
+count = 2, 
+
+
+543)Vulnerability in Plug and Play Could Allow Remote Code Execution and Elevation of Privilege (899588)
+https://technet.microsoft.com/en-us/library/security/ms05-039.aspx
+count = 2, 
+
+
+544)Vulnerabilities in Kerberos Could Allow Denial of Service, Information Disclosure, and Spoofing (899587)
+https://technet.microsoft.com/en-us/library/security/ms05-042.aspx
+count = 8, 
+
+
+545)Vulnerability in Print Spooler Service Could Allow Remote Code Execution (896423)
+https://technet.microsoft.com/en-us/library/security/ms05-043.aspx
+count = 2, 
+
+
+546)Vulnerability in Network Connection Manager Could Allow Denial of Service (905414)
+https://technet.microsoft.com/en-us/library/security/ms05-045.aspx
+count = 1, 
+
+
+547)Vulnerability in the Client Service for NetWare Could Allow Remote Code Execution (899589)
+https://technet.microsoft.com/en-us/library/security/ms05-046.aspx
+count = 1, 
+
+
+548)Vulnerability in Plug and Play Could Allow Remote Code Execution and Local Elevation of Privilege (905749)
+https://technet.microsoft.com/en-us/library/security/ms05-047.aspx
+count = 3, 
+
+
+549)Vulnerability in the Microsoft Collaboration Data Objects Could Allow Remote Code Execution (907245)
+https://technet.microsoft.com/en-us/library/security/ms05-048.aspx
+count = 2, 
+
+
+550)Vulnerability in DirectShow Could Allow Remote Code Execution (904706)
+https://technet.microsoft.com/en-us/library/security/ms05-050.aspx
+count = 3, 
+
+
+551)Vulnerabilities in Windows Shell Could Allow Remote Code Execution (900725)
+https://technet.microsoft.com/en-us/library/security/ms05-049.aspx
+count = 7, 
+
+
+552)Cumulative Security Update for Internet Explorer (896688)
+https://technet.microsoft.com/en-us/library/security/ms05-052.aspx
+count = 5, 
+
+
+553)Vulnerabilities in Graphics Rendering Engine Could Allow Code Execution (896424)
+https://technet.microsoft.com/en-us/library/security/ms05-053.aspx
+count = 8, 
+
+
+554)Vulnerabilities in MSDTC and COM+ Could Allow Remote Code Execution (902400)
+https://technet.microsoft.com/en-us/library/security/ms05-051.aspx
+count = 9, 
+
+
+555)Vulnerability in Windows Kernel Could Allow Elevation of Privilege (908523)
+https://technet.microsoft.com/en-us/library/security/ms05-055.aspx
+count = 1, 
+
+
+556)Cumulative Security Update for Internet Explorer (905915)
+https://technet.microsoft.com/en-us/library/security/ms05-054.aspx
+count = 9, 
+
+
