@@ -1,0 +1,12 @@
+1)Django 'is_safe_url()' Function Cross Site Scripting Vulnerability
+http://www.securityfocus.com/bid/61777
+django : 1 
+
+2)Django User Account Enumeration Information Disclosure Vulnerability
+http://www.securityfocus.com/bid/61385
+django : 1 
+
+3)Django Multiple Remote Vulnerabilities
+http://www.securityfocus.com/bid/46296
+django : 1 
+
