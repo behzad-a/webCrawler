@@ -4,6 +4,7 @@ from scrapy.spider import Spider
 from scrapy import log
 from techmicro.items import techmicroItem
 import ConfigParser
+import MySQLdb as mdb
 import sys
 
 class technetSpider(Spider):
@@ -14,6 +15,7 @@ class technetSpider(Spider):
         self.website = website
         self.search = techmicroItem()
         self.ConfigSettings()
+        self.MySQL_connect()
         if self.keywords:
             open("pages with keyword(s) - " + self.name, 'w').close()
         else:
@@ -21,6 +23,30 @@ class technetSpider(Spider):
             sys.exit(0)
         self.totalCount = 0
         self.number = 0
+
+
+    def MySQL_connect(self):
+        try:
+            self.con = mdb.connect('localhost', 'Behzad', '1234', 'vulnerabilities')
+            self.cur = self.con.cursor()
+            self.cur.execute("DROP TABLE IF EXISTS %s" %self.name)
+            wordFields = ""
+            for keyword in self.keywords:
+                wordFields += ", %s SMALLINT" %keyword
+            print wordFields
+            self.cur.execute("CREATE TABLE %s(ID INT PRIMARY KEY AUTO_INCREMENT, Title VARCHAR(100), URL VARCHAR(100) %s)" %(self.name, wordFields))
+            #self.cur.execute("CREATE TABLE %s(ID INT PRIMARY KEY AUTO_INCREMENT, Title VARCHAR(100), URL VARCHAR(100), vulnerability SMALLINT)" %(self.name))
+            self.cur.execute("SELECT VERSION()")
+            ver = self.cur.fetchone()
+            print "Database Version : %s" %ver
+        except mdb.Error, e:
+            print "Error %d : %s" %(e.args[0], e.args[1])
+            sys.exit(1)
+
+
+    def MySQL_exit(self):
+        if self.con:
+            self.con.close()
 
 
     def ConfigSettings(self):
@@ -67,6 +93,14 @@ class technetSpider(Spider):
                 flag = True
         if flag:
             self.write_to_file(response, keywords_dict)
+            count_fields = ""
+            count_values = ""
+            for p in keywords_dict.items():
+                count_fields += ", %s" %p[0]
+                count_values += ", \"%d\"" %p[1]
+            self.cur.execute("INSERT INTO %s(Title, URL %s) VALUES (\"%s\", \"%s\" %s)" %(self.name, count_fields, self.getTitle(), response.url, count_values))
+            #self.cur.execute("INSERT INTO %s(%s) VALUES (\"%d\")" %(self.name, p[0], p[1]))
+            self.con.commit()
         for link in self.link_xpaths:
             for url in self.sel.xpath(link[1]).extract():
                 yield Request(link[0]+url, callback = self.parse) 
@@ -106,3 +140,6 @@ class technetSpider(Spider):
         if title:
             return title[0]
         return ''
+
+    def __del__(self):
+        self.MySQL_exit()

@@ -1,12 +1,112 @@
-1)Django 'is_safe_url()' Function Cross Site Scripting Vulnerability
-http://www.securityfocus.com/bid/61777
-django : 1 
+1)Multiple IBM DB2 Products CVE-2014-0907 Local Privilege Escalation Vulnerability
+http://www.securityfocus.com/bid/67617
+vulnerability : 1 
 
-2)Django User Account Enumeration Information Disclosure Vulnerability
-http://www.securityfocus.com/bid/61385
-django : 1 
+2)IBM Security Access Manager for Web CVE-2014-0963 Remote Denial of Service Vulnerability
+http://www.securityfocus.com/bid/67238
+vulnerability : 1 
 
-3)Django Multiple Remote Vulnerabilities
-http://www.securityfocus.com/bid/46296
-django : 1 
+3)Oracle Java SE CVE-2014-0428 Remote Security Vulnerability
+http://www.securityfocus.com/bid/64935
+vulnerability : 1 
+
+4)Oracle Java SE CVE-2013-5783 Remote Security Vulnerability
+http://www.securityfocus.com/bid/63154
+vulnerability : 1 
+
+5)Oracle Java SE CVE-2013-5817 Remote Security Vulnerability
+http://www.securityfocus.com/bid/63146
+vulnerability : 1 
+
+6)Oracle Java SE CVE-2013-5824 Remote Security Vulnerability
+http://www.securityfocus.com/bid/63139
+vulnerability : 1 
+
+7)Sendmail NULL Character CA SSL Certificate Validation Security Bypass Vulnerability
+http://www.securityfocus.com/bid/37543
+vulnerability : 1 
+
+8)Oracle Java SE CVE-2013-5802 Remote Security Vulnerability
+http://www.securityfocus.com/bid/63135
+vulnerability : 1 
+
+9)TYPO3 Unspecified PHP Object Injection Vulnerability
+http://www.securityfocus.com/bid/67630
+vulnerability : 1 
+
+10)GnuTLS CVE-2014-0092 Certificate Validation Security Bypass Vulnerability
+http://www.securityfocus.com/bid/65919
+vulnerability : 1 
+
+11)TYPO3 HTTP Host Header Spoofing Vulnerability
+http://www.securityfocus.com/bid/67626
+vulnerability : 1 
+
+12)TYPO3 ExtJS 'flash file' Cross Site Scripting Vulnerability
+http://www.securityfocus.com/bid/67623
+vulnerability : 1 
+
+13)TYPO3 Backend Subcomponent Unspecified Cross Site Scripting Vulnerability
+http://www.securityfocus.com/bid/67625
+vulnerability : 1 
+
+14)TYPO3 Authentication Subcomponent Security Bypass Vulnerability
+http://www.securityfocus.com/bid/67627
+vulnerability : 1 
+
+15)TYPO3 Extbase Framework Information Disclosure Vulnerability
+http://www.securityfocus.com/bid/67624
+vulnerability : 1 
+
+16)Apache Struts ClassLoader Manipulation CVE-2014-0114 Security Bypass Vulnerability
+http://www.securityfocus.com/bid/67121
+vulnerability : 1 
+
+17)TYPO3 Session Hijacking Vulnerability
+http://www.securityfocus.com/bid/67629
+vulnerability : 1 
+
+18)Oracle Java SE CVE-2013-5825 Remote Security Vulnerability
+http://www.securityfocus.com/bid/63101
+vulnerability : 1 
+
+19)Oracle Java SE CVE-2013-5849 Remote Security Vulnerability
+http://www.securityfocus.com/bid/63106
+vulnerability : 1 
+
+20)GNU Libtasn1 'asn1_read_value_type()' Function Denial of Service Vulnerability
+http://www.securityfocus.com/bid/67748
+vulnerability : 1 
+
+21)GNU Libtasn1 CVE-2014-3468 Remote Code Execution Vulnerability
+http://www.securityfocus.com/bid/67745
+vulnerability : 1 
+
+22)GnuTLS  'gnutls_handshake.c' Memory Corruption Vulnerability
+http://www.securityfocus.com/bid/67741
+vulnerability : 1 
+
+23)Apache Struts ClassLoader Manipulation Incomplete Fix Security Bypass Vulnerability
+http://www.securityfocus.com/bid/67064
+vulnerability : 1 
+
+24)Apache Struts ClassLoader Manipulation CVE-2014-0094 Security Bypass Vulnerability
+http://www.securityfocus.com/bid/65999
+vulnerability : 1 
+
+25)policycoreutils seunshare CVE-2014-3215 Local Privilege Escalation Vulnerability
+http://www.securityfocus.com/bid/67341
+vulnerability : 1 
+
+26)Oracle Java SE TTF Font Parsing Remote Code Execution Vulnerability
+http://www.securityfocus.com/bid/64894
+vulnerability : 1 
+
+27)Apache Struts 'getClass()' Method Security Bypass Vulnerability
+http://www.securityfocus.com/bid/67081
+vulnerability : 1 
+
+28)Apache Struts 'CookieInterceptor' Security Bypass Vulnerability
+http://www.securityfocus.com/bid/67218
+vulnerability : 1 
 
