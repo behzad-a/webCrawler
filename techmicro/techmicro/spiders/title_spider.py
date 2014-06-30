@@ -52,7 +52,7 @@ class technetSpider(Spider):
     def ConfigSettings(self):
         self.start_urls = []
         config = ConfigParser.ConfigParser()
-        config.read("/home/behzad/scrapyproject/techmicro/spider_settings.ini")
+        config.read("./spider_settings.ini")
         if self.website not in config.sections():
             self.log('Website does not exist in spider_settings.ini')
             self.log('Program shutdown ...')
@@ -61,10 +61,10 @@ class technetSpider(Spider):
         self.start_urls.append(config.get(self.website, 'start_urls'))
         self.id_start = config.get(self.website, 'page_id_start')
         self.id_finish = config.get(self.website, 'page_id_finish')
-        self.id_finish = int(self.id_finish)
         self.prefix_id = config.get(self.website, 'prefix_id')
-        if self.id_start:
+        if self.id_start != '':
             self.id_exists = 1
+            self.id_finish = int(self.id_finish)
         else:
             self.id_exists = 0
         links = [x for x in config.options(self.website) if x.startswith('link_')]
@@ -108,31 +108,24 @@ class technetSpider(Spider):
                 count_values += ", \"%d\"" %p[1]
             self.cur.execute("INSERT INTO %s(Title, URL %s) VALUES (\"%s\", \"%s\" %s)" %(self.name, count_fields, self.getTitle(), response.url, count_values))            
             self.con.commit()
-        if not self.id_exists:
-            self.parseID(response)
-        else:
-            self.parseLINK(response)
+        if self.id_exists:
+            self.id_start = int(self.id_start)
+            self.id_start += 1
+            if self.id_start <= self.id_finish:
+                self.id_start = str(self.id_start)
+                yield Request(self.prefix_id+self.id_start, callback = self.parse, errback = self.http404)
+        else:            
+            for link in self.link_xpaths:
+                for url in self.sel.xpath(link[1]).extract():
+                    yield Request(link[0]+url, callback = self.parse) 
+
+
+    def http404(self, result):
         self.id_start = int(self.id_start)
         self.id_start += 1
         if self.id_start <= self.id_finish:
             self.id_start = str(self.id_start)
-            #print self.prefix_id+self.id_start
-            yield Request(self.prefix_id+self.id_start, callback = self.parse)
-
-
-    def parseID(self, response):
-        self.id_start = int(self.id_start)
-        self.id_start += 1
-        if self.id_start <= self.id_finish:
-            self.id_start = str(self.id_start)
-            print self.prefix_id+self.id_start
-            #yield Request(self.prefix_id+self.id_start, callback = self.parse)
-            
-
-    def parseLINK(self, response):
-        for link in self.link_xpaths:
-            for url in self.sel.xpath(link[1]).extract():
-                yield Request(link[0]+url, callback = self.parse) 
+            yield Request(self.prefix_id+self.id_start, callback = self.parse, errback = self.http404)
 
 
     def write_to_file(self, response, keywords_dict):
@@ -165,6 +158,8 @@ class technetSpider(Spider):
         self.search['title'] = self.sel.xpath(self.title_xpath).extract()
         title = self.search['title']
         if title:
+            title[0] = title[0].replace("'","")
+            title[0] = title[0].replace("\"","")
             return title[0]
         return ''
 
