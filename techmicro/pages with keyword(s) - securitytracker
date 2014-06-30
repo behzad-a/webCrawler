@@ -1,1460 +1,696 @@
-1)Sun Solaris pam_ldap.so.1 Pluggable Authentication Module Grants Access To Null Passwords
+1)Watchguard Firebox II VPN Feature (PPTP) Can Be Remotely Crashed
+http://www.securitytracker.com/id/1000939
+workaround : 1 
+
+2)Sun Solaris pam_ldap.so.1 Pluggable Authentication Module Grants Access To Null Passwords
 http://www.securitytracker.com/id/1000947
+workaround : 1 
+
+3)PHP-Nuke May Execute A Local User's Arbitrary Code
+http://www.securitytracker.com/id/1001152
+workaround : 1 
+
+4)Symantec (Axent) Raptor Firewall May Allow Unauthorized Access Through the Firewall Using the HTTP Protocol
+http://www.securitytracker.com/id/1001153
+workaround : 1 
+
+5)WebLogic Web Server By BEA Systems Allows Remote Users to Browse Web Directories
+http://www.securitytracker.com/id/1001161
 workaround : 2 
 
-2)O'Reilly's WebSite Pro Contains A Vulnerability That Reveals the Physical Path of the Web Directory to Remote Users
-http://www.securitytracker.com/id/1001121
+6)Kodak's Color Management System for Solaris Lets Local Users Obtain Root Privileges
+http://www.securitytracker.com/id/1001285
 workaround : 1 
 
-3)IBM's Consumer Transaction Framework Can Be Crashed By Remote Users
-http://www.securitytracker.com/id/1001134
-workaround : 1 
-
-4)Microsoft Internet Information Server (IIS) Web Server Discloses ASP Source Code When Installed on FAT-based Filesystem
-http://www.securitytracker.com/id/1001818
-workaround : 1 
-
-5)FreeBSD's rmuser User Management Script Discloses the Password File to Local Users
-http://www.securitytracker.com/id/1002320
-workaround : 1 
-
-6)Marconi ASX Series ATM Switches Allow Remote Users to Crash the Telnet Administrative Interface
-http://www.securitytracker.com/id/1002325
-workaround : 1 
-
-7)Vpopmail Mail Server Discloses Database Password to Local Users When Installed with MySQL
-http://www.securitytracker.com/id/1002324
-workaround : 1 
-
-8)Cisco Unified Communications Manager ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
-http://www.securitytracker.com/id/1029702
-workaround : 1 
-
-9)HP-UX NTP Unspecified Flaw Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1029597
-workaround : 1 
-
-10)Several Network Looking Glass Scripts Disclose Potentially Sensitive Information About the Network to Remote Users
-http://www.securitytracker.com/id/1002587
-workaround : 1 
-
-11)Microsoft Internet Explorer Has Fixed Security Zone for about: URLs and Has Shared Cookie Flaw That Diminishes Cross-Site Scripting Protections
-http://www.securitytracker.com/id/1002595
-workaround : 1 
-
-12)Network Associates WebShield SMTP Anti-Virus Gateway Fails to Block BadTrans Virus Due to Errors in Processing the MIME Header
-http://www.securitytracker.com/id/1002857
-workaround : 1 
-
-13)Microsoft Internet Explorer Popup Object Tag Flaw Lets Remote Users Execute Programs on the Browser's Host
-http://www.securitytracker.com/id/1003215
-workaround : 1 
-
-14)Powie's PHP Forum (PFORUM) Web Board Authentication Flaw Lets Remote Users Login as Any Other User
-http://www.securitytracker.com/id/1003576
-workaround : 1 
-
-15)Black Tie Project Web Portal Software Discloses Web Document Directory Installation Path to Remote Users
-http://www.securitytracker.com/id/1003819
-workaround : 1 
-
-16)Microsoft Internet Explorer (IE) 6 Lets Remote Users Cause Files to Be Downloaded and Executed Without the Knowledge or Consent of the Victim
-http://www.securitytracker.com/id/1003839
-workaround : 1 
-
-17)phpBB Relative Include Path Bug Lets Remote Users Execute Arbitrary PHP on the Server
-http://www.securitytracker.com/id/1003843
-workaround : 1 
-
-18)IBM AIX Parallel Systems Support Program (PSSP) Lets Local Users Access Sensitive Configuration Files
-http://www.securitytracker.com/id/1003945
+7)PGP's Use of Split Keys and Caching Can Allow Unauthorized Local Users to Encrypt, Decrypt, or Sign Files and Messages
+http://www.securitytracker.com/id/1001286
 workaround : 2 
 
-19)Solaris XSun Xserver '-co' Command Line Buffer Overflow Lets Local Users Obtain Root Privileges
-http://www.securitytracker.com/id/1003942
-workaround : 1 
-
-20)Macromedia ColdFusion Web Application Server Allows Remote Users to Conduct Cross-Site Scripting Attacks to Steal Authentication Cookies
-http://www.securitytracker.com/id/1004054
-workaround : 1 
-
-21)IBM Lotus Domino Web Server Buffer Overflow During Authentication May Let Remote Users Crash the Web Server
-http://www.securitytracker.com/id/1004052
-workaround : 1 
-
-22)Microsoft Internet Explorer (IE) 'dialogArguments' Flaw Lets Remote Users Conduct Cross-Site Scripting Attacks Against IE Users
-http://www.securitytracker.com/id/1004079
-workaround : 1 
-
-23)Sun Solaris 'cachefsd' Cached NFS File System Daemon Can Be Crashed By Remote Users Sending RPC Requests Containing Invalid Procedure Calls and May Allow Remote Users to Execute Arbitrary Code on the System With Root Privileges
-http://www.securitytracker.com/id/1004185
-workaround : 2 
-
-24)Sun Solaris 'cachefsd' Mount Buffer Overflow Lets Local Users Gain Root Privileges
-http://www.securitytracker.com/id/1004190
-workaround : 1 
-
-25)SGI IRIX Operating System 'ipfilterd' Configuration Error Lets Local Users Disrupt Network Traffic
-http://www.securitytracker.com/id/1004195
-workaround : 1 
-
-26)Sun Solaris 'lbxproxy' Display Name Buffer Overflow Lets Local Users Obtain Root Group Privileges
-http://www.securitytracker.com/id/1004191
-workaround : 1 
-
-27)Sun Solaris 'admintool' Installation Path Buffer Overflow Lets Local Users Execute Arbitrary Code with Root Privileges
-http://www.securitytracker.com/id/1004192
-workaround : 1 
-
-28)Cisco ACNS Content Software (Running on Cache Engines and Content Engines) May Let Remote Users Open Unauthorized Connections to Arbitrary Ports and Addresses
-http://www.securitytracker.com/id/1004298
+8)The Vim Text Editor Allows Local Users to Obtain Escalated Privileges
+http://www.securitytracker.com/id/1001288
 workaround : 3 
 
-29)FreeBSD /etc/rc Startup Script Unsafely Deletes Temporary Files When Booting, Allowing Local Users to Cause Arbitrary Directory Contents to Be Deleted
-http://www.securitytracker.com/id/1004406
+9)Midnight Commander File Management Utility May Let Local Users Escalate Their Privileges
+http://www.securitytracker.com/id/1001287
+workaround : 4 
+
+10)Sun's XSun X.11 Server for Solaris Gives Local Users Root-Level Privileges
+http://www.securitytracker.com/id/1001291
 workaround : 1 
 
-30)FreeBSD Kernel Bug in 'accept_filtering()' Function Allows Remote Users to Cause Denial of Service Conditions
-http://www.securitytracker.com/id/1004405
+11)IBM Domino Server Can Be Crashed Via the Network
+http://www.securitytracker.com/id/1001294
+workaround : 1 
+
+12)FreeBSD bsnmpd Stack Overflow Lets Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1029616
 workaround : 2 
 
-31)Sun Ray Server With Non-Smartcard Mobility Feature May Allow Remote Users with XDMCP Clients to Login to an Arbitrary Users' Sun Ray Server Account
-http://www.securitytracker.com/id/1004425
-workaround : 1 
-
-32)HP-UX Samba Common Internet File System (CIFS) Client Buffer Overflow May Let Local Users Obtain Elevated Privileges on the System
-http://www.securitytracker.com/id/1004624
-workaround : 1 
-
-33)OpenSSH Integer Overflow and Buffer Overflow May Allow Remote Users to Gain Root Access to the System
-http://www.securitytracker.com/id/1004616
-workaround : 1 
-
-34)Slashcode 'Slash' Forum Input Validation Bug Lets Remote Users Conduct Cross-Site Scripting Attacks Against Slash Users
-http://www.securitytracker.com/id/1004678
-workaround : 1 
-
-35)Inktomi Traffic Edge Caching Server Buffer Overflow Lets Local Users Execute Arbitrary Code with Root Privileges
-http://www.securitytracker.com/id/1004691
-workaround : 1 
-
-36)Inktomi Traffic Server Network Cache Buffer Overflow Lets Local Users Execute Arbitrary Code with Root Privileges
-http://www.securitytracker.com/id/1004690
-workaround : 1 
-
-37)Lotus Domino Web Server R4 May Disclose Files in the Web Root Directory to Remote Users Via URL Requests Ending With a Question Mark
-http://www.securitytracker.com/id/1004694
-workaround : 1 
-
-38)Sun Solaris Operating System Bug in '/dev/poll' May Let Local Users Cause a Kernel Panic
-http://www.securitytracker.com/id/1004695
+13)Xen AMD CPU Bug May Let Local Guest Users Deny Service on the Host System
+http://www.securitytracker.com/id/1029415
 workaround : 2 
 
-39)Sun Virtual Network Computing Software (SUNWspvnc) for Sun's PCi Card Discloses the VNC Password to Remote Users, Offering System Access to Remote Users
-http://www.securitytracker.com/id/1004698
-workaround : 1 
-
-40)ZyXEL Prestige Router Management Ports Can Be Crashed By Remote Users Sending Malformed Packets with TCP SYN and ACK Flags Both Set
-http://www.securitytracker.com/id/1004557
-workaround : 1 
-
-41)Zeroboard Web Forum Software Lets Remote Users Execute Arbitrary PHP on the Server
-http://www.securitytracker.com/id/1004553
-workaround : 1 
-
-42)PHP Address Allows Remote Users to Execute Arbitrary PHP Code on the Server.
-http://www.securitytracker.com/id/1004560
-workaround : 1 
-
-43)phpBB Input Validation Error in 'install.php' Lets Remote Users Execute Arbitrary PHP Code and System Commands on the Server
-http://www.securitytracker.com/id/1004564
-workaround : 1 
-
-44)Cisco ONS Optical Transport Platform Timing Control Card Can Be Continually Reset By Remote Users, Causing Denial of Service
-http://www.securitytracker.com/id/1004591
-workaround : 1 
-
-45)Adobe Acrobat Reader for Linux Uses Unsafe Temporary Files
-http://www.securitytracker.com/id/1004606
-workaround : 1 
-
-46)SGI IRIX 'rpc.passwd' Utility May Allow Remote Users to Gain Root Privileges on the Operating System
-http://www.securitytracker.com/id/1004459
-workaround : 1 
-
-47)Telindus 11xx Routers Disclose the Admin Password to Remote Users and Also Let Remote Users Gain Administrative Control
-http://www.securitytracker.com/id/1004477
-workaround : 1 
-
-48)Microsoft Internet Explorer May Execute Remotely Supplied Scripting in the My Computer Zone if FTP Folder Viewing is Enabled
-http://www.securitytracker.com/id/1004479
-workaround : 1 
-
-49)Sun AnswerBook2 'gettransbitmap' Buffer Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1004333
-workaround : 1 
-
-50)SSH May Allow Authorized Remote Users to Bypass Server Authentication Configuration Settings and Login Using Passwords When the Server is Configured to Prohibit the Use of Passwords
-http://www.securitytracker.com/id/1004340
-workaround : 2 
-
-51)New Atlanta Communications ServletExec/ISAPI Java Server Can Be Crashed By Remote Users and Discloses the Directory Path and Files in the Web Root Directory to Remote Users
-http://www.securitytracker.com/id/1004354
-workaround : 1 
-
-52)Microsoft Date Engine (MSDE) Default Configuration Leaves Blank Password for System Administrator Account
-http://www.securitytracker.com/id/1004361
-workaround : 1 
-
-53)Cisco Broadband Operating System (CBOS) for Cisco 600 Series DSL Routers Lets Remote Users Crash the Routers
-http://www.securitytracker.com/id/1004363
-workaround : 1 
-
-54)Sendmail Default File Permissions and Configuration Allows Local Users to Deny Service to Sendmail
-http://www.securitytracker.com/id/1004368
-workaround : 1 
-
-55)Linux Netfilter Firewall Has ICMP Address Translation Bug That Leaks Internal Address and Port Number Data to Remote Users
-http://www.securitytracker.com/id/1004240
-workaround : 1 
-
-56)Novel Border Manager Firewall Can Be Crashed By Remote Users Sending Specially Crafted Packets to the FTP Proxy, IP/IPX Gateway, or RTSP Proxy Ports
-http://www.securitytracker.com/id/1004241
-workaround : 1 
-
-57)SGI 'fsr_xfs' XFS Filesystem Reorganizer May Let Local Users Obtain Root Access
-http://www.securitytracker.com/id/1004258
-workaround : 2 
-
-58)Network Associates PGP 'Wipe Deleted Files' Option Fails to Wipe Clear Text Temporary Files Used by the Windows 2000 Encrypted File System Feature
-http://www.securitytracker.com/id/1004259
-workaround : 1 
-
-59)Macromedia ColdFusion Server Discloses Installation Path to Remote Users
-http://www.securitytracker.com/id/1004099
-workaround : 1 
-
-60)'Chanserv' Services in Many Internet Relay Chat (IRC) Servers 'De-op' Users Too Slowly, Allowing Remote Users to Potentially Cause Denial of Service Conditions
-http://www.securitytracker.com/id/1004102
-workaround : 1 
-
-61)Microsoft Internet Explorer Web Browser Can Be Crashed By Remote Users With OLE OBJECT Element Dependency Loops
-http://www.securitytracker.com/id/1004121
-workaround : 1 
-
-62)Slrnpull News Retrieval Application Buffer Overflow in Spool Directory Option May Allow Local Users to Obtain Elevated Privileges
-http://www.securitytracker.com/id/1004126
-workaround : 1 
-
-63)LabVIEW Test and Measurement Software Can Be Crashed By Remote Users
-http://www.securitytracker.com/id/1004136
-workaround : 1 
-
-64)Sudo Utility Has Heap Overflow That May Let Local Users Execute Arbitrary Code with Root Privileges
-http://www.securitytracker.com/id/1004152
-workaround : 1 
-
-65)Sun Solaris 'admintool' Buffer Overflows Let Local Users Execute Arbitrary Code to Gain Root Privileges
-http://www.securitytracker.com/id/1004180
-workaround : 1 
-
-66)SAP R/3 Default Installation Allows Remote Users to Access the Database Port and View, Write, and Modify Any SAP Data on the Server
-http://www.securitytracker.com/id/1004178
-workaround : 1 
-
-67)phpGroupWare Input Validation Flaw Lets Remote Users Execute Arbitrary SQL Queries and Take Control of the Underlying Database
-http://www.securitytracker.com/id/1003965
-workaround : 1 
-
-68)Oracle Configurator Filtering Holes Let Remote Users Conduct Cross-Site Scripting Attacks Against Configurator Users to Obtain Sensitive Information
-http://www.securitytracker.com/id/1003967
-workaround : 2 
-
-69)Cisco Aironet Wireless Devices Have an Unspecified Flaw in the Telnet Access Daemon That Lets Remote Users Cause Denial of Service Conditions
-http://www.securitytracker.com/id/1004004
-workaround : 1 
-
-70)Microsoft Windows 2000 Group Policy Object Enforcement Can Be Circumvented if User License Limits are Exceeded
-http://www.securitytracker.com/id/1004022
-workaround : 1 
-
-71)WorkforceROI's Intellisol Xpede Expense Reporting Software Discloses Passwords to Remote and Local Users
-http://www.securitytracker.com/id/1003883
-workaround : 1 
-
-72)Squid Proxy Caching Server Heap Overflow in Processing Compressed DNS Responses Could Allow Remote DNS Servers to Crash the Service
-http://www.securitytracker.com/id/1003896
-workaround : 1 
-
-73)Citrix NFuse Web Publishing Server Sample Pages Allow Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1003908
-workaround : 1 
-
-74)Deerfield WebSite Pro Windows-based Web Server May Disclose CGI Source Code to Remote Users in Certain Cases
-http://www.securitytracker.com/id/1004350
-workaround : 1 
-
-75)Caldera OpenLinux Name Service Cache Daemon (ncsd) Flaw May Let Users Spoof the DNS and Bypass Security Checks
-http://www.securitytracker.com/id/1003929
-workaround : 1 
-
-76)Xen Qemu Guest Agent Insecure File Permissions Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1028521
-workaround : 1 
-
-77)Apple iPhone Bug Lets Local Users Bypass the Lock Screen to Access the Phone Application
-http://www.securitytracker.com/id/1028326
-workaround : 1 
-
-78)ISC BIND DNS64 and Response Policy Zones (RPZ) Bug Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1028046
-workaround : 1 
-
-79)Symantec Endpoint Protection CAB File Processing Flaw Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1027726
-workaround : 1 
-
-80)FreeRADIUS Lets Remote Users Bypass OCSP Certificate Validation Using Expired Certificates
-http://www.securitytracker.com/id/1025833
-workaround : 1 
-
-81)HP MFP Digital Sending Software Lets Local Users Disable Authentication
-http://www.securitytracker.com/id/1025155
-workaround : 1 
-
-82)HP StorageWorks X9000 Expired Password Accounts Can Be Accessed By Remote Users
-http://www.securitytracker.com/id/1025031
-workaround : 1 
-
-83)CA ARCserve D2D Axis2 Default Account Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1024929
-workaround : 1 
-
-84)Adobe Reader and Acrobat '/launch' Command Warning Dialog Message Can Be Modified By Remote Users
-http://www.securitytracker.com/id/1023828
-workaround : 1 
-
-85)Cisco Spam & Virus Blocker Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023398
-workaround : 1 
-
-86)Cisco IronPort Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023399
-workaround : 1 
-
-87)Cisco Wide Area Application Services Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023270
-workaround : 1 
-
-88)Cisco Application Networking Manager Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023271
-workaround : 1 
-
-89)Cisco Unified SIP Phones Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023272
-workaround : 1 
-
-90)Cisco Unified Contact Center Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023274
-workaround : 1 
-
-91)Cisco Security Agent Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023275
-workaround : 1 
-
-92)Cisco ONS Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023273
-workaround : 1 
-
-93)Citrix Products Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023163
-workaround : 1 
-
-94)Symantec WinFax Buffer Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1022147
-workaround : 1 
-
-95)Blue Coat ProxySG Host Header Processing May Let Remote Users Bypass Security Restrictions
-http://www.securitytracker.com/id/1021781
-workaround : 1 
-
-96)Check Point VPN-1 Address Translation Function Discloses Internal IP Addresses to Remote Users
-http://www.securitytracker.com/id/1021273
-workaround : 1 
-
-97)Cisco Unity Discloses Reports to Local and Remote Authenticated Users
-http://www.securitytracker.com/id/1021022
-workaround : 1 
-
-98)Apple Mail Stores Draft S/MIME E-mails in Clear Text
-http://www.securitytracker.com/id/1021019
-workaround : 1 
-
-99)IBM Rational Build Forge Port State Error Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1019964
-workaround : 1 
-
-100)Sun SPARC Enterprise T5120 and T5220 Default Configuration Permits Remote Root Command Execution
-http://www.securitytracker.com/id/1019708
-workaround : 1 
-
-101)McAfee ePolicy Orchestrator Format String Bug Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1019609
-workaround : 1 
-
-102)Cisco Unified Wireless IP Phone 7921 Does Not Validate Sever Certificates When Using PEAP
-http://www.securitytracker.com/id/1019494
-workaround : 1 
-
-103)HP-UX Ignite-UX/DynRootDisk get_system_info Command Bug Lets Local Users Modify the Network Configuration
-http://www.securitytracker.com/id/1018607
-workaround : 1 
-
-104)wzdftpd Unspecified Bug Lets Remote Users Cause Denial of Service Conditions
-http://www.securitytracker.com/id/1017537
-workaround : 1 
-
-105)Cyberfolio Include File Bug in 'av' Parameter Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1017175
-workaround : 1 
-
-106)IBM Lotus Notes Lets Local Users Modify Critical Files
-http://www.securitytracker.com/id/1017086
-workaround : 1 
-
-107)Cisco IOS Default DOCSIS Community String May Grant Remote Users Access via SNMP
-http://www.securitytracker.com/id/1016899
-workaround : 1 
-
-108)TWiki Configuration Script TYPEOF Parameter Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1016603
-workaround : 1 
-
-109)IBM Lotus Notes Incorrect E-mail Address Book Entry May Cause Mail to Be Sent to the Wrong Recipient
-http://www.securitytracker.com/id/1015914
-workaround : 1 
-
-110)Blue Coat ProxySG Policy Error May Let Remote Users Bypass Default CONNECT Policy Rules
-http://www.securitytracker.com/id/1015644
-workaround : 2 
-
-111)APC PowerChute May Install a Vulnerable Version of JRE
-http://www.securitytracker.com/id/1015643
-workaround : 1 
-
-112)Cisco IOS EIGRP Bugs Let Remote Users Deny Service or Obtain Potentially Sensitive Information
-http://www.securitytracker.com/id/1015382
-workaround : 1 
-
-113)Cisco Adaptive Security Appliance Failover Bug Lets Remote Users Deny Service in Certain Conditions
-http://www.securitytracker.com/id/1015205
-workaround : 1 
-
-114)PowerChute Network Shutdown Uses a Non-Secure Web Interface
-http://www.securitytracker.com/id/1015250
-workaround : 1 
-
-115)Cisco PIX Firewall Lets Remote Users Block TCP Connections By Spoofing Packets with Invalid Checksums
-http://www.securitytracker.com/id/1015256
+14)IBM AIX Buffer Overflows in Printer Commands Let Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1029124
 workaround : 3 
 
-116)Cisco IOS HTTP Server Input Validation Hole in Buffers Command Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1015275
+15)Cisco IOS XR UDP Memory Error Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029123
 workaround : 1 
 
-117)Help Desk 'install.php' Script Grants Remote Users Administrative Access
-http://www.securitytracker.com/id/1015307
-workaround : 1 
-
-118)Total Commander Weak Encryption Algorithm Lets Local Users Obtain FTP Passwords
-http://www.securitytracker.com/id/1015311
-workaround : 1 
-
-119)Flash Media Server Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1015346
-workaround : 1 
-
-120)BusinessObjects Web Intelligence Lets Remote Users Lock Out Arbitrary Accounts
-http://www.securitytracker.com/id/1015355
-workaround : 1 
-
-121)Portfolio NetPublish Input Validation Hole Lets Remote Users Traverse the Directory
-http://www.securitytracker.com/id/1015393
-workaround : 1 
-
-122)VMware Flaw in NAT Function Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1015401
-workaround : 1 
-
-123)Microsoft Windows Unspecified WMF Rendering Bug Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1015416
+16)FreeBSD Kernel sendfile(2) Discloses Kernel Memory Contents to Local Users
+http://www.securitytracker.com/id/1029013
 workaround : 2 
 
-124)Open-Xchange Web Mail Input Validation Hole Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1015431
-workaround : 1 
-
-125)SimpBook Input Validation Hole in Message Posting Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1015451
-workaround : 1 
-
-126)Microsoft Wireless Network Connection Software May Broadcast Ad-Hoc SSID Information in Certain Cases
-http://www.securitytracker.com/id/1015489
+17)FreeBSD Network ioctl(2) Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1029014
 workaround : 2 
 
-127)Red Hat Certificate Server Buffer Overflow in Help System May Let Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1015538
-workaround : 1 
-
-128)Oracle AS PLSQL Gateway PLSQLExclusion List Bug Lets Remote Users Gain Access to the Target Database
-http://www.securitytracker.com/id/1015544
+18)FreeBSD Kernel nullfs(5) Cross-Mount Links May Let Local Users Bypass Access Controls
+http://www.securitytracker.com/id/1029015
 workaround : 2 
 
-129)Lexmark Printer Sharing Service Lets Remote Users Execute Arbitrary Code on the Target User's System
-http://www.securitytracker.com/id/1015593
-workaround : 1 
-
-130)QNX RTOS Unspecified Bug Lets Local Users Deny Service and 'rc.local' Configuration Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1015598
-workaround : 1 
-
-131)Apple Safari Lets Remote Users Cause Shell Code to Be Executed by the Target User
-http://www.securitytracker.com/id/1015652
-workaround : 1 
-
-132)HP System Management Homepage Unspecified Bug Lets Remote Users Traverse the Directory
-http://www.securitytracker.com/id/1015692
-workaround : 1 
-
-133)Microsoft Internet Explorer createTextRange() Memory Error Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1015812
-workaround : 1 
-
-134)HP System Management Homepage Lets Remote Users Bypass Authentication
-http://www.securitytracker.com/id/1015901
-workaround : 1 
-
-135)Cisco Secure ACS May Disclose Administrator Passwords to Local or Remote Authenticated Users
-http://www.securitytracker.com/id/1016042
-workaround : 1 
-
-136)ICQ Bug May Let Remote Users Inject and Execute Scripting Code
-http://www.securitytracker.com/id/1016045
-workaround : 1 
-
-137)Microsoft Word Lets Remote Users Cause Arbitrary Code to Be Executed
-http://www.securitytracker.com/id/1016130
-workaround : 1 
-
-138)Microsoft Excel Memory Validation Flaw May Let Remote Users Cause Arbitrary Code to Be Executed
-http://www.securitytracker.com/id/1016316
-workaround : 1 
-
-139)Cisco Secure Access Control Server Session Authentication Weakness Lets Remote Users Hijack Management Sessions
-http://www.securitytracker.com/id/1016369
-workaround : 1 
-
-140)Cisco Wireless Control System Lets Remote Users Read/Write Files, View Sensitive Information, Access the Systems, and Conduct Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1016398
-workaround : 1 
-
-141)[Duplicate Entry] Sun Java System Messaging Server May Disclose Portions of Files to Local Users
-http://www.securitytracker.com/id/1016416
-workaround : 1 
-
-142)eBay Picture Manager Buffer Overflow in EPUImageControl Object Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1016445
-workaround : 1 
-
-143)VMware May Fail to Set Safe SSL Key File Permissions
-http://www.securitytracker.com/id/1016536
-workaround : 1 
-
-144)Solaris netstat/ifconfig Race Condition May Let Local Users Deny Service
-http://www.securitytracker.com/id/1016690
-workaround : 1 
-
-145)Java Plug-in May Let Remote Users Exploit Old Vulnerabilities
-http://www.securitytracker.com/id/1016732
-workaround : 1 
-
-146)CR64Loader ActiveX Control Buffer Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1016781
-workaround : 1 
-
-147)Microsoft Internet Explorer VML Buffer Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1016879
-workaround : 1 
-
-148)PHP Race Condition Lets Users Bypass open_basedir Restrictions
-http://www.securitytracker.com/id/1016977
-workaround : 1 
-
-149)Cisco Secure Desktop May Let Local Users Access Data Via Windows Operating System Files
-http://www.securitytracker.com/id/1017018
-workaround : 1 
-
-150)Adobe Contribute Publishing Server Discloses Administrative Password to Local Users
-http://www.securitytracker.com/id/1017038
-workaround : 1 
-
-151)D-Link DWL-G132 Wireless USB Adapter Stack Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1017215
-workaround : 1 
-
-152)Kerio WebSTAR Lets Certain Local Users Gain Root Privileges
-http://www.securitytracker.com/id/1017239
-workaround : 1 
-
-153)LBlog Discloses Database to Remote Users
-http://www.securitytracker.com/id/1017462
-workaround : 1 
-
-154)Adobe Acrobat Reader Plugin Bugs Let Remote Users Deny Service, Conduct Cross-Site Scripting Attacks, and Execute Arbitrary Code
-http://www.securitytracker.com/id/1017469
-workaround : 1 
-
-155)Eudora WorldMail Mail Management Server Heap Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1017474
-workaround : 1 
-
-156)webMethods Glue 'resource' Parameter Lets Remote Users Traverse the Directory
-http://www.securitytracker.com/id/1017926
+19)NetBSD BPF Buffer Size Processing Lets Local Users Deny Service
+http://www.securitytracker.com/id/1029021
 workaround : 2 
 
-157)CA BrightStor ARCserve 'Mediasvr.exe' and 'caloggerd.exe' Can Be Crashed By Remote Users
-http://www.securitytracker.com/id/1018076
+20)FreeBSD SCTP Discloses Portions of Kernel Memory Contents to Remote Users
+http://www.securitytracker.com/id/1028940
 workaround : 2 
 
-158)Adobe Version Cue Disables Mac OS X Firewall
-http://www.securitytracker.com/id/1018075
-workaround : 1 
-
-159)Microsoft GDI Buffer Overflow Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1018563
-workaround : 1 
-
-160)Symantec Enterprise Firewall Discloses Username Validity to Remote Users
-http://www.securitytracker.com/id/1018578
-workaround : 1 
-
-161)Autodesk Backburner cmdjob Utility Lets Remote Users Execute Arbitrary Commands
-http://www.securitytracker.com/id/1018686
-workaround : 1 
-
-162)Adobe Reader Unspecified Bug Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1018723
-workaround : 1 
-
-163)IBM WebSphere Application Server API Grants Access to Remote Users
-http://www.securitytracker.com/id/1018877
-workaround : 1 
-
-164)Norton Anti-Virus for Macintosh Mount Scan Feature Lets Local Users Gain Root Privileges
-http://www.securitytracker.com/id/1018889
-workaround : 1 
-
-165)Symantec Anti Virus for Macintosh Mount Scan Feature Lets Local Users Gain Root Privileges
-http://www.securitytracker.com/id/1018890
-workaround : 1 
-
-166)IBM Lotus Notes Buffer Overflows in Processing Lotus 1-2-3 Attachments Let Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1019002
-workaround : 1 
-
-167)Cisco Unified IP Phone Extension Mobility Feature Lets Remote Authenticated Users Eavesdrop
-http://www.securitytracker.com/id/1019006
-workaround : 1 
-
-168)IBM Lotus Notes for Linux Has Unsafe Folder Permissions Let Local Users Gain Root Privileges
-http://www.securitytracker.com/id/1019009
-workaround : 1 
-
-169)Microsoft Web Proxy Auto-Discovery Name Server Resolution Bug Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1019033
-workaround : 1 
-
-170)Apache Input Validation Hole in Default HTTP 413 Error Page Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1019030
-workaround : 1 
-
-171)Cisco Application Velocity System Default Password Lets Remote Users Access the System
-http://www.securitytracker.com/id/1019259
-workaround : 1 
-
-172)IBM WebSphere Edge Server Input Validation Hole in CGI Mapping Error Page Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1019315
-workaround : 1 
-
-173)Novell eDirectory eMBox Bug Lets Remote Users View Files and Deny Service
-http://www.securitytracker.com/id/1019691
-workaround : 1 
-
-174)Xerox DocuShare Input Validation Hole Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1020147
-workaround : 1 
-
-175)Fujitsu Interstage Input Validation Flaw Lets Remote Users View and Delete Files
-http://www.securitytracker.com/id/1020235
-workaround : 1 
-
-176)QNX Stack Overflow in phgrafx Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1020411
-workaround : 1 
-
-177)Oracle WebLogic Apache Connector Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1020520
-workaround : 1 
-
-178)Microsoft Internet Explorer DHTML Data Binding Invalid Pointer Reference Bug Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1021381
+21)FreeBSD Integer Overflow in IP_MSFILTER Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1028939
 workaround : 2 
 
-179)Solaris Secure Shell CBC Mode Error Handling May Let Certain Remote Users Obtain Plain Text in Certain Cases
-http://www.securitytracker.com/id/1021382
+22)Cisco Unified Communications Manager IM and Presence Service Memory Leak Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028937
 workaround : 1 
 
-180)Microsoft SQL Server Heap Overflow Lets Remote Authenticated Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1021490
-workaround : 3 
-
-181)GE Fanuc iFIX Discloses Passwords to Local Users and to Remote Users Monitoring the Network
-http://www.securitytracker.com/id/1021733
+23)FreeBSD nfsserver Privilege Validation Flaw Lets Remote Authenticated Users Bypass Security Controls
+http://www.securitytracker.com/id/1028840
 workaround : 1 
 
-182)IBM Lotus Notes Buffer Overflows in File Viewer for WordPerfect Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1021859
+24)Cisco Network Admission Control Input Validation Flaw Lets Remote Users Inject SQL Commands
+http://www.securitytracker.com/id/1028451
 workaround : 1 
 
-183)HP Storage Essentials Secure NaviCLI Bug Grants Access to Remote Users
-http://www.securitytracker.com/id/1022084
+25)Cisco TelePresence H.264 Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028450
 workaround : 1 
 
-184)Cisco IOS XR BGP Update Processing Flaw Lets Remote BGP Peers Deny Service
-http://www.securitytracker.com/id/1022739
+26)Cisco IOS Zone-Based Policy Firewall SIP Inspection Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028351
 workaround : 1 
 
-185)Sun Java System Web Server Discloses JSP Source Code to Remote Users
-http://www.securitytracker.com/id/1022511
+27)Cisco IOS VRF Network Address Translation Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028349
 workaround : 1 
 
-186)Adobe Photoshop Elements Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1022963
+28)Cisco IOS Protocol Translation Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028352
 workaround : 1 
 
-187)Cisco IOS Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023148
+29)Cisco IOS Internet Key Exchange Memory Leak Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028353
 workaround : 1 
 
-188)OpenSSL Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023145
+30)Cisco IOS Resource Reservation Protocol (RSVP) Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028355
 workaround : 1 
 
-189)Cisco ASA Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023204
+31)Cisco IOS Smart Install Packet Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028354
 workaround : 1 
 
-190)Cisco Application Control Engine Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023205
+32)Cisco Unified Presence Packet Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028219
 workaround : 1 
 
-191)Cisco Wireless LAN Controller Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023208
-workaround : 1 
-
-192)CiscoWorks Wireless LAN Solution Engine (WLSE)  Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023206
-workaround : 1 
-
-193)Cisco Secure Access Control Server Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023209
-workaround : 1 
-
-194)Cisco Wireless Control System Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023207
-workaround : 1 
-
-195)Cisco Application Velocity System Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023211
-workaround : 1 
-
-196)Cisco Digital Media Media Player and Digital Media Manager Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023213
-workaround : 1 
-
-197)CiscoWorks Common Services Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023210
-workaround : 1 
-
-198)Cisco Telepresence Recording Server Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023212
-workaround : 1 
-
-199)Cisco Wireless Location Appliance Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023214
-workaround : 1 
-
-200)Cisco NX-OS Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023215
-workaround : 1 
-
-201)Cisco Video Surveillance Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023217
-workaround : 1 
-
-202)Content Services Switch Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023218
-workaround : 3 
-
-203)Cisco Content Switching Module Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023219
-workaround : 1 
-
-204)Cisco Firewall Services Module Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023216
-workaround : 1 
-
-205)Solaris Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023224
-workaround : 1 
-
-206)OpenBSD Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023243
-workaround : 1 
-
-207)Sun Java Enterprise System Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023261
-workaround : 1 
-
-208)Symantec Veritas NetBackup Manager Input Validation Flaw in VRTSweb Component Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1023312
-workaround : 1 
-
-209)Red Hat JBoss Enterprise Web Server Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023411
-workaround : 1 
-
-210)Sun Java System Web Proxy Server Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023427
-workaround : 1 
-
-211)Sun Java System Web Server Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023426
-workaround : 1 
-
-212)Sun GlassFish Enterprise Server/Sun Java Application Server SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023428
-workaround : 1 
-
-213)Microsoft Windows Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023571
-workaround : 1 
-
-214)Blue Coat PacketShaper Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023654
-workaround : 1 
-
-215)Blue Coat ProxySG Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1023655
-workaround : 1 
-
-216)VMware Server Input Validation Flaws in WebAccess Permit Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1023769
-workaround : 1 
-
-217)Windows Schannel Protocol Flaw in SSL Renegotiation May Let Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1024299
-workaround : 1 
-
-218)Novell ZENworks Common Management Password Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1024319
-workaround : 1 
-
-219)IBM WebSphere MQ Internet pass-thru Protocol Flaw in SSL Renegotiation Lets Remote Users Conduct Man-in-the-Middle Attacks
-http://www.securitytracker.com/id/1024789
-workaround : 1 
-
-220)VMware ESXi Update Installer SFCB Authentication Lets Remote Users Gain Access
-http://www.securitytracker.com/id/1024917
-workaround : 1 
-
-221)Microsoft Internet Explorer Recursive CSS Import Memory Corruption Error Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1024922
-workaround : 1 
-
-222)HP LoadRunner Unspecified Flaw Lets Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1024956
-workaround : 2 
-
-223)Blackberry Device Software Bug in WebKit Lets Remote Users Execute Code
-http://www.securitytracker.com/id/1025212
-workaround : 1 
-
-224)IBM Lotus Domino Server Controller Authentication Flaw Lets Remote Users Bypass Authentication and Execute Arbitrary Code
-http://www.securitytracker.com/id/1025241
-workaround : 1 
-
-225)Kaspersky Administration Kit Lets Remote Users Execute Arbitrary Code on SMB Scanned Hosts
-http://www.securitytracker.com/id/1025442
-workaround : 1 
-
-226)Cisco Network Registrar Default Credentials Grant Administrative Access to Remote Users
-http://www.securitytracker.com/id/1025589
-workaround : 1 
-
-227)Cisco Media Experience Engine Default Credentials Grant Root Access to Remote Users
-http://www.securitytracker.com/id/1025590
-workaround : 1 
-
-228)Hitachi Web Server Unspecified Directory Indexing Flaw Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1025678
-workaround : 1 
-
-229)BIG-IP ASM Input Validation Hole Permits Cross-Site Scripting Attacks
-http://www.securitytracker.com/id/1025750
-workaround : 1 
-
-230)Symantec NetBackup PureDisk Buffer Overflows in vxsvc Let Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1025927
-workaround : 1 
-
-231)Novell Access Manager Lets Remote Users Decrypt SSL/TLS Traffic
-http://www.securitytracker.com/id/1026434
-workaround : 1 
-
-232)Cisco WAP4410N Access Point WPS Protocol Flaw Lets Remote Users Conduct Brute Force WPS PIN Guessing Attacks to Access the Target Network
-http://www.securitytracker.com/id/1026565
-workaround : 1 
-
-233)Cisco Unified Communications UC320W WPS Protocol Flaw Lets Remote Users Conduct Brute Force WPS PIN Guessing Attacks to Access the Target Network
-http://www.securitytracker.com/id/1026566
-workaround : 1 
-
-234)Cisco Small Business RV Series WPS Protocol Flaw Lets Remote Users Conduct Brute Force WPS PIN Guessing Attacks to Access the Target Network
-http://www.securitytracker.com/id/1026568
-workaround : 1 
-
-235)Cisco Small Business SRP Series WPS Protocol Flaw Lets Remote Users Conduct Brute Force WPS PIN Guessing Attacks to Access the Target Network
-http://www.securitytracker.com/id/1026567
-workaround : 1 
-
-236)HP System Management Homepage Lets Remote Users Decrypt SSL/TLS Traffic
-http://www.securitytracker.com/id/1026646
-workaround : 1 
-
-237)Microsoft SharePoint Server Bugs in Oracle Outside In Libraries Let Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1027295
-workaround : 1 
-
-238)IBM Lotus Domino Input Validation Flaws Permit Cross-Site Scripting and Cross-Site Request Forgery Attacks
-http://www.securitytracker.com/id/1027418
-workaround : 1 
-
-239)SSH Tectia Server Bug in input_userauth_passwd_changereq() Lets Remote Users Gain Access to the Target System
-http://www.securitytracker.com/id/1027824
-workaround : 1 
-
-240)EMC Avamar Unsafe Directory Permissions Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1028021
-workaround : 1 
-
-241)Cisco NX-OS Nexus 7000 M1-Series Packet Processing Bug Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1028096
-workaround : 1 
-
-242)Van Dyke SecureCRT Discloses Password to Local Users
+33)Van Dyke SecureCRT Discloses Password to Local Users
 http://www.securitytracker.com/id/1028225
 workaround : 1 
 
-243)Apache Commons FileUpload Unsafe Temporary File Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1028252
+34)Cisco Prime LAN Management Solution Virtual Appliance Lets Remote Users Execute Commands With Root Privileges
+http://www.securitytracker.com/id/1027963
 workaround : 1 
 
-244)Cisco NX-OS Nexus 7000 Frame Forwarding Bug Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1028482
+35)Cisco Firewall Services Module Bugs Let Remote Users Execute Arbitrary Code and Deny Service
+http://www.securitytracker.com/id/1027640
 workaround : 1 
 
-245)IBM Rational Directory Server Error Message Flaw Discloses Potentially Sensitive Information to Remote Users
-http://www.securitytracker.com/id/1028596
+36)Cisco ASA Bugs Let Remote Users Deny Service and Execute Arbitrary Code
+http://www.securitytracker.com/id/1027641
 workaround : 1 
 
-246)Oracle VirtualBox 'tracepath' Bug Lets Local Guest Users Deny Service on the Target Host
-http://www.securitytracker.com/id/1028712
+37)Cisco Unified Presence and Jabber Extensible Communications Platform Stream Header Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027520
 workaround : 1 
 
-247)Phorum Bulletin Board Software Discloses the E-mail Addresses of the Ten Most Active Phorum Users to Remote Users
-http://www.securitytracker.com/id/1003720
+38)Cisco ASA-CX Context-Aware Security Appliance Logging Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027519
 workaround : 1 
 
-248)Draytek Vigor DSL Router Leaves Undocumented Management Port Open on the External (Internet-side) Interface
-http://www.securitytracker.com/id/1003734
+39)IBM AIX NFSv4 GID Enforcement Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027531
+workaround : 3 
+
+40)Cisco IOS DHCP Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027572
 workaround : 1 
 
-249)Microsoft SQL Server 'xp_dirtree' Buffer Overflow Lets Users Crash the Database Service
-http://www.securitytracker.com/id/1003744
+41)Cisco Catalyst Switch Unspecified Packet Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027573
 workaround : 1 
 
-250)PHP FirstPost Weblog Discloses Web Installation Directory to Remote Users
-http://www.securitytracker.com/id/1003809
+42)Cisco IOS SIP Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027575
 workaround : 1 
 
-251)Check Point FireWall-1 HTTP Proxy Bug Lets Remote Users Bypass Some Access Controls and Connect to Arbitrary Ports on Internal/Protected Hosts
-http://www.securitytracker.com/id/1003600
+43)Cisco Unified Communications Manager SIP Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027574
 workaround : 1 
 
-252)Novell GroupWise LDAP Authentication Configuration Error Lets Remote Users Access GroupWise Accounts Without Having to Supply a Password
-http://www.securitytracker.com/id/1003617
+44)Cisco IOS BGP Attribute Processing Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027576
 workaround : 1 
 
-253)PHP File Upload Bugs Let Remote Users Execute Arbitrary Code on a PHP-enabled Web Server
-http://www.securitytracker.com/id/1003676
+45)Cisco IOS on Cisco 10000 Series Tunneled Traffic Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027578
 workaround : 1 
 
-254)The Bat! E-mail Client MS-DOS Device Access Flaw Lets Remote Users Send Special E-mail to Cause the Recipient's E-mail Client to Crash
-http://www.securitytracker.com/id/1003678
+46)Cisco IOS Intrusion Prevention System DNS Processing Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027580
 workaround : 1 
 
-255)Cisco IOS-based Devices That Use Cisco Express Forwarding (CEF) May Leak Data from One Packet into Another Packet in Certain Situations
-http://www.securitytracker.com/id/1003677
+47)IBM AIX fuser Command Bug Lets Local Users Deny Service
+http://www.securitytracker.com/id/1027586
+workaround : 3 
+
+48)CA License Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1027588
 workaround : 1 
 
-256)Cisco IOS Group Encrypted Transport VPN Bug Lets Remote Users Bypass Encryption Policy
-http://www.securitytracker.com/id/1028810
+49)IBM AIX FTP Client Lets Remote Authenticated Users Access Restricted Files
+http://www.securitytracker.com/id/1027681
+workaround : 2 
+
+50)Cisco Unified MeetingPlace Web Conferencing Bugs Let Remote Users Inject SQL Commands and Deny Service
+http://www.securitytracker.com/id/1027713
 workaround : 1 
 
-257)Cisco Secure Access Control Server (ACS) Lets Remote Users With Novell Directory Service (NDS) 'Expired' or 'Disabled' Account Status Gain Access to Cisco Resources Managed By ACS
-http://www.securitytracker.com/id/1003467
+51)Cisco Secure Access Control System Password Validation Flaw Lets Remote Users Bypass TACACS+ Authentication
+http://www.securitytracker.com/id/1027733
 workaround : 1 
 
-258)Cisco Intrusion Prevention System Packet Processing Flaws Let Remote Users Deny Service
+52)FreeBSD hostapd Validation Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1027808
+workaround : 2 
+
+53)FreeBSD Input Validation Flaw in Linux Compatibility Layer Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1027809
+workaround : 2 
+
+54)CA XCOM Data Transport Unspecified Flaw Lets Remote Users Execute Arbitrary Commands
+http://www.securitytracker.com/id/1027842
+workaround : 1 
+
+55)VMware View Server Directory Traversal Flaw Discloses Files to Remote Users
+http://www.securitytracker.com/id/1027875
+workaround : 1 
+
+56)CA IdentityMinder Bugs Let Remote Users Execute Arbitrary Commands and Gain Elevated Privileges
+http://www.securitytracker.com/id/1027907
+workaround : 1 
+
+57)Ruby on Rails Input Validation Flaw in Active Record Extract Options Lets Remote Users Inject SQL Commands
+http://www.securitytracker.com/id/1027933
+workaround : 1 
+
+58)Cisco Wireless LAN Controller Bugs Let Remote Users Deny Service and Remote Authenticated Users Modify the Configuration and Execute Arbitrary Code
+http://www.securitytracker.com/id/1028027
+workaround : 1 
+
+59)Ruby on Rails Input Validation Flaw in JSON Parser Lets Remote Users Bypass Authentication, Inject SQL Commands, Execute Arbitrary Code, and Deny Service
+http://www.securitytracker.com/id/1028052
+workaround : 2 
+
+60)SAP NetWeaver Message Server Service Lets Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1028148
+workaround : 1 
+
+61)CA SiteMinder SAML XML Signature Verification Flaw Lets Remote Users Impersonate Other Users
+http://www.securitytracker.com/id/1028322
+workaround : 2 
+
+62)Sophos Web Protection Appliance Bugs Let Remote Users View Files and COnduct Cross-Site Scripting Attacks and Remote Authenticated Users Execute Arbitrary Commands
+http://www.securitytracker.com/id/1028386
+workaround : 2 
+
+63)Cisco ASA Multiple Bugs Let Remote Users Deny Service
+http://www.securitytracker.com/id/1028415
+workaround : 1 
+
+64)Cisco Firewall Services Module IKE and Auth-Proxy Bugs Let Remote Users Deny Service
+http://www.securitytracker.com/id/1028416
+workaround : 1 
+
+65)Cisco Unified MeetingPlace Let Remote Users Gain Access to the System
+http://www.securitytracker.com/id/1028417
+workaround : 1 
+
+66)Cisco Prime Network Control System Default Credentials Let Remote Users Modify the Configuration
+http://www.securitytracker.com/id/1028419
+workaround : 1 
+
+67)VMware vCenter Server Bugs Let Remote Users Bypass Authentication and Remote Authenticated Users Upload Arbitrary Files and Execute Files on the Target System
+http://www.securitytracker.com/id/1028475
+workaround : 2 
+
+68)FreeBSD NFS Server Input Validation Bug May Let Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1028491
+workaround : 2 
+
+69)IBM Lotus Notes Mail Client Lets Remote Users Execute Java Applets
+http://www.securitytracker.com/id/1028504
+workaround : 1 
+
+70)Apache VCL Input Validation Flaw Lets Remote Authenticated Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1028515
+workaround : 2 
+
+71)nginx Stack Overflow Lets Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1028519
+workaround : 1 
+
+72)Cisco Unified Customer Voice Portal Multiple Bugs Let Remote Users View and Overwrite Files, Deny Service, Execute Applications, and Gain Administrator Access
+http://www.securitytracker.com/id/1028524
+workaround : 1 
+
+73)Cisco TelePresence MSE 8050 Supervisor TCP Stack Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028572
+workaround : 1 
+
+74)IBM AIX inet IPv6 Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028626
+workaround : 2 
+
+75)Avira AntiVir PDF Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028666
+workaround : 1 
+
+76)FreeBSD mmap Permission Check Flaw Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1028676
+workaround : 2 
+
+77)Cisco TelePresence TC and TE Bugs Let Remote Users Deny Service and Remote Adjacent Authenticated Users Gain Root Shell Access
+http://www.securitytracker.com/id/1028682
+workaround : 1 
+
+78)Cisco Email Security Appliance Bugs Let Remote Users Deny Service and Remote Authenticated Users Execute Arbtitrary Commands
+http://www.securitytracker.com/id/1028707
+workaround : 1 
+
+79)Cisco ASA Next-Generation Firewall Fragmented Traffic Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028709
+workaround : 1 
+
+80)Cisco Content Security Management Appliance Bugs Let Remote Users Deny Service and Remote Authenticated Users Execute Arbtitrary Commands
+http://www.securitytracker.com/id/1028710
+workaround : 1 
+
+81)Cisco IronPort AsyncOS Software for Cisco Web Security Appliance Bugs Let Remote Users Deny Service and Remote Authenticated Users Execute Arbtitrary Commands
+http://www.securitytracker.com/id/1028708
+workaround : 1 
+
+82)IBM AIX TFTP RBAC Bug Lets Remote Authenticated Users Read and Overwrite Root-Owned Files
+http://www.securitytracker.com/id/1028728
+workaround : 2 
+
+83)RealPlayer HTML Processing Error Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1028732
+workaround : 1 
+
+84)IBM AIX InfiniBand Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1028792
+workaround : 2 
+
+85)Cisco Unified Communications Manager Bugs Let Remote Users Inject SQL Commands and Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1028805
+workaround : 1 
+
+86)Cisco Intrusion Prevention System Packet Processing Flaws Let Remote Users Deny Service
 http://www.securitytracker.com/id/1028806
+workaround : 2 
+
+87)Cisco Video Surveillance Manager Bugs Let Remote Users Obtain Potentially Sensitive Information
+http://www.securitytracker.com/id/1028827
 workaround : 1 
 
-259)Castelle FaxPress Fax Server Discloses Network Print Queue Passwords to Remote Users
-http://www.securitytracker.com/id/1003475
+88)Cisco Wide Area Application Services Web Interface Bug Lets Remote Authenticated Users Execute Arbitrary Commands
+http://www.securitytracker.com/id/1028853
 workaround : 1 
 
-260)RealSecure Server Sensor Has Exploitable Buffer Overflow That Lets Remote Users Execute Arbitrary Code in the Kernel Context on the System
-http://www.securitytracker.com/id/1003488
+89)Cisco Application and Content Networking System Web Interface Bug Lets Remote Authenticated Users Execute Arbitrary Commands
+http://www.securitytracker.com/id/1028852
 workaround : 1 
 
-261)BlackICE Defender and BlackICE Agent Have Exploitable Buffer Overflows That Let Remote Users Execute Arbitrary Code in the Kernel Context on the System
-http://www.securitytracker.com/id/1003487
+90)Cisco Wide Area Application Services Web Service Framework Bug Lets Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1028851
 workaround : 1 
 
-262)Microsoft Internet Explorer Browser MIME Flaw Causes 'text/plain' Pages to Be Displayed as HTML and Any Embedded Scripting to Be Executed By the Browser
-http://www.securitytracker.com/id/1003540
-workaround : 1 
-
-263)Opera Web Browser MIME Flaw Causes 'text/plain' Pages to Be Displayed as HTML and Any Embedded Scripting to Be Executed By the Browser
-http://www.securitytracker.com/id/1003541
-workaround : 1 
-
-264)Xen HVM Guest Disable Caching Delay Lets Local Users Deny Service
-http://www.securitytracker.com/id/1028828
-workaround : 1 
-
-265)Cisco TelePresence System Default Credentials Let Remote Users Gain Full Access
+91)Cisco TelePresence System Default Credentials Let Remote Users Gain Full Access
 http://www.securitytracker.com/id/1028892
 workaround : 1 
 
-266)PGPfire Personal Firewall for Microsoft Windows Discloses Identifying Information to Remote Users
-http://www.securitytracker.com/id/1003369
-workaround : 1 
-
-267)Rsync Remote File Synchronization Utility Lets Remote Users Execute Arbitrary Code on the Server
-http://www.securitytracker.com/id/1003361
-workaround : 1 
-
-268)Nortel Alteon ACEdirector Load Balancer May Disclose the Real and Otherwise Hidden IP Addresses of Load Balanced Servers to Remote Users
-http://www.securitytracker.com/id/1003367
-workaround : 1 
-
-269)Xinet's 'xkas' AppleShare Administration Tool Discloses Any Local File Contents to Local Users
-http://www.securitytracker.com/id/1003379
-workaround : 1 
-
-270)Cisco Tac_plus TACACS+ Developer Kit Uses Unsafe File Permissions That May Allow Local Users to Modify the Logs, Overwrite Arbitrary Files, and Potentially Execute Arbitrary Code on the System
-http://www.securitytracker.com/id/1003414
-workaround : 1 
-
-271)The '14all.cgi' Front End CGI Script for Multi Router Traffic Grapher (MRTG) Network Monitoring Application Has Input Validation Flaw That Discloses Portions of Files on the System to Remote Users
-http://www.securitytracker.com/id/1003426
-workaround : 1 
-
-272)Avirt Gateway Suite Telnet Proxy Flaw Gives Remote Users Telnet Command Line Access to the Server With SYSTEM Level Privileges
-http://www.securitytracker.com/id/1003281
-workaround : 1 
-
-273)BadBlue Server and File Sharing Software Bugs Let Remote Users Read Files, Execute Commands, and Consume Available Resources on the Server
-http://www.securitytracker.com/id/1003275
-workaround : 1 
-
-274)Avirt Gateway Web Proxy Buffer Overflow Lets Remote Users Execute Arbitrary Code on the Server with SYSTEM Level Privileges
-http://www.securitytracker.com/id/1003282
-workaround : 1 
-
-275)K5su Kerberos-based 'su' Utility May Let Local Users Obtain Root Privileges on the System
-http://www.securitytracker.com/id/1003289
-workaround : 2 
-
-276)Conectiva Linux MySQL Distribution May Allow Local Users to Obtain Sensitive Information
-http://www.securitytracker.com/id/1003290
-workaround : 1 
-
-277)BCWipe Disk Wiping Utility Fails to Erase Alternate Data Streams from NTFS Drives
-http://www.securitytracker.com/id/1003301
-workaround : 6 
-
-278)Lucent VitalNet Performance Management Software Gives Remote Users Access Without Requiring Authentication
-http://www.securitytracker.com/id/1003292
-workaround : 1 
-
-279)SecureClean Disk Wiping Application Fails to Remove Alternate Data Stream Contents from NTFS Drives
-http://www.securitytracker.com/id/1003303
-workaround : 6 
-
-280)East-Tec Eraser 2000 Disk Wiping Program Does Not Remove Alternate Data Stream Contents from NTFS Hard Disks
-http://www.securitytracker.com/id/1003304
-workaround : 6 
-
-281)Microsoft Windows NT/2000 Authentication Lockout Bug May Record Successful Logins as Failed Login Attempts in Certain Situations
-http://www.securitytracker.com/id/1003310
-workaround : 1 
-
-282)PGP Wipe Disk Wiping Utility Fails to Remove the Contents of Alternate Data Streams on NTFS Drives
-http://www.securitytracker.com/id/1003305
-workaround : 6 
-
-283)Cisco AnyConnect Secure Mobility Client Directory Access Permissions Lets Local Users Gain Elevated Privileges
-http://www.securitytracker.com/id/1029063
-workaround : 1 
-
-284)Microsoft Internet Explorer Can Be Crashed By Remote Users With Javascript That Calls an Endless Loop of Modeless Dialogs
-http://www.securitytracker.com/id/1003135
-workaround : 1 
-
-285)Xchat IRC Client Character Expansion Bug Lets a Remote User Hijack Another User's Session and Cause Commands to Be Sent to the IRC Server from the Hijacked Client
-http://www.securitytracker.com/id/1003178
-workaround : 1 
-
-286)Macromedia Flash Player Lets Malicious Flash Media Files Execute Scripts on the User's Host Without Requiring User Approval
-http://www.securitytracker.com/id/1003189
-workaround : 1 
-
-287)Microsoft Internet Explorer Version 6 Lets Remote Scripts Access and Send Local Files
-http://www.securitytracker.com/id/1002986
-workaround : 1 
-
-288)Microsoft Windows XP Hot Key Function Lets Physically Local Users Execute Administrator Hot Key Functions in Certain Situations
-http://www.securitytracker.com/id/1003003
-workaround : 1 
-
-289)Microsoft Internet Explorer Can Be Crashed By Malicious Javascript Causing a Stack Overflow in setTimeout() Function
-http://www.securitytracker.com/id/1002885
-workaround : 1 
-
-290)OpenSSH UseLogin Environment Variable Bug Lets Local Users Execute Commands and Gain Root Access
-http://www.securitytracker.com/id/1002895
-workaround : 1 
-
-291)Platform Computing's Platform LSF Load Sharing Application Contains Multiple Flaws, Disclosing Files to Local Users, Giving Local Users Root Access, and Crashing When Remote Users Send Malformed Packets
-http://www.securitytracker.com/id/1002908
-workaround : 1 
-
-292)Caldera 'lpstat' for OpenServer Still Has Buffer Overflow That Allows Local Users to Obtain Elevated Privileges
-http://www.securitytracker.com/id/1002924
-workaround : 2 
-
-293)UNIX /bin/login Utility Buffer Overflow Lets Remote Users Gain Root Access
-http://www.securitytracker.com/id/1002956
-workaround : 1 
-
-294)IBM WebSphere Discloses Administration Server 'Root' Password to Local Users
-http://www.securitytracker.com/id/1002964
-workaround : 1 
-
-295)ZyXEL Prestige SDSL Router Can Be Crashed By Remote Users Sending Malformed Packets
-http://www.securitytracker.com/id/1002977
-workaround : 2 
-
-296)Caldera UnixWare/Open UNIX Buffer Overflow in PPP Utilities Let Local Users Obtain Root Level Privileges on the System
-http://www.securitytracker.com/id/1002735
-workaround : 2 
-
-297)ActivePerl Buffer Overflow in perlIS.dll May Let Remote Users Execute Arbitrary Code to Obtain Elevated or System Level Privileges on the Server
-http://www.securitytracker.com/id/1002757
-workaround : 1 
-
-298)Terminal Services on Microsoft Windows 2000 and XP Allow Remote Users to Log Bogus IP Addresses Instead of the User's Genuine Address
-http://www.securitytracker.com/id/1002754
-workaround : 1 
-
-299)Cisco Internetwork Operating System (IOS)-based Router ARP Processing Can Be Crashed, Adversely Affecting Management Communications With the Router
-http://www.securitytracker.com/id/1002760
+92)VMware Workstation and Player vmware-mount Command Flaw Lets Local Users Gain Root Privileges
+http://www.securitytracker.com/id/1028948
 workaround : 3 
 
-300)Microsoft Internet Explorer ActiveX Flaw Permits Remote Malicious HTML Code Containing an 'htmlfile' or 'htmlfile_FullWindowEmbed' Object to Access Local Files and Potentially Execute Commands
-http://www.securitytracker.com/id/1002819
+93)Cisco Secure Access Control Server EAP-FAST Authentication Flaw Lets Remote Users Execute Arbitrary Commands
+http://www.securitytracker.com/id/1028958
 workaround : 1 
 
-301)Allaire JRun Java Server Discloses Web Server Directory Contents to Remote Users Requesting URLs Containing '%3f.jsp'
-http://www.securitytracker.com/id/1002837
+94)Cisco Prime Data Center Network Manager Lets Remote Users Execute Arbitrary Commands and View Files
+http://www.securitytracker.com/id/1029049
 workaround : 1 
 
-302)Allaire's JRun Java Server Discloses JSP Source Code to Remote Users When Used As a Connector With Commercial Web Servers
-http://www.securitytracker.com/id/1002838
+95)Cisco Prime Central for Hosted Collaboration Solution Discloses Authentication Credentials to Remote Users
+http://www.securitytracker.com/id/1029050
+workaround : 1 
+
+96)Cisco ASA Multiple Flaws Let Remote Users Bypass Authentication and Deny Service
+http://www.securitytracker.com/id/1029162
+workaround : 1 
+
+97)Cisco Firewall Service Module Lets Remote Users Deny Service and Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1029163
+workaround : 1 
+
+98)Cisco Identity Services Engine Lets Remote Users Download Data and Remote Authenticated Users Execute Arbitrary Commands
+http://www.securitytracker.com/id/1029236
+workaround : 1 
+
+99)Cisco IOS SIP Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029308
+workaround : 1 
+
+100)nginx URI Parsing Flaw Lets Remote Users Bypass Security Restrictions
+http://www.securitytracker.com/id/1029363
+workaround : 1 
+
+101)RealOne RMP File Heap Overflow Lets Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1029511
+workaround : 1 
+
+102)NetBSD ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
+http://www.securitytracker.com/id/1029565
+workaround : 2 
+
+103)Cisco Access Points Undocumented Test Interface Lets Remote Users Gain Root Access
+http://www.securitytracker.com/id/1029580
+workaround : 1 
+
+104)Cisco Gigabit Security Router Undocumented Test Interface Lets Remote Users Gain Root Access
+http://www.securitytracker.com/id/1029579
+workaround : 1 
+
+105)FreeBSD ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
+http://www.securitytracker.com/id/1029632
+workaround : 2 
+
+106)Cisco TelePresence Video Communication Server (VCS) SIP Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029655
+workaround : 1 
+
+107)Cisco TelePresence System Software Input Validation Flaw in SSCD Lets Remote Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1029656
+workaround : 1 
+
+108)Cisco TelePresence ISDN Gateway Q.931 Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029657
+workaround : 1 
+
+109)Linksys Router Installation/Upgrade Flaw Lets Remote Users Gain Administrative Access
+http://www.securitytracker.com/id/1029769
 workaround : 3 
 
-303)EMC Data Protection Advisor Illuminator Service JBOSS Servlets Let Remote Users Execute Arbitrary Code
-http://www.securitytracker.com/id/1029530
+110)Cisco Intrusion Prevention System Bugs Let Remote Users Deny Service
+http://www.securitytracker.com/id/1029787
 workaround : 1 
 
-304)iBill Internet Commerce Billing System Uses Weak Authentication Method in the Default Configuration, Allowing Remote Users to Modify User Accounts on the System
-http://www.securitytracker.com/id/1002642
+111)Cisco Unified SIP Phone 3905 Undocumented Interface Lets Remote Users Gain Root Access
+http://www.securitytracker.com/id/1029789
 workaround : 1 
 
-305)Lotus Domino Web Server Default Navigation Protection Mechanisms Can Be Bypassed by Remote Users, Allowing Some Portions of the Database to be Viewed
-http://www.securitytracker.com/id/1002669
+112)Cisco Firewall Services Module Flaw in Cut-Through Proxy Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029784
+workaround : 1 
+
+113)Cisco Unified Computing System Director Default Credentials Let Remote Users Gain Full Control
+http://www.securitytracker.com/id/1029788
+workaround : 1 
+
+114)Cisco VPN 3000 Series VPN Concentrators Allow Remote Users to Crash the Device
+http://www.securitytracker.com/id/1001299
 workaround : 2 
 
-306)Cisco NX-OS ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
-http://www.securitytracker.com/id/1029629
+115)A Component of Symantec's Ghost PC Deployment Tool Allows Remote Users to Crash the Software
+http://www.securitytracker.com/id/1001295
 workaround : 1 
 
-307)Cisco IOS and IOS XE ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
-http://www.securitytracker.com/id/1029628
-workaround : 1 
-
-308)Juniper Junos ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
-http://www.securitytracker.com/id/1029678
-workaround : 1 
-
-309)Cisco NX-OS Lets Local Users Bypass TACACS+ Authorization to Execute Commands
-http://www.securitytracker.com/id/1029690
-workaround : 1 
-
-310)AmTote Homebet Internet Betting Server Application Discloses User PIN Codes to Remote Users
-http://www.securitytracker.com/id/1002470
-workaround : 1 
-
-311)COM2001's Alexis Internet-enabled PBX Discloses Voice Mail Passwords When the Web Access Component is Used Over a Network
-http://www.securitytracker.com/id/1002467
-workaround : 2 
-
-312)(HP Issues Workaround) Re: ToolTalk Database Server Format String Flaw Lets Remote Users Gain Root Level Privileges on Several UNIX Operating System Platforms
-http://www.securitytracker.com/id/1002478
-workaround : 1 
-
-313)ToolTalk Database Server Format String Flaw Lets Remote Users Gain Root Level Privileges on Several UNIX Operating System Platforms
-http://www.securitytracker.com/id/1002479
-workaround : 1 
-
-314)Linux Kernel devfs Race Condition Lets Local Users Gain Root Level Privileges
-http://www.securitytracker.com/id/1002523
-workaround : 1 
-
-315)Cisco Media Experience Engine ntpd Query Function Lets Remote Users Conduct Amplified Denial of Service Attacks
-http://www.securitytracker.com/id/1029714
-workaround : 1 
-
-316)Informix-SQL Database Application Lets Local Users Write to Files on the System with Root Level Privileges
-http://www.securitytracker.com/id/1002347
-workaround : 1 
-
-317)Microsoft Outlook 2000 Animated Assistant Prevents the Screen Saver from Activating, Allowing Physically Local Users to Access the System
-http://www.securitytracker.com/id/1002356
-workaround : 1 
-
-318)IBM AIX Line Printer Daemon (lpd) Has Buffer Overflow That Lets Remote Users Obtain Root Privileges
-http://www.securitytracker.com/id/1002397
-workaround : 1 
-
-319)TrendMicro InterScan eManager for InterScan VirusWall Lets Remote Users Reconfigure the System and Also Execute Arbitrary Code with System Level Privileges
-http://www.securitytracker.com/id/1002415
-workaround : 1 
-
-320)OpenSSH's Sftp-server Subsystem Lets Authorized Remote Users with Restricted Keypairs Obtain Additional Access on the Server
-http://www.securitytracker.com/id/1002432
-workaround : 1 
-
-321)Cisco Intrusion Prevention System SNMP Processing Lets Remote Users Deny Service
-http://www.securitytracker.com/id/1029846
-workaround : 1 
-
-322)Macromedia JRun Java Server Discloses JSP Source Code to Remote Users
-http://www.securitytracker.com/id/1002193
-workaround : 2 
-
-323)Ipfw Firewall for FreeBSD May Unexpectedly Pass or Block Packets in Point-to-Point Configurations When Using 'me' Rules
-http://www.securitytracker.com/id/1002213
-workaround : 1 
-
-324)Windows 2000 IrDA Infrared Device Driver Lets Infrared Users Crash the System
-http://www.securitytracker.com/id/1002225
-workaround : 1 
-
-325)MERANT's Micro Focus COBOL Suite Temporary File and File Permission Flaws Let Local Users Execute Code with Root Level Privileges
-http://www.securitytracker.com/id/1002242
-workaround : 1 
-
-326)Adobe Acrobat Reader on Linux Creates World-Readable Font List Files Allowing Local Users to Deny Service to Acrobat Users
-http://www.securitytracker.com/id/1002261
-workaround : 1 
-
-327)teTex-dvips DVI-to-PostScript Translator May Let Remote Users Execute Commands on the Printer Server and Start a Worm
-http://www.securitytracker.com/id/1002285
-workaround : 1 
-
-328)iPlanet (Netscape) Messaging Server's Administration Server Lets Remote Users Execute Arbitrary Code with System Level Privileges
-http://www.securitytracker.com/id/1002313
-workaround : 1 
-
-329)Linux Kernel IP Masquerading (NAT) Module May Let Some Remote Users Send Packets Through the Firewall and Access the Protected Network
-http://www.securitytracker.com/id/1002116
-workaround : 1 
-
-330)Linksys EtherFast Router Discloses Usernames and Passwords Via the Network
-http://www.securitytracker.com/id/1002140
-workaround : 1 
-
-331)Linux 2.4.x Kernel Creates World Writable Boot Files Letting Local Users Obtain Root Privileges When the System Reboots
-http://www.securitytracker.com/id/1002014
-workaround : 1 
-
-332)Slackware Linux Man Utility Lets Local Users Obtain Root Privileges Under Certain Conditions
-http://www.securitytracker.com/id/1002025
-workaround : 1 
-
-333)Cisco IOS Gives Remote Users Full Control of IOS Devices When HTTP Server Authentication with Local Authorization is Enabled
-http://www.securitytracker.com/id/1001854
-workaround : 1 
-
-334)Solairs Whodo Utility Lets Local Users Obtain Root Level Privileges
-http://www.securitytracker.com/id/1001926
-workaround : 1 
-
-335)Mac OS X Nidump Network Information Utility Discloses Password File to Any Local User
-http://www.securitytracker.com/id/1001946
-workaround : 1 
-
-336)Check Point FireWall-1 and VPN-1 Both Pass Unauthorized RDP Packets
-http://www.securitytracker.com/id/1001947
-workaround : 1 
-
-337)Tripwire File Security Software May Let Local Users Obtain Root Level Privileges on the System
-http://www.securitytracker.com/id/1001952
-workaround : 1 
-
-338)Apache Web Server on Mac OS X Client Fails to Enforce File and Directory Access Protections, Giving Remote Users Access to Restricted Pages
-http://www.securitytracker.com/id/1001719
-workaround : 1 
-
-339)BIND Domain Name System Software May Disclose DNS Transactional Signature (TSIG) Keys to Local Users
-http://www.securitytracker.com/id/1001721
-workaround : 1 
-
-340)WebStore Shopping Cart Allows Remote Users to Execute Commands on the Server
-http://www.securitytracker.com/id/1001737
-workaround : 1 
-
-341)Fcron Lets Local Users Delete Other Crontab Files Without Authorization
-http://www.securitytracker.com/id/1001750
-workaround : 1 
-
-342)WWWThreads Bulletin Board Software Lets Remote Users Cause Other Users to Execute Bulletin Board CGI Commands Without Warning
-http://www.securitytracker.com/id/1001764
-workaround : 1 
-
-343)ezboard Lets Remote Users Cause Other Users to Execute Bulletin Board CGI Commands Without Warning
-http://www.securitytracker.com/id/1001761
-workaround : 1 
-
-344)Rxvt X-Windows Terminal Emulator Lets Local Users Obtain utmp Group Privileges
-http://www.securitytracker.com/id/1001763
-workaround : 1 
-
-345)Ultimate Bulletin Board Lets Remote Users Cause Other Users to Execute Bulletin Board CGI Commands Without Warning
-http://www.securitytracker.com/id/1001756
-workaround : 1 
-
-346)Allaire's JRun Java Application Server Lets Remote Users Cause Javascript Code to Be Executed in Another User's Browser
-http://www.securitytracker.com/id/1001771
-workaround : 1 
-
-347)Oracle Database Allows Remote Users to Deny Access to the Database and Crash the Operating System
-http://www.securitytracker.com/id/1001785
-workaround : 1 
-
-348)uDirectory Online Directory and Listing Management System Lets Remote Users Execute Commands on the Server
-http://www.securitytracker.com/id/1001780
-workaround : 1 
-
-349)Kaspersky Anti-Virus Lets Remote Users Crash the Process and May Give Remote Users Root Level Access to the Server
-http://www.securitytracker.com/id/1001804
-workaround : 1 
-
-350)Computer Associates InoculateIT Virus Scanner Lets Local Users Overwrite Files on the Host
-http://www.securitytracker.com/id/1001612
-workaround : 1 
-
-351)WFTPD FTP Server from Texas Imperial Software Allows Remote Users With Certain Privileges to Cause the Server to Crash and On Certain Operating Systems Allows Remote Users to Obtain Files on the Server
-http://www.securitytracker.com/id/1001619
-workaround : 1 
-
-352)Sun Solaris Mailtool Allows Local Users to Execute Arbitrary Commands on the Host with the Mail Group Privileges
-http://www.securitytracker.com/id/1001625
-workaround : 1 
-
-353)Cisco 11000 Series Content Service Switch Allows Remote Users to Gain Access to Web-Based Management Functions Without Authentication
-http://www.securitytracker.com/id/1001656
-workaround : 1 
-
-354)Sun's Ipcs Utility for Solaris Gives Local Users System Group Privileges
+116)Sun's Ipcs Utility for Solaris Gives Local Users System Group Privileges
 http://www.securitytracker.com/id/1001309
 workaround : 1 
 
-355)NEdit Nirvana Editor Uses Temporary Files Insecurely and Could Give Root Access to Local Users
-http://www.securitytracker.com/id/1001367
+117)Cisco Catalyst Switch May Allow a Denial of Service Condition
+http://www.securitytracker.com/id/1001322
+workaround : 8 
+
+118)Microsoft Internet Explorer May Not Display File Extensions in Certain Cases
+http://www.securitytracker.com/id/1001344
 workaround : 1 
 
-356)Novell BorderManager VPN Services Can Be Crashed Remotely
+119)Innfeed Allows Local Users to Execute Arbitrary Code on the Server Under the News Group Privileges
+http://www.securitytracker.com/id/1001353
+workaround : 1 
+
+120)CrossWind's CyberScheduler Calendar and Scheduling Software Allows Remote Users to Execute Arbitrary Code on the Server
+http://www.securitytracker.com/id/1001351
+workaround : 1 
+
+121)Sudo Administration Utility May Give Local Users Root-Level Access
+http://www.securitytracker.com/id/1001366
+workaround : 3 
+
+122)Microsoft Internet Explorer and Outlook Express May Execute Arbitrary Code Without User Authorization or Intervention
+http://www.securitytracker.com/id/1001380
+workaround : 2 
+
+123)NEdit Nirvana Editor Uses Temporary Files Insecurely and Could Give Root Access to Local Users
+http://www.securitytracker.com/id/1001367
+workaround : 3 
+
+124)RitLab's The Bat! E-Mail Client Allows a User's E-Mail to Be Made Unretrievable When Downloading a Specifically Formatted E-Mail Message
+http://www.securitytracker.com/id/1001378
+workaround : 1 
+
+125)Novell BorderManager VPN Services Can Be Crashed Remotely
 http://www.securitytracker.com/id/1001393
 workaround : 1 
 
-357)Microsoft's Dr. Watson Diagnostic Utility May Reveal Passwords and Other Sensitive Information
-http://www.securitytracker.com/id/1001163
+126)Cisco Prime Infrastructure Input Validation Flaw Lets Remote Authenticated Users Execute Arbitrary Commands With Root Privileges
+http://www.securitytracker.com/id/1029832
 workaround : 1 
 
-358)Anaconda! Foundation Clipper Gives Remote Users Unauthorized Access to Files Anywhere on the Web Server
+127)Cisco Small Business RV Series Wireless-N VPN Discloses Password to Remote Users
+http://www.securitytracker.com/id/1029866
+workaround : 1 
+
+128)IBM AIX Unspecified Workload Partition FTP Bug Lets Remote Authenticated Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1029883
+workaround : 2 
+
+129)Weaknesses in SSH Protocols Can Facilitate Attacks Through Passive Monitoring of Protocol Traffic
+http://www.securitytracker.com/id/1001164
+workaround : 1 
+
+130)Anaconda! Foundation Clipper Gives Remote Users Unauthorized Access to Files Anywhere on the Web Server
 http://www.securitytracker.com/id/1001169
 workaround : 1 
 
-359)TrendMicro's ScanMail E-Mail Virus Scanner for Microsoft Exchange Discloses Administrative System Usernames and Passwords
-http://www.securitytracker.com/id/1001211
+131)Microsoft's Dr. Watson Diagnostic Utility May Reveal Passwords and Other Sensitive Information
+http://www.securitytracker.com/id/1001163
+workaround : 2 
+
+132)SCO UNIX Contains Multiple Vulnerabilities That Allow Users to Crash Applications and May Allow Users to Execute Arbitrary Code on the Server
+http://www.securitytracker.com/id/1001176
 workaround : 1 
 
-360)Microburst's uStorekeeper E-commerce System Gives Remote Users Unauthorized Access to Any File on the System
-http://www.securitytracker.com/id/1001232
+133)Microsoft Internet Explorer Is Vulnerable to Malicious Web Pages That May Obtain the User's Exchange E-mail Messages and May Access Restricted Web Server Directory Listings
+http://www.securitytracker.com/id/1001187
 workaround : 1 
 
-361)INDEXU Web Portal Content Management System Allows Users to Obtain Administrator Access to the Management System
-http://www.securitytracker.com/id/1001078
+134)O'Reilly WebSite Pro's Remote Manager Service Can Be Crashed Via the Network
+http://www.securitytracker.com/id/1001188
+workaround : 2 
+
+135)Cisco VPN 3000 Concentrator Series Will Reboot When the Management Port is Flooded With Data via the Network
+http://www.securitytracker.com/id/1001191
 workaround : 1 
 
-362)Cisco 6400 Access Concentrator Node Route Processor 2 (NRP2) Module Gives Remote Users Telnet Access Without Authentication Under Certain Conditions
-http://www.securitytracker.com/id/1001752
+136)The VPN Implementation on SonicWALL's Tele2 and SOHO Firewalls Uses Weak IKE Authentication Keys
+http://www.securitytracker.com/id/1001174
 workaround : 1 
 
-363)Sun Solaris SNMP-to-DMI Network Management Protocol Mapper Allows Remote Users to Execute Arbitrary Code and Gain Root-Level Access to the Affected Host
+137)Quest Software's SharePlex Database Replicator for Oracle Allows Local Users to Access Any File on the System
+http://www.securitytracker.com/id/1001204
+workaround : 1 
+
+138)Microsoft Internet Explorer Allows Malicious Web Pages to Retrieve Files from the User's Computer
+http://www.securitytracker.com/id/1001210
+workaround : 1 
+
+139)Microsoft's Internet Security and Acceleration Server Performance Can Be Significantly Affected By Remote Users Under Certain Configurations
+http://www.securitytracker.com/id/1001219
+workaround : 1 
+
+140)Navision Financials Server Can Be Crashed Via the Network
+http://www.securitytracker.com/id/1001222
+workaround : 1 
+
+141)Watchguard Firebox II Firewall Can Be Crashed By Remote Users With a Burst of Malformed Packets
+http://www.securitytracker.com/id/1001239
+workaround : 1 
+
+142)Cisco's Content Services Switch (Arrowpoint) Allows Administrators to Escalate Privileges and Make Unauthorized Configuration Changes
+http://www.securitytracker.com/id/1001236
+workaround : 1 
+
+143)Microsoft FTP Client for Windows 2000 Still Vulnerable to Executing Arbitrary Code in Limited Situations
+http://www.securitytracker.com/id/1001240
+workaround : 1 
+
+144)Alcatel's Speed Touch ADSL Modems Can Give Remote Users Complete Contol of the Device
+http://www.securitytracker.com/id/1001282
+workaround : 1 
+
+145)Cisco IronPort AsyncOS Software for ESA and SMA File Validation Flaw Lets Remote Authenticated Users Execute Arbitrary Code
+http://www.securitytracker.com/id/1029937
+workaround : 1 
+
+146)Cisco IOS IKEv2 Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029959
+workaround : 1 
+
+147)Cisco IOS SIP Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029957
+workaround : 1 
+
+148)Cisco 7600 Series Route Switch Processor 720 FPGA Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029958
+workaround : 1 
+
+149)Cisco IOS Bugs in DNS ALG and TCP Input Module Let Remote Users Deny Service
+http://www.securitytracker.com/id/1029960
+workaround : 1 
+
+150)Cisco IOS IPv6 Stack Bug Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029961
+workaround : 1 
+
+151)Cisco IOS SSL VPN HTTP Processing Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1029962
+workaround : 1 
+
+152)Cisco's Aironet Wireless Bridge Allows Display and Modification Via Web Even When the Web Interface Is Disabled
+http://www.securitytracker.com/id/1001065
+workaround : 2 
+
+153)Novel Netware Allows Login Access With No Passwords
+http://www.securitytracker.com/id/1001070
+workaround : 1 
+
+154)Websweeper From Baltimore Technologies Can Be Crashed Remotely Because It Does Not Limit The Size of Web Requests
+http://www.securitytracker.com/id/1001066
+workaround : 1 
+
+155)AfterStep CD Changer for Linux/Unix Can Give Elevated Privileges (Possibly Root Privileges) to Local Users
+http://www.securitytracker.com/id/1001063
+workaround : 1 
+
+156)Microsoft Internet Explorer with Services for Unix 2.0 Can Create Malicious Files on the User's Host
+http://www.securitytracker.com/id/1001088
+workaround : 1 
+
+157)Alt-N's MDaemon Mail Server Can Be Crashed By Remote Users
+http://www.securitytracker.com/id/1001096
+workaround : 1 
+
+158)Sun Solaris SNMP-to-DMI Network Management Protocol Mapper Allows Remote Users to Execute Arbitrary Code and Gain Root-Level Access to the Affected Host
 http://www.securitytracker.com/id/1001099
 workaround : 1 
 
-364)Free On-line Dictionary of Computing (FOLDOC) CGI Software Allows Users to Execute Certain Commands on the Server (ex: Read Files, Delete Files, List Processes)
-http://www.securitytracker.com/id/1001101
+159)ProFTP Denial of Service Vulnerability Allows Remote Users to Crash the FTP Process or the Entire Server
+http://www.securitytracker.com/id/1001114
 workaround : 1 
 
-365)Cisco Email Security Appliance Group Name Processing Flaw Lets Remote Users Bypass Security Restrictions
-http://www.securitytracker.com/id/1030258
+160)MySQL Database Allows Authorized Users to Modify Server Files to Deny Service or Obtain Additional Access
+http://www.securitytracker.com/id/1001118
+workaround : 1 
+
+161)Gordano's NTMail Mail Server Web Services Can Be Crashed Remotely By Any User Sending a Long URL Request
+http://www.securitytracker.com/id/1001131
+workaround : 1 
+
+162)REDI Real-Time Stock Trading Software Discloses Passwords for Stock Trading Accounts
+http://www.securitytracker.com/id/1001138
+workaround : 1 
+
+163)SurfControl for Microsoft Proxy Server May Fail to Block Sites
+http://www.securitytracker.com/id/1001139
+workaround : 1 
+
+164)IBM's Consumer Transaction Framework Can Be Crashed By Remote Users
+http://www.securitytracker.com/id/1001134
+workaround : 4 
+
+165)Fcheck Security Utility May Execute Arbitrary Commands Supplied By Local Users
+http://www.securitytracker.com/id/1001140
+workaround : 1 
+
+166)Cisco ASA Bugs Let Remote Users Access the Internal Network or Deny Service and Remote Authenticated Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1030046
+workaround : 1 
+
+167)FreeBSD NFS Server Deadlock Bug Lets Remote Authenticated Users Deny Service
+http://www.securitytracker.com/id/1030041
+workaround : 1 
+
+168)FreeBSD Kernel devfs Rule Bypass Flaw Lets Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1030171
+workaround : 2 
+
+169)FreeBSD TCP Reassembly Flaw Lets Remote Users Deny Service
+http://www.securitytracker.com/id/1030172
+workaround : 1 
+
+170)Cisco TelePresence TC and TE Bugs Let Remote Users Execute Arbitrary Code and Deny Service and Let Local Users Gain Elevated Privileges
+http://www.securitytracker.com/id/1030181
+workaround : 1 
+
+171)Cisco TelePresence MXP Series SIP Processing Flaws Let Remote Users Deny Service
+http://www.securitytracker.com/id/1030183
+workaround : 1 
+
+172)IBM AIX ptrace Bug Lets Local Users Deny Service
+http://www.securitytracker.com/id/1030195
+workaround : 3 
+
+173)FreeBSD PAM Policy Parser Remote Authentication Bypass
+http://www.securitytracker.com/id/1030330
+workaround : 1 
+
+174)FreeBSD Kernel ktrace Bug Lets Local Users Obtain Portions of System Memory
+http://www.securitytracker.com/id/1030325
 workaround : 1 
 

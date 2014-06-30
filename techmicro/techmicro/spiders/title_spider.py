@@ -59,6 +59,14 @@ class technetSpider(Spider):
             sys.exit(0)
         self.name = config.get(self.website, 'name')
         self.start_urls.append(config.get(self.website, 'start_urls'))
+        self.id_start = config.get(self.website, 'page_id_start')
+        self.id_finish = config.get(self.website, 'page_id_finish')
+        self.id_finish = int(self.id_finish)
+        self.prefix_id = config.get(self.website, 'prefix_id')
+        if self.id_start:
+            self.id_exists = 1
+        else:
+            self.id_exists = 0
         links = [x for x in config.options(self.website) if x.startswith('link_')]
         self.link_xpaths = []
         for link in links:
@@ -92,15 +100,36 @@ class technetSpider(Spider):
                 self.number += 1
                 flag = True
         if flag:
-            self.write_to_file(response, keywords_dict)
+            #self.write_to_file(response, keywords_dict)
             count_fields = ""
             count_values = ""
             for p in keywords_dict.items():
                 count_fields += ", %s" %p[0]
                 count_values += ", \"%d\"" %p[1]
-            self.cur.execute("INSERT INTO %s(Title, URL %s) VALUES (\"%s\", \"%s\" %s)" %(self.name, count_fields, self.getTitle(), response.url, count_values))
-            #self.cur.execute("INSERT INTO %s(%s) VALUES (\"%d\")" %(self.name, p[0], p[1]))
+            self.cur.execute("INSERT INTO %s(Title, URL %s) VALUES (\"%s\", \"%s\" %s)" %(self.name, count_fields, self.getTitle(), response.url, count_values))            
             self.con.commit()
+        if not self.id_exists:
+            self.parseID(response)
+        else:
+            self.parseLINK(response)
+        self.id_start = int(self.id_start)
+        self.id_start += 1
+        if self.id_start <= self.id_finish:
+            self.id_start = str(self.id_start)
+            #print self.prefix_id+self.id_start
+            yield Request(self.prefix_id+self.id_start, callback = self.parse)
+
+
+    def parseID(self, response):
+        self.id_start = int(self.id_start)
+        self.id_start += 1
+        if self.id_start <= self.id_finish:
+            self.id_start = str(self.id_start)
+            print self.prefix_id+self.id_start
+            #yield Request(self.prefix_id+self.id_start, callback = self.parse)
+            
+
+    def parseLINK(self, response):
         for link in self.link_xpaths:
             for url in self.sel.xpath(link[1]).extract():
                 yield Request(link[0]+url, callback = self.parse) 
@@ -116,8 +145,6 @@ class technetSpider(Spider):
 
     def getCount(self, response, keyword):
         count = 0
-        #if not response.url.count("technet.microsoft.com/en-us/library/security/ms"):
-        #    return count
         for node in self.node_xpath:
             for p in self.sel.xpath(node).extract():
                 lowerp = p.lower()
