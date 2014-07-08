@@ -11,4 +11,5 @@ class techmicroItem(Item):
     title = Field()
     keywords = Field()
     tableName = Field()
+    body = Field()
     pass

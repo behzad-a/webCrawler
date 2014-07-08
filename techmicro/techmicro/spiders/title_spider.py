@@ -6,8 +6,6 @@ from techmicro.items import techmicroItem
 import ConfigParser
 import MySQLdb as mdb
 import sys
-import time
-import pdb
 
 class technetSpider(Spider):
     name = "technet"
@@ -109,9 +107,11 @@ class technetSpider(Spider):
 
     def getCount(self, response, keyword):
         count = 0
+        self.page['body'] = []
         for node in self.node_xpath:
             for p in self.sel.xpath(node).extract():
                 lowerp = p.lower()
+                self.page['body'].append(lowerp)
                 count += lowerp.count(keyword)
         self.totalCount += count 
         return count   

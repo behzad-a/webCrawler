@@ -6,27 +6,26 @@ import MySQLdb as mdb
 from techmicro.items import techmicroItem
 from scrapy.exceptions import DropItem
 from scrapy import log
-import time
-import pdb
 
 class pagePipeline(object):
     def __init__(self):
         self.tables = False
-        self.MySQL_connect()
+        self.con = MySQL_connect('vulnerabilities')
+        self.cur = self.con.cursor()
 
     def process_item(self, item, spider):
-        #log.msg("heloooooooooooooooo", level = log.DEBUG)
-        #return item
         if not self.tables:
             self.create_table1(item)
             self.tables = True
-        for i in item.items():
+        for i in item['keywords'].items():
             if i[1] > 0:   
                 self.fill_table1(item)
                 return item
         raise DropItem("No keyword was found in %s" %item['url'])
 
     def fill_table1(self, item):
+        if self.phrase_exclusion(item):
+            return
         count_fields = ""
         count_values = ""
         for p in item['keywords'].items():
@@ -45,21 +44,33 @@ class pagePipeline(object):
         log.msg("Table \'%s\' has been added to the MySQL database with the corresponding columns" %item['tableName'], level = log.INFO)
         self.con.commit()
 
-    def MySQL_connect(self):
+    def phrase_exclusion(self, item):
+        self.cur.execute("SELECT * FROM exclusions")
+        rows = self.cur.fetchall()
+        for row in rows:
+            for text in item['body']:
+                if row[1] in text:
+                    self.cur.execute("DELETE FROM %s WHERE URL LIKE \'%s\'" %(item['tableName'], item['url']))
+                    log.msg("%s was deleted from database due to containing exclusion word!" %item['url'], level = log.INFO)
+                    return True
+        return False
+
+
+
+    #def MySQL_exit(self):
+        #if self.con:
+            #self.con.close()
+            #log.msg("Successfully closed connection to MySQL database!", level = log.INFO)
+
+    #def __del__(self):
+        #self.MySQL_exit()
+
+def MySQL_connect(database_name):
         try:
             log.msg("Connecting to MySQL database ...", level = log.INFO)
-            self.con = mdb.connect('localhost', 'Behzad', '1234', 'vulnerabilities')
-            self.cur = self.con.cursor()
+            con = mdb.connect('localhost', 'Behzad', '1234', database_name)
             log.msg("Connection to MySQL has been established!", level = log.INFO)
+            return con
         except mdb.Error, e:
             print "Error %d : %s" %(e.args[0], e.args[1])
             sys.exit(1)
-
-
-    def MySQL_exit(self):
-        if self.con:
-            self.con.close()
-            log.msg("Successfully closed connection to MySQL database!", level = log.INFO)
-
-    def __del__(self):
-        self.MySQL_exit()
