@@ -6,6 +6,8 @@ from techmicro.items import techmicroItem
 import ConfigParser
 import MySQLdb as mdb
 import sys
+import time
+import pdb
 
 class technetSpider(Spider):
     name = "technet"
@@ -13,40 +15,14 @@ class technetSpider(Spider):
     def __init__(self, website = "website_1", *args, **kwargs):
         super(technetSpider, self).__init__(*args, **kwargs)
         self.website = website
-        self.search = techmicroItem()
+        self.page = techmicroItem()
         self.ConfigSettings()
-        self.MySQL_connect()
-        if self.keywords:
-            open("pages with keyword(s) - " + self.name, 'w').close()
-        else:
+        if not self.keywords:
+            #open("pages with keyword(s) - " + self.name, 'w').close()
             self.log('No keyword entered to search for!')
             sys.exit(0)
         self.totalCount = 0
         self.number = 0
-
-
-    def MySQL_connect(self):
-        try:
-            self.con = mdb.connect('localhost', 'Behzad', '1234', 'vulnerabilities')
-            self.cur = self.con.cursor()
-            self.cur.execute("DROP TABLE IF EXISTS %s" %self.name)
-            wordFields = ""
-            for keyword in self.keywords:
-                wordFields += ", %s SMALLINT" %keyword
-            print wordFields
-            self.cur.execute("CREATE TABLE %s(ID INT PRIMARY KEY AUTO_INCREMENT, Title VARCHAR(100), URL VARCHAR(100) %s)" %(self.name, wordFields))
-            #self.cur.execute("CREATE TABLE %s(ID INT PRIMARY KEY AUTO_INCREMENT, Title VARCHAR(100), URL VARCHAR(100), vulnerability SMALLINT)" %(self.name))
-            self.cur.execute("SELECT VERSION()")
-            ver = self.cur.fetchone()
-            print "Database Version : %s" %ver
-        except mdb.Error, e:
-            print "Error %d : %s" %(e.args[0], e.args[1])
-            sys.exit(1)
-
-
-    def MySQL_exit(self):
-        if self.con:
-            self.con.close()
 
 
     def ConfigSettings(self):
@@ -93,21 +69,14 @@ class technetSpider(Spider):
         keywords_dict = {}
         flag = False
         self.sel = Selector(response)
+        self.page['url'] = response.url
+        self.page['tableName'] = self.name
+        self.page['keywords'] = dict()
         for keyword in self.keywords:
             count = self.getCount(response, keyword)
-            keywords_dict[keyword] = count
-            if count:
-                self.number += 1
-                flag = True
-        if flag:
-            #self.write_to_file(response, keywords_dict)
-            count_fields = ""
-            count_values = ""
-            for p in keywords_dict.items():
-                count_fields += ", %s" %p[0]
-                count_values += ", \"%d\"" %p[1]
-            self.cur.execute("INSERT INTO %s(Title, URL %s) VALUES (\"%s\", \"%s\" %s)" %(self.name, count_fields, self.getTitle(), response.url, count_values))            
-            self.con.commit()
+            #self.page['keywords'] = dict(keyword = count)
+            self.page['keywords'].update({keyword:count})
+        self.page['title'] = self.getTitle()
         if self.id_exists:
             self.id_start = int(self.id_start)
             self.id_start += 1
@@ -118,6 +87,8 @@ class technetSpider(Spider):
             for link in self.link_xpaths:
                 for url in self.sel.xpath(link[1]).extract():
                     yield Request(link[0]+url, callback = self.parse) 
+        yield self.page
+        return
 
 
     def http404(self, result):
@@ -146,22 +117,18 @@ class technetSpider(Spider):
         return count   
 
 
-    def getDate(self): 
-        self.search['date'] = self.sel.xpath(self.date_xpath).extract()
-        date = self.search['date']
+    def getDate(self):         
+        self.page['date'] = self.sel.xpath(self.date_xpath).extract()
+        date = self.page['date']
         if date:
             return date[0]
         return ''
 
 
     def getTitle(self):
-        self.search['title'] = self.sel.xpath(self.title_xpath).extract()
-        title = self.search['title']
+        title = self.sel.xpath(self.title_xpath).extract()
         if title:
             title[0] = title[0].replace("'","")
             title[0] = title[0].replace("\"","")
             return title[0]
         return ''
-
-    def __del__(self):
-        self.MySQL_exit()

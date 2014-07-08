@@ -6,9 +6,9 @@
 from scrapy.item import Item, Field
 
 class techmicroItem(Item):
-    count = Field()
     url = Field()
     date = Field()
     title = Field()
-    keyword = Field()
+    keywords = Field()
+    tableName = Field()
     pass

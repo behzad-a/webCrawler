@@ -11,5 +11,6 @@ BOT_NAME = 'techmicro'
 SPIDER_MODULES = ['techmicro.spiders']
 NEWSPIDER_MODULE = 'techmicro.spiders'
 
+ITEM_PIPELINES = {'techmicro.pipelines.pagePipeline':200}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'techmicro (+http://www.yourdomain.com)'
