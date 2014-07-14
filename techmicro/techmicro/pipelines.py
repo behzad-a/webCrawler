@@ -6,6 +6,7 @@ import MySQLdb as mdb
 from techmicro.items import techmicroItem
 from scrapy.exceptions import DropItem
 from scrapy import log
+import sys
 
 class pagePipeline(object):
     def __init__(self):
@@ -13,19 +14,23 @@ class pagePipeline(object):
         self.con = MySQL_connect('vulnerabilities')
         self.cur = self.con.cursor()
 
+
+
     def process_item(self, item, spider):
         if not self.tables:
             self.create_table1(item)
             self.tables = True
+        if self.phrase_exclusion(item):
+            raise DropItem("This URL: %s contains one of the exclusions words!" %item['url'])
         for i in item['keywords'].items():
             if i[1] > 0:   
                 self.fill_table1(item)
                 return item
         raise DropItem("No keyword was found in %s" %item['url'])
 
+
+
     def fill_table1(self, item):
-        if self.phrase_exclusion(item):
-            return
         count_fields = ""
         count_values = ""
         for p in item['keywords'].items():
@@ -33,6 +38,8 @@ class pagePipeline(object):
             count_values += ", \"%d\"" %p[1]
         self.cur.execute("INSERT INTO %s(Title, URL %s) VALUES (\"%s\", \"%s\" %s)" %(item['tableName'], count_fields, item['title'], item['url'], count_values)) 
         self.con.commit()
+
+
 
     def create_table1(self, item):
         log.msg("MySQL tables will now be overwritten with the new tables.", level = log.DEBUG)
@@ -44,26 +51,22 @@ class pagePipeline(object):
         log.msg("Table \'%s\' has been added to the MySQL database with the corresponding columns" %item['tableName'], level = log.INFO)
         self.con.commit()
 
+
+
     def phrase_exclusion(self, item):
         self.cur.execute("SELECT * FROM exclusions")
         rows = self.cur.fetchall()
         for row in rows:
-            for text in item['body']:
-                if row[1] in text:
-                    self.cur.execute("DELETE FROM %s WHERE URL LIKE \'%s\'" %(item['tableName'], item['url']))
-                    log.msg("%s was deleted from database due to containing exclusion word!" %item['url'], level = log.INFO)
+            if row[2] == 'body':
+                for text in item['body']:
+                    if row[1] in text:
+                        return True
+            elif row[2] == 'title':
+                if row[1] in item['title'].lower():
                     return True
         return False
 
 
-
-    #def MySQL_exit(self):
-        #if self.con:
-            #self.con.close()
-            #log.msg("Successfully closed connection to MySQL database!", level = log.INFO)
-
-    #def __del__(self):
-        #self.MySQL_exit()
 
 def MySQL_connect(database_name):
         try:

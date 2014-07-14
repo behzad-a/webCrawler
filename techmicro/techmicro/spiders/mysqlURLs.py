@@ -7,25 +7,26 @@ import ConfigParser
 import MySQLdb as mdb
 import sys
 
-class technetSpider(Spider):
-    name = "technet"
+class mysqlSpider(Spider):
+    name = "mysql"
     
-    def __init__(self, website = "website_1", *args, **kwargs):
-        super(technetSpider, self).__init__(*args, **kwargs)
+    def __init__(self, website = "website_1", read_table = "", write_table = "", *args, **kwargs):
+        super(mysqlSpider, self).__init__(*args, **kwargs)
         self.website = website
+        self.rTable = read_table
+        self.wTable = write_table
         self.page = techmicroItem()
         self.ConfigSettings()
         if not self.keywords:
             #open("pages with keyword(s) - " + self.name, 'w').close()
             self.log('No keyword entered to search for!')
             sys.exit(0)
-        self.totalCount = 0
+        self.counter = -1
         self.number = 0
 
 
 
     def ConfigSettings(self):
-        self.start_urls = []
         config = ConfigParser.ConfigParser()
         config.read("./spider_settings.ini")
         if self.website not in config.sections():
@@ -33,15 +34,6 @@ class technetSpider(Spider):
             self.log('Program shutdown ...')
             sys.exit(0)
         self.name = config.get(self.website, 'name')
-        self.start_urls.append(config.get(self.website, 'start_urls'))
-        self.id_start = config.get(self.website, 'page_id_start')
-        self.id_finish = config.get(self.website, 'page_id_finish')
-        self.prefix_id = config.get(self.website, 'prefix_id')
-        if self.id_start != '':
-            self.id_exists = 1
-            self.id_finish = int(self.id_finish)
-        else:
-            self.id_exists = 0
         links = [x for x in config.options(self.website) if x.startswith('link_')]
         self.link_xpaths = []
         for link in links:
@@ -62,7 +54,19 @@ class technetSpider(Spider):
         self.node_xpath = []
         for node in nodes:
             self.node_xpath.append(config.get(self.website, node)) 
-       
+
+        try: 
+            con = mdb.connect('localhost', 'Behzad', '1234', 'vulnerabilities')
+            cur = con.cursor()
+        except mdb.Error, e:
+            print "Error %d : %s" %(e.args[0], e.args[1])
+            sys.exit(1)
+        cur.execute("SELECT * FROM %s" %self.rTable)
+        rows = cur.fetchall()
+        self.length = len(rows)
+        self.start_urls = []
+        for row in rows:
+            self.start_urls.append(row[2])
 
 
     def parse(self, response):
@@ -70,34 +74,19 @@ class technetSpider(Spider):
         flag = False
         self.sel = Selector(response)
         self.page['url'] = response.url
-        self.page['tableName'] = self.name
+        self.page['tableName'] = self.wTable
         self.page['keywords'] = dict()
         for keyword in self.keywords:
             count = self.getCount(response, keyword)
             self.page['keywords'].update({keyword:count})
         self.page['title'] = self.getTitle()
         self.getBody()
-        if self.id_exists:
-            self.id_start = int(self.id_start)
-            self.id_start += 1
-            if self.id_start <= self.id_finish:
-                self.id_start = str(self.id_start)
-                yield Request(self.prefix_id+self.id_start, callback = self.parse, errback = self.http404)
-        else:            
-            for link in self.link_xpaths:
-                for url in self.sel.xpath(link[1]).extract():
-                    yield Request(link[0]+url, callback = self.parse) 
-        yield self.page
-        return
-
-
-
-    def http404(self, result):
-        self.id_start = int(self.id_start)
-        self.id_start += 1
-        if self.id_start <= self.id_finish:
-            self.id_start = str(self.id_start)
-            yield Request(self.prefix_id+self.id_start, callback = self.parse, errback = self.http404)
+        self.counter += 1
+        print self.counter
+        if self.counter <= self.length: 
+            yield Request(self.start_urls[self.counter], callback = self.parse) 
+            yield self.page
+            return
 
 
 
@@ -115,8 +104,7 @@ class technetSpider(Spider):
         for node in self.node_xpath:
             for p in self.sel.xpath(node).extract():
                 lowerp = p.lower()
-                count += lowerp.count(keyword)
-        self.totalCount += count 
+                count += lowerp.count(keyword) 
         return count   
 
 
